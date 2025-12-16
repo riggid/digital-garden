@@ -3,9 +3,9 @@
 ---
 
 
-# [Back](../Mathematics.md)
+# [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
-[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Q&A](Q&A.md)
+[[Semester 1/Mathematics/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 3/Examples\|Examples]] | [[Semester 1/Mathematics/Unit 3/Q&A\|Q&A]]
 ***
 # Unit 3: Worked Examples
 
@@ -508,4 +508,4 @@ This is the particular integral $z_{PI} = \frac{1}{4}(2y-5)e^x$.
 The general solution is $z = z_{CF} + z_{PI} = \phi_1(y - x) + \phi_2(2y - 3x) + \frac{1}{4}(2y - 5)e^x$.
 
 ---
-# [Back](../Mathematics.md)
+# [[Semester 1/Mathematics/Mathematics\|Back]]

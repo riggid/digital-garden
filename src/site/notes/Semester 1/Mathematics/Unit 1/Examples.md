@@ -3,7 +3,7 @@
 ---
 
 
-# [Back](../Mathematics.md)
+# [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
 # Questions and Examples from Unit 1
 

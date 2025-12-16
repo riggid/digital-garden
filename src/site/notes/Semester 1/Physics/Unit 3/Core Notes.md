@@ -3,9 +3,9 @@
 ---
 
 
-# [Back](../../Physics.md)
+# [[Semester 1/Physics/Physics\|Back]]
 ***
-[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Q&A](Q&A.md)
+[[Semester 1/Physics/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 3/Examples\|Examples]] | [[Semester 1/Physics/Unit 3/Q&A\|Q&A]]
 ***
 # Unit 3: Quantum Mechanical Treatment of Electron Transport and Magnetic Materials
 
@@ -841,4 +841,4 @@ The unique properties of superconductors offer vast potential for technological 
 *   **Power Transmission**: Superconducting power cables offer the potential for transmitting electricity with virtually zero energy loss, improving energy efficiency and reducing grid congestion. However, cooling requirements remain a challenge for widespread adoption.
 
 ---
-# [Back](../../Physics.md)
+# [[Semester 1/Physics/Physics\|Back]]

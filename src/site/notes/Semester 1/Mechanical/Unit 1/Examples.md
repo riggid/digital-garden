@@ -3,7 +3,7 @@
 ---
 
 
-# [Back](../Mechanical.md)
+# [[Semester 1/Mechanical/Mechanical\|Back]]
 ***
 # Numerical Examples: Thermodynamics
 

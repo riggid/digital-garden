@@ -3,9 +3,9 @@
 ---
 
 
-# [Back](../Mathematics.md)
+# [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
-[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Q&A](Q&A.md)
+[[Semester 1/Mathematics/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 3/Examples\|Examples]] | [[Semester 1/Mathematics/Unit 3/Q&A\|Q&A]]
 ***
 # Unit 3: Partial Differential Equations
 
@@ -209,4 +209,4 @@ PDEs are fundamental to describing a wide range of physical phenomena:
 Many of these problems involve **Initial Boundary Value Problems (IBVPs)**, where the PDE is solved subject to initial conditions (state at starting time) and/or boundary conditions (state at edges of the region). The method of separation of variables is particularly effective for linear IBVPs with homogeneous boundary conditions.
 
 ---
-# [Back](../Mathematics.md)
+# [[Semester 1/Mathematics/Mathematics\|Back]]

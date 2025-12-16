@@ -3,9 +3,9 @@
 ---
 
 
-# [Back](../Mechanical.md)
+# [[Semester 1/Mechanical/Mechanical\|Back]]
 ***
-[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Q&A](Q&A.md)
+[[Semester 1/Mechanical/Unit 2/Core Notes\|Core Notes]] | [[Semester 1/Mechanical/Unit 2/Examples\|Examples]] | [[Semester 1/Mechanical/Unit 2/Q&A\|Q&A]]
 ***
 # Unit 2: Worked Examples
 
@@ -658,4 +658,4 @@ Speed of Gear D is $N_D = 100$ rpm.
 Direction of Gear D is Clockwise.
 
 ***
-# [Back](../Mechanical.md)
+# [[Semester 1/Mechanical/Mechanical\|Back]]

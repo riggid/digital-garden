@@ -3,9 +3,9 @@
 ---
 
 
-# [Back](../Physics.md)
+# [[Semester 1/Physics/Physics\|Back]]
 ***
-[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Q&A](Q&A.md)
+[[Semester 1/Physics/Unit 2/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 2/Examples\|Examples]] | [[Semester 1/Physics/Unit 2/Q&A\|Q&A]]
 ***
 # Unit 2: Quantum Mechanics of Simple Systems
 
@@ -448,4 +448,4 @@ The energy levels are $E = \frac{h^2}{8mL^2}(n_x^2+n_y^2)$.
 *(See Example 12 in the [Examples](Examples.md) file for a conceptual overview of 3D DOS. See Q&A 33 in the [Q&A](Q&A.md) file for the derivation of 2D DOS.)*
 
 ***
-# [Back](../Physics.md)
+# [[Semester 1/Physics/Physics\|Back]]

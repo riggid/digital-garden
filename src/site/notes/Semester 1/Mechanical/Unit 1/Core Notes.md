@@ -3,7 +3,7 @@
 ---
 
 
-# [Back](../Mechanical.md)
+# [[Semester 1/Mechanical/Mechanical\|Back]]
 ***
 # Unit 1: Principles of Thermodynamics
 
@@ -212,4 +212,4 @@ EVs inherently possess higher energy efficiency due to several factors:
 3.  **No Idling Losses**: An EV's electric motor consumes virtually no energy when the vehicle is stationary (e.g., at a traffic light). An ICE, however, continues to burn fuel while idling, wasting energy.
 4.  **Fewer Moving Parts**: The simpler drivetrain of an EV means fewer mechanical losses due to friction compared to an ICE vehicle's complex transmission and engine components.
 ***
-# [Back](../Mechanical.md)
+# [[Semester 1/Mechanical/Mechanical\|Back]]

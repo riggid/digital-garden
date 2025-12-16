@@ -3,9 +3,9 @@
 ---
 
 
-# [Back](../Electrical.md)
+# [[Semester 1/Electrical/Electrical\|Back]]
 ***
-[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Q&A](Q&A.md)
+[[Semester 1/Electrical/Unit 2/Core Notes\|Core Notes]] | [[Semester 1/Electrical/Unit 2/Examples\|Examples]] | [[Semester 1/Electrical/Unit 2/Q&A\|Q&A]]
 ***
 # Unit 2: Single Phase AC Circuits
 
@@ -196,4 +196,4 @@ The required capacitor rating (in kVAR or capacitance in Farads) can be calculat
 *(See Example 17 and Example 18 in the [Examples](Examples.md#example-17-power-factor-correction) file for power factor correction calculations.)*
 
 ***
-# [Back](../Mathematics.md)
+# [[Semester 1/Mathematics/Mathematics\|Back]]

@@ -3,7 +3,7 @@
 ---
 
 
-# [Back](../Electrical.md)
+# [[Semester 1/Electrical/Electrical\|Back]]
 ***
 
 ## MARCH 2022 ESA (UE21EE141A - I SEM)

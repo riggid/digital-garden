@@ -3,9 +3,9 @@
 ---
 
 
-# [Back](../Physics.md)
+# [[Semester 1/Physics/Physics\|Back]]
 ***
-[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Q&A](Q&A.md)
+[[Semester 1/Physics/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 3/Examples\|Examples]] | [[Semester 1/Physics/Unit 3/Q&A\|Q&A]]
 ***
 # Unit 3: Conceptual & Descriptive Practice Questions (Weeks 10-…)
 
@@ -1199,4 +1199,4 @@ Refer to the [Examples.md](../Examples.md) file for worked problems based on Cla
 *   [Example 7: Relaxation Time in a Metal](../Examples.md#Example%207:%20Relaxation%20Time%20in%20a%20Metal)
 
 ---
-# [Back](../../Physics.md)
+# [[Semester 1/Physics/Physics\|Back]]

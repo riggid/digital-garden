@@ -3,7 +3,7 @@
 ---
 
 
-# [Back](../Electrical.md)
+# [[Semester 1/Electrical/Electrical\|Back]]
 *** 
 # Unit 1: Electrical Circuit Analysis
 

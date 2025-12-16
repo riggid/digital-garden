@@ -3,7 +3,7 @@
 ---
 
 
-# [Back](../Mathematics.md)
+# [[Semester 1/Mathematics/Mathematics\|Back]]
 # Unit 1: Partial Differentiation
 
 ## Function of Several Variables
@@ -222,4 +222,4 @@ The **relative error** is then $\frac{\Delta f}{f}$, and the **percentage error*
 
 *For a practical application, see [Q&A Q23](Semester%201/Mathematics/Unit%201/Q&A.md#23.%20In%20estimating%20the%20cost%20of%20a%20pile%20of%20bricks%20measured%20as%20$6m\times50m\times4m$%20the%20tape%20is%20stretched%201%25%20beyond%20the%20standard%20length.).*
 ---
-# [Back](../Mathematics.md)
+# [[Semester 1/Mathematics/Mathematics\|Back]]

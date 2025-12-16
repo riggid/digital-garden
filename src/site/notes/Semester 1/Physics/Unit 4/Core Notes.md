@@ -3,9 +3,9 @@
 ---
 
 
-# [Back](../../Physics.md)
+# [[Semester 1/Physics/Physics\|Back]]
 ***
-[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Q&A](Q&A.md)
+[[Semester 1/Physics/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 4/Examples\|Examples]] | [[Semester 1/Physics/Unit 4/Q&A\|Q&A]]
 ***
 
 # Unit 7: Lasers, Optoelectronics, and Advanced Materials

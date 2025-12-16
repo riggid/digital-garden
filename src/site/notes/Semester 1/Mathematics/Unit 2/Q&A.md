@@ -3,7 +3,7 @@
 ---
 
 
-# [Back](../Mathematics.md)
+# [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
 # Unit 2: Q&A and Worked Problems
 
