@@ -4,7 +4,7 @@
 
 # [Back](../../Electrical.md)
 ***
-[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Q&A](Q&A.md)
+[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Questions](Questions.md)
 ***
 
 # Unit 4: Electromagnetism & Electrical Machines

@@ -10,7 +10,7 @@
 Within each `Unit X/` folder, the following three Markdown (`.md`) files are mandatory and must be named exactly as specified:
 *   `Core Notes.md`: This file will contain all the core theoretical content, definitions, concepts, principles, detailed explanations, and step-by-step derivations for the unit.
 *   `Examples.md`: This file will house all step-by-step solutions to numerical and conceptual example problems relevant to the unit.
-*   `Q&A.md`: This file will provide lists of concise conceptual questions related to the unit, each accompanied by a brief summary answer or a direct reference to the detailed explanation in `Core Notes.md`.
+*   `Questions.md`: This file will provide lists of concise conceptual questions related to the unit, each accompanied by a brief summary answer or a direct reference to the detailed explanation in `Core Notes.md`.
 
 ---
 
@@ -19,7 +19,7 @@ Within each `Unit X/` folder, the following three Markdown (`.md`) files are man
 Consistent and clear navigation must be implemented in every generated Markdown file.
 
 ### 2.1 Back to Subject Index:
-Every Markdown file (`Core Notes.md`, `Examples.md`, `Q&A.md`) must begin with a link pointing back to the main subject index file.
+Every Markdown file (`Core Notes.md`, `Examples.md`, `Questions.md`) must begin with a link pointing back to the main subject index file.
 *   **Format**: `# [Back](../../[Subject Name].md)`
 *   **Placement**: This must be the very first line of the file.
 *   **Example (from a Unit 3 Physics file)**: `# [Back](../../Physics.md)`
@@ -27,7 +27,7 @@ Every Markdown file (`Core Notes.md`, `Examples.md`, `Q&A.md`) must begin with a
 
 ### 2.2 Internal Unit Navigation:
 Immediately following the "Back to Subject Index" link and a horizontal rule (`***`), every Markdown file within a specific `Unit X/` folder must include a series of direct links to the other two files within that same unit.
-*   **Format**: `[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Q&A](Q&A.md)`
+*   **Format**: `[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Questions](Questions.md)`
 *   **Placement**: This line must appear directly after the `***` horizontal rule.
 
 ---
@@ -84,7 +84,7 @@ Strict adherence to Markdown syntax, proper LaTeX for equations, and a clear, re
     *   Between the "Internal Unit Navigation" links and the Unit Title.
     *   At the end of major sections or logical breaks in `Core Notes.md` for visual separation.
     *   At the end of each example in `Examples.md`.
-    *   At the end of each major section in `Q&A.md`.
+    *   At the end of each major section in `Questions.md`.
 
 ### 3.8 Blockquotes:
 *   Use blockquotes (`>`) for special notes, important warnings, or (crucially) for internal references to other files or sections.
@@ -105,7 +105,7 @@ Strict adherence to Markdown syntax, proper LaTeX for equations, and a clear, re
 
 ## 4. Content Detail and Thoroughness (The "Detailed" Imperative)
 
-The notes must be **exceptionally detailed, comprehensive, and thorough** for all topics, ensuring a deep and robust understanding without sacrificing clarity. **Brevity is to be avoided in `Core Notes.md` unless explicitly requested for summaries (e.g., in `Q&A.md`).**
+The notes must be **exceptionally detailed, comprehensive, and thorough** for all topics, ensuring a deep and robust understanding without sacrificing clarity. **Brevity is to be avoided in `Core Notes.md` unless explicitly requested for summaries (e.g., in `Questions.md`).**
 
 ### 4.1 `Core Notes.md` - The Ultimate Reference:
 *   **Comprehensive Explanations**: Every concept, definition, theory, and phenomenon must be explained in full, robust detail. Provide background context, underlying principles, and implications. Do not assume prior knowledge beyond the scope of previous units. Expound fully on *why* things occur.
@@ -123,7 +123,7 @@ The notes must be **exceptionally detailed, comprehensive, and thorough** for al
 *   **Final Answer**: Present the final answer clearly, accompanied by appropriate units and, where relevant, correct significant figures.
 *   **Internal Referencing**: `Core Notes.md` must contain blockquote links to relevant examples within `Examples.md` using the exact format: `> See also: [Examples](Examples.md#Example%20X:%20[Example Title])`. The example title in the link must precisely match the heading in `Examples.md`.
 
-### 4.3 `Q&A.md` - Concise Review and Practice:
+### 4.3 `Questions.md` - Concise Review and Practice:
 *   **Concise Questions**: Questions should be direct, targeted at specific concepts, definitions, principles, or summaries.
 *   **Brief Answers/References**: Answers should be either a succinct 1-3 sentence summary or a direct, precise reference to the detailed explanation in `Core Notes.md`.
     *   **Format 1 (Summary)**: Provide a summary answer (e.g., "See [Core Notes.md](Core%20Notes.md#111-basic-assumptions-of-cfet)").

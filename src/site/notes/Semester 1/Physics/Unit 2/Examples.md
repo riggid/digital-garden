@@ -5,7 +5,7 @@
 
 # [[Semester 1/Physics/Physics\|Back]]
 ***
-[[Semester 1/Physics/Unit 2/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 2/Examples\|Examples]] | [[Semester 1/Physics/Unit 2/Q&A\|Q&A]]
+[[Semester 1/Physics/Unit 2/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 2/Examples\|Examples]] | [[Semester 1/Physics/Unit 2/Q&A\|Questions]]
 ***
 # Unit 2: Worked Examples
 

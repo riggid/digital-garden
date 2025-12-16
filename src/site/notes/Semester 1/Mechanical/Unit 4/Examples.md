@@ -5,7 +5,7 @@
 
 # [[Semester 1/Mechanical/Mechanical\|Back]]
 ***
-[[Semester 1/Mechanical/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Mechanical/Unit 4/Examples\|Examples]] | [[Semester 1/Mechanical/Unit 4/Q&A\|Q&A]]
+[[Semester 1/Mechanical/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Mechanical/Unit 4/Examples\|Examples]] | [[Semester 1/Mechanical/Unit 4/Q&A\|Questions]]
 ***
 # Unit 4: Worked Examples
 
