@@ -4,4 +4,4 @@
 
 # [Index](../../Index.md)
 ---
-<p><span><em>No notes or subfolders found in Semester 1/Python.</em></span></p>
+<div id="dashboard-grid"></div><p><span><em>No notes or subfolders found in Semester 1/Python.</em></span></p>
