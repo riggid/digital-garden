@@ -2,7 +2,149 @@
 {"dg-publish":true,"permalink":"/semester-1/physics/physics/"}
 ---
 
+<style>
+/* --- Catppuccin Mocha Palette & Dashboard Styles --- */
+:root {
+    --ctp-rosewater: #f5e0dc;
+    --ctp-flamingo: #f2cdcd;
+    --ctp-pink: #f5c2e7;
+    --ctp-mauve: #cba6f7;
+    --ctp-red: #f38ba8;
+    --ctp-maroon: #eba0ac;
+    --ctp-peach: #fab387;
+    --ctp-yellow: #f9e2af;
+    --ctp-green: #a6e3a1;
+    --ctp-teal: #94e2d5;
+    --ctp-sky: #89dceb;
+    --ctp-sapphire: #74c7ec;
+    --ctp-blue: #89b4fa;
+    --ctp-lavender: #b4befe;
+    --ctp-text: #cdd6f4;
+    --ctp-subtext1: #bac2de;
+    --ctp-subtext0: #a6adc8;
+    --ctp-overlay2: #9399b2;
+    --ctp-overlay1: #7f849c;
+    --ctp-overlay0: #6c7086;
+    --ctp-surface2: #585b70;
+    --ctp-surface1: #45475a;
+    --ctp-surface0: #313244;
+    --ctp-base: #1e1e2e;
+    --ctp-mantle: #181825;
+    --ctp-crust: #11111b;
+}
+
+/* Main Container */
+#dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/* Card Styling */
+.semester-card {
+    background: var(--ctp-surface0);
+    border: 1px solid var(--ctp-surface1);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Subtle gradient top border */
+.semester-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, var(--ctp-mauve), var(--ctp-blue));
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.semester-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2), 0 0 15px rgba(203, 166, 247, 0.1);
+    border-color: var(--ctp-mauve);
+}
+
+.semester-card:hover::before {
+    opacity: 1;
+}
+
+/* Title Styling */
+.semester-title {
+    margin: 0 0 20px 0 !important;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--ctp-surface1);
+    font-size: 1.3em;
+    font-weight: 700;
+    color: var(--ctp-mauve);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    letter-spacing: -0.01em;
+}
+
+.title-icon {
+    font-size: 1.1em;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+
+/* Button Container */
+.subject-button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+/* Button Styling */
+a.subject-button {
+    display: flex !important;
+    align-items: center;
+    padding: 14px 18px;
+    background: var(--ctp-base);
+    border: 1px solid var(--ctp-surface1);
+    border-radius: 10px;
+    color: var(--ctp-text) !important;
+    text-decoration: none !important;
+    font-size: 0.95em;
+    font-weight: 500;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+a.subject-button:hover {
+    background: var(--ctp-mauve);
+    color: var(--ctp-base) !important;
+    border-color: var(--ctp-mauve);
+    padding-left: 24px;
+    box-shadow: 0 4px 12px rgba(203, 166, 247, 0.3);
+}
+
+.button-icon {
+    margin-right: 12px;
+    color: var(--ctp-blue);
+    font-size: 1.1em;
+    transition: all 0.2s ease;
+    display: inline-block;
+}
+
+a.subject-button:hover .button-icon {
+    color: var(--ctp-base);
+    /* Contrast against mauve bg */
+    transform: scale(1.2) rotate(5deg);
+}
+</style>
+
 
 # [Index](../../Index.md)
 ---
-<div class="semester-card"><h2 class="semester-title">1️⃣ Unit 1</h2><div class="subject-button-container"><a class="subject-button" href="#">📓 Core Notes</a><a class="subject-button" href="#">🧪 Examples</a><a class="subject-button" href="#">❓ Q&amp;A</a></div></div><div class="semester-card"><h2 class="semester-title">2️⃣ Unit 2</h2><div class="subject-button-container"><a class="subject-button" href="#">📓 Core Notes</a><a class="subject-button" href="#">📄 Core Notes-1.excalidraw</a><a class="subject-button" href="#">📄 Core Notes-2.excalidraw</a><a class="subject-button" href="#">🧪 Examples</a><a class="subject-button" href="#">❓ Q&amp;A</a></div></div><div class="semester-card"><h2 class="semester-title">3️⃣ Unit 3</h2><div class="subject-button-container"><a class="subject-button" href="#">📓 Core Notes</a><a class="subject-button" href="#">🧪 Examples</a><a class="subject-button" href="#">❓ Q&amp;A</a></div></div><div class="semester-card"><h2 class="semester-title">📁 Unit 4</h2><div class="subject-button-container"><a class="subject-button" href="#">📓 Core Notes</a><a class="subject-button" href="#">🧪 Examples</a><a class="subject-button" href="#">❓ Q&amp;A</a></div></div>
+<div class="semester-card"><h2 class="semester-title">1️⃣ Unit 1</h2><div class="subject-button-container"><a class="subject-button" href="Semester%201/Physics/Unit%201/Core%20Notes">📓 Core Notes</a><a class="subject-button" href="Semester%201/Physics/Unit%201/Examples">🧪 Examples</a><a class="subject-button" href="Semester%201/Physics/Unit%201/Q&amp;A">❓ Q&amp;A</a></div></div><div class="semester-card"><h2 class="semester-title">2️⃣ Unit 2</h2><div class="subject-button-container"><a class="subject-button" href="Semester%201/Physics/Unit%202/Core%20Notes">📓 Core Notes</a><a class="subject-button" href="Semester%201/Physics/Unit%202/Core%20Notes-1.excalidraw">📄 Core Notes-1.excalidraw</a><a class="subject-button" href="Semester%201/Physics/Unit%202/Core%20Notes-2.excalidraw">📄 Core Notes-2.excalidraw</a><a class="subject-button" href="Semester%201/Physics/Unit%202/Examples">🧪 Examples</a><a class="subject-button" href="Semester%201/Physics/Unit%202/Q&amp;A">❓ Q&amp;A</a></div></div><div class="semester-card"><h2 class="semester-title">3️⃣ Unit 3</h2><div class="subject-button-container"><a class="subject-button" href="Semester%201/Physics/Unit%203/Core%20Notes">📓 Core Notes</a><a class="subject-button" href="Semester%201/Physics/Unit%203/Examples">🧪 Examples</a><a class="subject-button" href="Semester%201/Physics/Unit%203/Q&amp;A">❓ Q&amp;A</a></div></div><div class="semester-card"><h2 class="semester-title">📁 Unit 4</h2><div class="subject-button-container"><a class="subject-button" href="Semester%201/Physics/Unit%204/Core%20Notes">📓 Core Notes</a><a class="subject-button" href="Semester%201/Physics/Unit%204/Examples">🧪 Examples</a><a class="subject-button" href="Semester%201/Physics/Unit%204/Q&amp;A">❓ Q&amp;A</a></div></div>
