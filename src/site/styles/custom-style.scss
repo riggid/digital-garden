@@ -1,13 +1,47 @@
-body {
-    /***
-      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+/* --- Catppuccin Mocha Palette & Dashboard Styles --- */
+:root {
+    --ctp-rosewater: #f5e0dc; --ctp-flamingo: #f2cdcd; --ctp-pink: #f5c2e7;
+    --ctp-mauve: #cba6f7; --ctp-red: #f38ba8; --ctp-maroon: #eba0ac;
+    --ctp-peach: #fab387; --ctp-yellow: #f9e2af; --ctp-green: #a6e3a1;
+    --ctp-teal: #94e2d5; --ctp-sky: #89dceb; --ctp-sapphire: #74c7ec;
+    --ctp-blue: #89b4fa; --ctp-lavender: #b4befe; --ctp-text: #cdd6f4;
+    --ctp-subtext1: #bac2de; --ctp-subtext0: #a6adc8; --ctp-overlay2: #9399b2;
+    --ctp-overlay1: #7f849c; --ctp-overlay0: #6c7086; --ctp-surface2: #585b70;
+    --ctp-surface1: #45475a; --ctp-surface0: #313244; --ctp-base: #1e1e2e;
+    --ctp-mantle: #181825; --ctp-crust: #11111b;
+}
+/* Dashboard Grid */
+#dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    margin-top: 20px;
+    padding: 10px;
+}
+/* Card Styling */
+.semester-card {
+    background: var(--ctp-surface0);
+    border: 1px solid var(--ctp-surface1);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex; flex-direction: column; position: relative; overflow: hidden;
+}
+/* Title Styling */
+.semester-title {
+    margin: 0 0 20px 0 !important;
+    padding-bottom: 12px; border-bottom: 2px solid var(--ctp-surface1);
+    font-size: 1.3em; font-weight: 700; color: var(--ctp-mauve);
+    display: flex; align-items: center; gap: 12px;
+}
+/* Button Styling */
+a.subject-button {
+    display: flex !important; align-items: center; padding: 14px 18px;
+    background: var(--ctp-base); border: 1px solid var(--ctp-surface1);
+    border-radius: 10px; color: var(--ctp-text) !important; text-decoration: none !important;
+    margin-bottom: 10px;
+}
+a.subject-button:hover {
+    background: var(--ctp-mauve); color: var(--ctp-base) !important;
+    border-color: var(--ctp-mauve);
 }
