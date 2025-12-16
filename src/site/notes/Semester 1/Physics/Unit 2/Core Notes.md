@@ -15,7 +15,7 @@ This unit applies the Schrödinger Wave Equation (SWE) to analyze the behavior o
 
 ---
 ## 1. Potential Step
-![Core Notes-1.excalidraw](Core%20Notes-1.excalidraw.md)
+![Potential Step Diagram](/img/user/Semester%201/Physics/Unit%202/Attachments/potential_step_diagram.png)
 A potential step describes a sudden change in potential energy $V(x)$ from $0$ to a constant value $V_0$ at a boundary (e.g., $x=0$).
 The 1D time-independent SWE is: $\frac{d^{2}\psi}{dx^{2}}+\frac{2m}{\hbar^{2}}(E-V)\psi=0$.
 
@@ -75,7 +75,7 @@ Solution: $\psi_2(x) = F e^{-\alpha x} + G e^{\alpha x}$.
 
 ---
 ## 2. Potential Barrier and Tunneling
-![Core Notes-2.excalidraw](Core%20Notes-2.excalidraw.md)
+![Potential Barrier Tunneling](/img/user/Semester%201/Physics/Unit%202/Attachments/potential_barrier_tunneling.png)
 A potential barrier has $V(x)=V_0$ for $0 < x < L$ (finite width $L$) and $V(x)=0$ otherwise ($x<0$ or $x>L$). We primarily consider the case where $E < V_0$.
 
 **Regions and Wave Function Nature ($E < V_0$):**
@@ -284,7 +284,7 @@ The quantum harmonic oscillator models systems where a particle (mass $m$) exper
 ### **Potential Energy Curve and Energy Spectrum**
 *   **Potential Energy Curve**: A parabolic shape centered at $x=0$, $V(x) = \frac{1}{2} m \omega^2 x^2$.
     *(Sketch: A symmetric parabola opening upwards, with the bottom at $V=0, x=0$.)
-    ![](/img/user/Semester%201/Physics/Unit%202/Core%20Notes-2.png)
+    ![Harmonic Oscillator Potential](/img/user/Semester%201/Physics/Unit%202/Attachments/harmonic_oscillator.png)
 *   **Quantized Energy Levels (Eigenvalues):** Solutions to the SWE exist only for discrete energy values:
     $$E_n = \left(n+\frac{1}{2}\right) \hbar \omega \quad (n=0, 1, 2, \dots)$$
     *   $n$ is the **vibrational quantum number**.
@@ -346,7 +346,7 @@ The hydrogen atom, with one proton and one electron, is the simplest atom and se
     *   Energy: $E_n = -\frac{\mu e^4}{8\epsilon_0^2 h^2 n^2} = -\frac{13.6 \, \text{eV}}{n^2}$.
         *   Energy is quantized and negative, indicating a bound state.
         *   Energy depends only on $n$.
-2.  **Angular Momentum (Orbital) Quantum Number (l)**: Arises from the polar angle ($\theta$) equation. Determines the **magnitude of the electron's orbital angular momentum** $L = \sqrt{l(l+1)}\hbar$. It primarily describes the **shape** of the electron's probability distribution (orbital).
+2.  **Angular Momentum (Orbital) Quantum Number (l)**: Arises from the polar angle ($\theta$) equation. Determines the **magnitude of the electron's orbital angular momentum** $L = \sqrt{l(l+1)}\hbar. It primarily describes the **shape** of the electron's probability distribution (orbital).
     *   $l = 0, 1, 2, \dots, (n-1)$. (Non-negative integer, up to $n-1$).
     *   **Spectroscopic notation**: $l=0 \rightarrow s$ orbital (spherical), $l=1 \rightarrow p$ orbital (dumbbell), $l=2 \rightarrow d$ orbital (cloverleaf), $l=3 \rightarrow f$ orbital, etc.
 3.  **Magnetic Quantum Number ($m_l$)**: Arises from the azimuthal angle ($\phi$) equation. Determines the **orientation of the orbital angular momentum** in space (specifically, its z-component $L_z = m_l \hbar$). It defines the spatial orientation of the orbital.
