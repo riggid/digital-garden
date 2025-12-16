@@ -5,7 +5,7 @@
 
 # [[Semester 1/Mechanical/Mechanical\|Back]]
 ***
-[[Semester 1/Mechanical/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Mechanical/Unit 3/Examples\|Examples]] | [[Semester 1/Mechanical/Unit 3/Q&A\|Q&A]]
+[[Semester 1/Mechanical/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Mechanical/Unit 3/Examples\|Examples]] | [[Semester 1/Mechanical/Unit 3/Q&A\|Questions]]
 ***
 # Unit 3: Manufacturing Techniques and Metal Joining Processes
 

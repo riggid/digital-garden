@@ -39,6 +39,8 @@ $$V \propto I \implies V=IR$$
 - **Conductance (G)**: The reciprocal of resistance, representing how easily current flows. It is measured in **Siemens (S)**.
   $$G = \frac{1}{R}$$
 
+![Ohm's Law Circuit](https://upload.wikimedia.org/wikipedia/commons/8/83/Ohm%27s_law_simple_circuit.svg)
+
 ### **Sign Conventions for Voltage and Current**
 - **Passive Sign Convention**: When current enters the positive terminal of an element, the element is **absorbing** power.
 - **Active Sign Convention**: When current leaves the positive terminal of an element, the element is **supplying** or delivering power.
@@ -58,12 +60,18 @@ In a resistive circuit, $P = I^2R = V^2/R$.
 ### **Kirchhoff’s Current Law (KCL)**
 The algebraic sum of currents entering a junction (or node) is zero. This implies that the total current flowing into a node must equal the total current flowing out of it, representing the conservation of charge.
 $$\sum I_{in} = \sum I_{out} \quad \text{or} \quad \sum I_{node} = 0$$
-> For a numerical problem, see: [Q&A Examples (Voltage)](Semester%201/Electrical/Unit%201/Questions.md#Question%202:%20Find%20Voltage%20$V_{AB}$)
+
+![Kirchhoff's Current Law](/img/user/Semester%201/Electrical/Unit%201/Attachments/kcl_diagram.png)
+
+> For a numerical problem, see: [Q&A Examples (Voltage)](Semester%201/Electrical/Unit%201/Q&A.md#Question%202:%20Find%20Voltage%20$V_{AB}$)
 
 ### **Kirchhoff’s Voltage Law (KVL)**
 The algebraic sum of all voltages (rises and drops) around any closed path (or loop) in an electric network is zero. This represents the conservation of energy.
 $$\sum V = 0$$
-> For numerical problems, see: [Examples (Basic KVL)](Semester%201/Electrical/Unit%201/Examples.md#Example%201:%20Basic%20KVL), [Q&A Examples (Voltage)](Semester%201/Electrical/Unit%201/Questions.md#Question%202:%20Find%20Voltage%20$V_{AB}$)
+
+![Kirchhoff's Voltage Law](/img/user/Semester%201/Electrical/Unit%201/Attachments/kvl_diagram.png)
+
+> For numerical problems, see: [Examples (Basic KVL)](Semester%201/Electrical/Unit%201/Examples.md#Example%201:%20Basic%20KVL), [Q&A Examples (Voltage)](Semester%201/Electrical/Unit%201/Q&A.md#Question%202:%20Find%20Voltage%20$V_{AB}$)
 
 ---
 
@@ -86,6 +94,9 @@ $$\sum V = 0$$
     - **Current Division Rule**: For two parallel resistors, the current through one resistor ($R_1$) is given by:
         $$I_1 = I_{total} \left( \frac{R_2}{R_1 + R_2} \right)$$
         Similarly, for $I_2$: $$I_2 = I_{total} \left( \frac{R_1}{R_1 + R_2} \right)$$
+
+![Series and Parallel Resistors](/img/user/Semester%201/Electrical/Unit%201/Attachments/series_parallel_resistors.png)
+
 > For numerical applications, see: [Examples (Current Division)](Semester%201/Electrical/Unit%201/Examples.md#Example%204:%20Current%20Division), [Examples (Voltage Division)](Semester%201/Electrical/Unit%201/Examples.md#Example%205:%20Voltage%20Division)
 
 ### **Source Types**
@@ -101,7 +112,10 @@ A practical voltage source (in series with a resistor) can be converted into an 
   $$I_S = \frac{V_S}{R_S}$$
 - **Current Source to Voltage Source**: A current source $I_S$ in parallel with a resistor $R_S$ is equivalent to a voltage source $V_S$ in series with the same resistor $R_S$.
   $$V_S = I_S R_S$$
-> For numerical problems, see: [Examples (Source Transformation)](Semester%201/Electrical/Unit%201/Examples.md#Example%207:%20Source%20Transformation), [Q&A (Lecture 3, Q2)](Semester%201/Electrical/Unit%201/Questions.md#Question%202:%20Find%20Current%20using%20Source%20Transformation)
+
+![Source Transformation](/img/user/Semester%201/Electrical/Unit%201/Attachments/source_transformation_diagram.png)
+
+> For numerical problems, see: [Examples (Source Transformation)](Semester%201/Electrical/Unit%201/Examples.md#Example%207:%20Source%20Transformation), [Q&A (Lecture 3, Q2)](Semester%201/Electrical/Unit%201/Q&A.md#Question%202:%20Find%20Current%20using%20Source%20Transformation)
 
 ### **Star (Y) and Delta ($\Delta$) Transformations**
 These transformations are used to simplify complex resistive networks that cannot be reduced using simple series or parallel combinations (e.g., bridge circuits). They allow conversion between a three-terminal Star (Y) configuration and an equivalent Delta ($\Delta$) configuration.
@@ -118,7 +132,10 @@ These transformations are used to simplify complex resistive networks that canno
     $$R_{ab} = \frac{R_aR_b+R_bR_c+R_cR_a}{R_c}$$
     $$R_{bc} = \frac{R_aR_b+R_bR_c+R_cR_a}{R_a}$$
     $$R_{ca} = \frac{R_aR_b+R_bR_c+R_cR_a}{R_b}$$
-> For numerical problems, see: [Examples (Star-Delta)](Semester%201/Electrical/Unit%201/Examples.md#Example%208:%20Star-Delta%20Transformation), [Q&A (Lecture 7, Q2 & Q3)](Semester%201/Electrical/Unit%201/Questions.md#Question%202:%20Delta%20to%20Star%20Transformation)
+
+![Star Delta Transformation](/img/user/Semester%201/Electrical/Unit%201/Attachments/star_delta_transform.png)
+
+> For numerical problems, see: [Examples (Star-Delta)](Semester%201/Electrical/Unit%201/Examples.md#Example%208:%20Star-Delta%20Transformation), [Q&A (Lecture 7, Q2 & Q3)](Semester%201/Electrical/Unit%201/Q&A.md#Question%202:%20Delta%20to%20Star%20Transformation)
 
 ---
 
@@ -140,7 +157,7 @@ A systematic application of KVL to find unknown mesh currents in a circuit.
         *   Write a KVL equation around the outer boundary of this supermesh, *treating the current source branch as if it were open*.
         *   Write a KCL (constraint) equation at one of the nodes, expressing the relationship between the two mesh currents and the current source value.
 4.  **Solve Simultaneous Equations**: Solve the resulting system of linear equations to find all mesh currents.
-> For numerical problems, see: [Q&A (Lecture 10, Q1 & Q2)](Semester%201/Electrical/Unit%201/Questions.md#Question%201%20&%202:%20Mesh%20Analysis), [Examples (Basic & With Current Sources)](Semester%201/Electrical/Unit%201/Examples.md#Example%2013:%20Basic%20Mesh%20Analysis)
+> For numerical problems, see: [Q&A (Lecture 10, Q1 & Q2)](Semester%201/Electrical/Unit%201/Q&A.md#Question%201%20&%202:%20Mesh%20Analysis), [Examples (Basic & With Current Sources)](Semester%201/Electrical/Unit%201/Examples.md#Example%2013:%20Basic%20Mesh%20Analysis)
 
 ### **Superposition Theorem**
 In any **linear circuit** with multiple independent sources, the total current through or voltage across any element is the algebraic sum of the current or voltage produced by each independent source acting alone.
@@ -153,7 +170,7 @@ In any **linear circuit** with multiple independent sources, the total current t
 4.  **Repeat**: Repeat steps 1-3 for each independent source in the circuit.
 5.  **Algebraic Sum**: Algebraically add the individual responses (contributions) to find the total response in the element. Pay close attention to direction (positive for one direction, negative for opposite).
 **Limitations**: This theorem applies to voltage and current, but **not directly to power**, as power is a non-linear quantity ($P=I^2R$).
-> For numerical problems, see: [Q&A (Superposition Theorem)](Semester%201/Electrical/Unit%201/Questions.md#Determine%20the%20current%20through%20the%20$2\Omega$%20resistor%20using%20Superposition%20Theorem.), [Examples (Superposition)](Semester%201/Electrical/Unit%201/Examples.md#Example%2016:%20Superposition%20Theorem%201)
+> For numerical problems, see: [Q&A (Superposition Theorem)](Semester%201/Electrical/Unit%201/Q&A.md#Determine%20the%20current%20through%20the%20$2\Omega$%20resistor%20using%20Superposition%20Theorem.), [Examples (Superposition)](Semester%201/Electrical/Unit%201/Examples.md#Example%2016:%20Superposition%20Theorem%201)
 
 ### **Thevenin’s Theorem**
 Any two-terminal linear electrical network can be replaced by an equivalent circuit consisting of a single voltage source ($V_{TH}$) in series with a single resistor ($R_{TH}$). This simplifies analysis of complex circuits for varying loads.
@@ -168,4 +185,7 @@ Any two-terminal linear electrical network can be replaced by an equivalent circ
     *   Calculate the equivalent resistance looking back into the two terminals from where the load was removed.
 3.  **Draw Equivalent Circuit**: Construct the Thevenin equivalent circuit with $V_{TH}$ in series with $R_{TH}$.
 4.  **Connect Load**: Reconnect the original load to the Thevenin equivalent circuit to find the load current or voltage.
-> For numerical problems, see: [Q&A (Thevenin's)](Semester%201/Electrical/Unit%201/Questions.md#Obtain%20the%20Thevenin's%20Equivalent%20between%20the%20terminals%20A%20&%20B.), [Examples (Thevenin's)](Semester%201/Electrical/Unit%201/Examples.md#Example%2019:%20Thevenin's%20Theorem%201)
+
+![Thevenin Equivalent Circuit](/img/user/Semester%201/Electrical/Unit%201/Attachments/thevenin_equivalent_circuit.png)
+
+> For numerical problems, see: [Q&A (Thevenin's)](Semester%201/Electrical/Unit%201/Q&A.md#Obtain%20the%20Thevenin's%20Equivalent%20between%20the%20terminals%20A%20&%20B.), [Examples (Thevenin's)](Semester%201/Electrical/Unit%201/Examples.md#Example%2019:%20Thevenin's%20Theorem%201)

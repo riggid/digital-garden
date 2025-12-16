@@ -5,7 +5,7 @@
 
 # [[Semester 1/Physics/Physics\|Back]]
 ***
-[[Semester 1/Physics/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 4/Examples\|Examples]] | [[Semester 1/Physics/Unit 4/Q&A\|Q&A]]
+[[Semester 1/Physics/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 4/Examples\|Examples]] | [[Semester 1/Physics/Unit 4/Q&A\|Questions]]
 ***
 
 # Unit 7: Lasers, Optoelectronics, and Advanced Materials - Examples
