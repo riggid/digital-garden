@@ -28,6 +28,10 @@
 The **B-H Curve** (Magnetization Curve) plots Flux Density ($B$) vs Magnetizing Force ($H$).
 *   **Saturation**: The point where increasing $H$ yields no significant increase in $B$.
 *   **Hysteresis Loop**: The loop formed by the B-H curve when a magnetic material is magnetized, demagnetized, and re-magnetized in the opposite direction.
+
+    ![Hysteresis Loop](https://upload.wikimedia.org/wikipedia/commons/4/4b/Hysteresis-comparison.svg)
+    > Hysteresis loops for soft and hard ferromagnetic materials.
+
     *   **Retentivity**: The amount of magnetism remaining ($B$) when the external field $H$ is reduced to zero (Residual Magnetism).
     *   **Coercivity**: The reverse magnetizing force ($H$) required to reduce the residual magnetism ($B$) to zero.
     *   **Hysteresis Loss**: The energy lost as heat due to the reversal of magnetization, proportional to the area of the hysteresis loop.
@@ -48,6 +52,9 @@ The **B-H Curve** (Magnetization Curve) plots Flux Density ($B$) vs Magnetizing 
 A static device transferring electrical energy between two circuits via mutual induction without changing frequency.
 *   **Core Type**: Windings surround the core. Easier insulation.
 *   **Shell Type**: Core surrounds the windings. Stronger mechanical support.
+
+![Transformer Winding Formats](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Transformer_winding_formats.jpg/640px-Transformer_winding_formats.jpg)
+> (a) Core Type Transformer (b) Shell Type Transformer Windings
 
 ### 2.2 EMF Equation and Ratios
 $$ E = 4.44 f \phi_m N $$
@@ -79,6 +86,9 @@ Same for Generator and Motor:
     *   **Lap Winding**: Parallel paths $A = P$. For high current.
     *   **Wave Winding**: Parallel paths $A = 2$. For high voltage.
 *   **Commutator**: Converts AC induced in armature to DC (Generator) or limits constant torque direction (Motor).
+
+![DC Machine Construction](https://upload.wikimedia.org/wikipedia/commons/6/6e/DC-MOTOR_CONSTRUCTION.PNG)
+> Cross-section of a DC Machine
 
 ### 3.2 DC Generator
 *   **Principle**: Dynamically induced EMF.
