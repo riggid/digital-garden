@@ -4,7 +4,7 @@
 
 # [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
-[[Semester 1/Mathematics/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 1/Examples\|Examples]] | [[Semester 1/Mathematics/Unit 1/Questions\|Questions]]
+[[Semester 1/Mathematics/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 1/Questions\|Questions]] | [[Semester 1/Mathematics/Unit 1/PYQs\|PYQs]] | [[Semester 1/Mathematics/Unit 1/MCQs\|MCQs]]
 ***
 # Unit 1: Partial Differentiation
 
@@ -54,7 +54,7 @@ If $\lim_{(x,y)\rightarrow(x_{0},y_{0})}f(x,y)=L_{1}$ and $\lim_{(x,y)\rightarro
 ### Example: Non-existent Limit
 The limit $\lim_{(x,y)\rightarrow(0,0)}\frac{xy}{x^{2}+y^{2}}$ does not exist because along the path $y=mx$, the limit depends on the slope $m$:
 $$ \lim_{x\rightarrow0}\frac{x(mx)}{x^{2}+(mx)^{2}} = \lim_{x\rightarrow0}\frac{mx^{2}}{x^{2}(1+m^{2})} = \frac{m}{1+m^{2}} $$
-*More non-existent limit examples are in [[Semester 1/Mathematics/Unit 1/Examples#example-1:-non-existent-limits\| Example 1]].*
+*More non-existent limit examples are in [[Examples#example-1:-non-existent-limits\| Example 1]].*
 
 ***
 
@@ -79,7 +79,7 @@ Higher-order partial derivatives are obtained by differentiating the first-order
 
 **Clairaut's Theorem (Equality of Mixed Partials)**: If the mixed second-order partial derivatives $f_{xy}$ and $f_{yx}$ are continuous in an open disk, then the order of differentiation does not matter, i.e., $f_{xy} = f_{yx}$. This simplifies calculations significantly.
 
-*For differentiation practice, see [[Semester 1/Mathematics/Unit 1/Examples#example-2:-second-order-partial-derivatives\|Example 2]], [[Semester 1/Mathematics/Unit 1/Examples#example-3:-first-and-second-partial-derivatives\|Example 3]], and [[Semester 1/Mathematics/Unit 1/Questions#1.-find-all-the-first-order-partial-derivatives-of-the-following-function:\|Q&A Q1 (First Order)]], [[Semester 1/Mathematics/Unit 1/Questions#3.-find-all-the-first-order-partial-derivatives-of-the-following-function:\|Q&A Q3]], [[Semester 1/Mathematics/Unit 1/Questions#4.-find-all-the-first-order-partial-derivatives-of-the-following-function:\|Q&A Q4]].*
+*For differentiation practice, see [[Examples#example-2:-second-order-partial-derivatives\|Example 2]], [[Examples#example-3:-first-and-second-partial-derivatives\|Example 3]], and [[Semester 1/Mathematics/Unit 1/Questions#1.-find-all-the-first-order-partial-derivatives-of-the-following-function:\|Q&A Q1 (First Order)]], [[Semester 1/Mathematics/Unit 1/Questions#3.-find-all-the-first-order-partial-derivatives-of-the-following-function:\|Q&A Q3]], [[Semester 1/Mathematics/Unit 1/Questions#4.-find-all-the-first-order-partial-derivatives-of-the-following-function:\|Q&A Q4]].*
 
 ### Geometric Interpretation
 - $\frac{\partial z}{\partial x}$ represents the slope of the tangent line to the surface $z=f(x,y)$ in the positive $x$-direction (for a fixed $y$).
@@ -100,20 +100,20 @@ If $u=f(x,y)$ where $x=\phi(t)$ and $y=\psi(t)$, then $u$ is indirectly a functi
 $$ \frac{du}{dt}=\frac{\partial u}{\partial x}\cdot\frac{dx}{dt}+\frac{\partial u}{\partial y}\cdot\frac{dy}{dt} $$
 For three variables:
 $$ \frac{du}{dt}=\frac{\partial u}{\partial x}\frac{dx}{dt}+\frac{\partial u}{\partial y}\frac{dy}{dt}+\frac{\partial u}{\partial z}\frac{dz}{dt} $$
-*See [[Semester 1/Mathematics/Unit 1/Examples#example-4:-total-derivative\|Example 4]], [[Semester 1/Mathematics/Unit 1/Questions#2.-if-$u=\sin^{-1}(x-y\|Q&A Q2]]$%20where%20$x=3t$%20and%20$y=4t^{3}$,%20then%20show%20that:), and [[Semester 1/Mathematics/Unit 1/Questions#6.-find-$\frac{du}{dx}$-if:-$u=\cos(x^{2}+y^{2}\|Q&A Q6]]$%20and%20$a^{2}x^{2}+b^{2}y^{2}=c^{2}$) for applications.*
+*See [[Examples#example-4:-total-derivative\|Example 4]], [[Semester 1/Mathematics/Unit 1/Questions#2.-if-$u=\sin^{-1}(x-y\|Q&A Q2]]$%20where%20$x=3t$%20and%20$y=4t^{3}$,%20then%20show%20that:), and [[Semester 1/Mathematics/Unit 1/Questions#6.-find-$\frac{du}{dx}$-if:-$u=\cos(x^{2}+y^{2}\|Q&A Q6]]$%20and%20$a^{2}x^{2}+b^{2}y^{2}=c^{2}$) for applications.*
 
 ### Differentiation of Implicit Functions
 For an implicit function $f(x,y)=c$, where $y$ is implicitly a function of $x$, the derivative $\frac{dy}{dx}$ can be found as:
 $$ \frac{dy}{dx}=-\frac{\frac{\partial f}{\partial x}}{\frac{\partial f}{\partial y}}, \quad \text{provided } \frac{\partial f}{\partial y}\ne0 $$
 This formula is derived from the total derivative by noting that $\frac{df}{dx} = \frac{\partial f}{\partial x} + \frac{\partial f}{\partial y}\frac{dy}{dx} = 0$.
-*See [[Semester 1/Mathematics/Unit 1/Examples#example-5:-implicit-differentiation\|Example 5]] for an application.*
+*See [[Examples#example-5:-implicit-differentiation\|Example 5]] for an application.*
 
 ### Partial Derivatives of Composite Functions
 If $u=f(x,y)$ where $x$ and $y$ are functions of two other independent variables, $r$ and $s$, then $u$ is a composite function of $r$ and $s$. The partial derivatives with respect to $r$ and $s$ are found using the chain rule:
 $$ \frac{\partial u}{\partial r}=\frac{\partial u}{\partial x}\frac{\partial x}{\partial r}+\frac{\partial u}{\partial y}\frac{\partial y}{\partial r} $$
 $$ \frac{\partial u}{\partial s}=\frac{\partial u}{\partial x}\frac{\partial x}{\partial s}+\frac{\partial u}{\partial y}\frac{\partial y}{\partial s} $$
 This concept extends to finding higher-order partial derivatives like $\frac{\partial^2 u}{\partial r^2}$, etc., which involves applying the chain rule multiple times and using product rules. These techniques are crucial for **transforming partial differential equations** between different coordinate systems.
-*A complex composite function example proving a relation is shown in [[Semester 1/Mathematics/Unit 1/Examples#example-6:-composite-functions\|Example 6]].*
+*A complex composite function example proving a relation is shown in [[Examples#example-6:-composite-functions\|Example 6]].*
 *See also for advanced applications of derivative transformations: [[Semester 1/Mathematics/Unit 1/Questions#3.-if-$z=f(x,y\|Q&A Q3]]$%20where%20$x=u^{2}-v^{2}$,%20$y=2uv$%20prove%20that:), [[Semester 1/Mathematics/Unit 1/Questions#8.-if-$z=f(x,y\|Q&A Q8]]$%20where%20$x=u^{2}-v^{2}$,%20$y=2uv$%20prove%20that:), [[Semester 1/Mathematics/Unit 1/Questions#10.-if-$z$-is-a-function-of-$x$-and-$y$,-and-$x=u\cos\alpha-v\sin\alpha$,-$y=u\sin\alpha+v\cos\alpha$,-then-show-that:\|Q&A Q10]], and [[Semester 1/Mathematics/Unit 1/Questions#11.-transform-the-partial-differential-equation-$z_{xx}+2z_{xy}+z_{yy}=0$-by-changing-the-independent-variables-using-the-transformation:\|Q&A Q11]].*
 
 **Invariance of the Laplacian Operator**: Some differential operators remain unchanged under specific coordinate transformations. A notable example is the **Laplacian operator** ($\nabla^2 = \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2}$). It is invariant under rotations of the coordinate axes, as shown in [[Semester 1/Mathematics/Unit 1/Questions#10.-if-$z$-is-a-function-of-$x$-and-$y$,-and-$x=u\cos\alpha-v\sin\alpha$,-$y=u\sin\alpha+v\cos\alpha$,-then-show-that:\|Q&A Q10]], where $x=u\cos\alpha-v\sin\alpha$ and $y=u\sin\alpha+v\cos\alpha$ are rotation formulas, leading to $\frac{\partial^{2}z}{\partial x^{2}}+\frac{\partial^{2}z}{\partial y^{2}}=\frac{\partial^{2}z}{\partial u^{2}}+\frac{\partial^{2}z}{\partial v^{2}}$.
@@ -131,7 +131,7 @@ If $u$ is a homogeneous function of degree $n$ in $x$ and $y$, then:
 $$ x\frac{\partial u}{\partial x}+y\frac{\partial u}{\partial y}=nu $$
 For three variables:
 $$ x\frac{\partial u}{\partial x}+y\frac{\partial u}{\partial y}+z\frac{\partial u}{\partial z}=nu $$
-*Applications of Euler's theorem are demonstrated in [[Semester 1/Mathematics/Unit 1/Examples#example-7:-euler's-theorem-application-1\|Example 7]], [[Semester 1/Mathematics/Unit 1/Examples#example-8:-euler's-theorem-application-2\|Example 8]], and [[Semester 1/Mathematics/Unit 1/Questions#7.-if-$(\sqrt{x}+\sqrt{y}\|Q&A Q7]]%5Csin^{2}u-x^{%5Cfrac{1}{3}}-y^{%5Cfrac{1}{3}}=0,$%20prove%20that%20$12x%5Cfrac{%5Cpartial%20u}{%5Cpartial%20x}+12y%5Cfrac{%5Cpartial%20u}{%5Cpartial%20y}+%5Ctan%20u=0.).*
+*Applications of Euler's theorem are demonstrated in [[Examples#example-7:-euler's-theorem-application-1\|Example 7]], [[Examples#example-8:-euler's-theorem-application-2\|Example 8]], and [[Semester 1/Mathematics/Unit 1/Questions#7.-if-$(\sqrt{x}+\sqrt{y}\|Q&A Q7]]%5Csin^{2}u-x^{%5Cfrac{1}{3}}-y^{%5Cfrac{1}{3}}=0,$%20prove%20that%20$12x%5Cfrac{%5Cpartial%20u}{%5Cpartial%20x}+12y%5Cfrac{%5Cpartial%20u}{%5Cpartial%20y}+%5Ctan%20u=0.).*
 
 **Euler's Theorem on Homogeneous Functions (Second Order)**:
 If $u$ is a homogeneous function of degree $n$ in $x$ and $y$, then:
@@ -149,12 +149,12 @@ These series allow approximation of a function of several variables by polynomia
 The expansion of $f(x, y)$ about a point $(a, b)$ is:
 $$ f(x, y) = f(a, b) + \left[(x - a)f_x(a,b) + (y - b)f_y(a,b)\right] + \frac{1}{2!}\left[(x - a)^2f_{xx}(a,b) + 2(x - a)(y - b)f_{xy}(a,b) + (y - b)^2f_{yy}(a,b)\right] + \cdots $$
 This expansion represents the function as an infinite sum of terms, where each term's order of derivatives increases. It is a generalization of the single-variable Taylor series.
-*See [[Semester 1/Mathematics/Unit 1/Examples#example-9:-taylor-series-expansion\|Example 9]] and [[Semester 1/Mathematics/Unit 1/Questions#14.-expand-$f(x,y\|Q&A Q14]]=x^{2}+xy+y^{2}$%20in%20powers%20of%20$(x-1)&(y-2)$%20up%20to%20second%20degree%20terms.) for series examples.*
+*See [[Examples#example-9:-taylor-series-expansion\|Example 9]] and [[Semester 1/Mathematics/Unit 1/Questions#14.-expand-$f(x,y\|Q&A Q14]]=x^{2}+xy+y^{2}$%20in%20powers%20of%20$(x-1)&(y-2)$%20up%20to%20second%20degree%20terms.) for series examples.*
 
 ### Maclaurin's Series (Two Variables)
 This is the special case of Taylor's series expanded about the origin, the point $(0, 0)$:
 $$ f(x, y) = f(0, 0) + \left[xf_x(0,0) + yf_y(0,0)\right] + \frac{1}{2!}\left[x^2f_{xx}(0,0) + 2xyf_{xy}(0,0) + y^2f_{yy}(0,0)\right] + \cdots $$
-*See [[Semester 1/Mathematics/Unit 1/Examples#example-10:-maclaurin-series-expansion\|Example 10]], [[Semester 1/Mathematics/Unit 1/Questions#5.-expand-$\frac{1}{1+x-y}$-using-taylor's-series-up-to-second-degree-terms.\|Q&A Q5]] and [[Semester 1/Mathematics/Unit 1/Questions#15.-expand-$\frac{1}{1+x-y}$-using-taylor's-series-up-to-second-degree-terms-(about-(0,0\|Q&A Q15]]).) for Maclaurin series examples.*
+*See [[Examples#example-10:-maclaurin-series-expansion\|Example 10]], [[Semester 1/Mathematics/Unit 1/Questions#5.-expand-$\frac{1}{1+x-y}$-using-taylor's-series-up-to-second-degree-terms.\|Q&A Q5]] and [[Semester 1/Mathematics/Unit 1/Questions#15.-expand-$\frac{1}{1+x-y}$-using-taylor's-series-up-to-second-degree-terms-(about-(0,0\|Q&A Q15]]).) for Maclaurin series examples.*
 
 ### Approximations using Differentials and Taylor Series
 Taylor series provides a powerful tool for approximating function values. The first-degree Taylor polynomial (or total differential) gives a linear approximation:
@@ -185,7 +185,7 @@ To classify stationary points $(a, b)$:
     - If **$D < 0$** $\implies$ **Saddle Point** at $(a,b)$.
     - If **$D = 0$** $\implies$ The test is inconclusive; further analysis is required.
 
-*Finding extrema is demonstrated in [[Semester 1/Mathematics/Unit 1/Examples#example-11:-finding-extrema\|Example 11]], [[Semester 1/Mathematics/Unit 1/Questions#6.-discuss-the-maxima-and-minima-of-the-function:\|Q&A Q6]], [[Semester 1/Mathematics/Unit 1/Questions#17.-discuss-the-maxima-and-minima-of-the-function:\|Q&A Q17]], and [[Semester 1/Mathematics/Unit 1/Questions#18.-find-the-maximum-and-minimum-values-of-the-function:\|Q&A Q18]].*
+*Finding extrema is demonstrated in [[Examples#example-11:-finding-extrema\|Example 11]], [[Semester 1/Mathematics/Unit 1/Questions#6.-discuss-the-maxima-and-minima-of-the-function:\|Q&A Q6]], [[Semester 1/Mathematics/Unit 1/Questions#17.-discuss-the-maxima-and-minima-of-the-function:\|Q&A Q17]], and [[Semester 1/Mathematics/Unit 1/Questions#18.-find-the-maximum-and-minimum-values-of-the-function:\|Q&A Q18]].*
 
 ***
 
@@ -206,7 +206,7 @@ This powerful method finds the extreme values of a function $f(x, y, z)$ subject
     - $\frac{\partial L}{\partial \lambda} = \phi(x, y, z) = 0$ (which is the original constraint)
 5.  The solutions $(x, y, z)$ obtained from this system are the critical points where extreme values of $f$ subject to the constraint *may* occur. Further analysis (physical context, testing values) may be needed to determine if it's a maximum or minimum, though often in practical problems, the context makes this clear.
 
-*See [[Semester 1/Mathematics/Unit 1/Examples#example-12:-lagrange-multipliers\|Example 12]], [[Semester 1/Mathematics/Unit 1/Questions#7.-if-$(\sqrt{x}+\sqrt{y}\|Q&A Q7]]%5Csin^{2}u-x^{%5Cfrac{1}{3}}-y^{%5Cfrac{1}{3}}=0,$%20prove%20that%20$12x%5Cfrac{%5Cpartial%20u}{%5Cpartial%20x}+12y%5Cfrac{%5Cpartial%20u}{%5Cpartial%20y}+%5Ctan%20u=0.), [[Semester 1/Mathematics/Unit 1/Questions#19.-find-the-volume-of-the-largest-rectangular-parallelepiped-that-can-be-inscribed-in-the-ellipsoid\|Q&A Q19]], [[Semester 1/Mathematics/Unit 1/Questions#20.-a-tent-on-a-square-base-of-side-$x$,-has-its-sides-vertical-of-height-$y$-and-the-top-is-a-regular-pyramid-of-height-$h$.\|Q&A Q20]], [[Semester 1/Mathematics/Unit 1/Questions#21.-divide-the-number-24-into-three-parts-such-that-the-continued-product-of-the-first,-square-of-the-second,-and-the-cube-of-the-third-may-be-maximum.\|Q&A Q21]], and [[Semester 1/Mathematics/Unit 1/Questions#22.-find-the-maximum-value-of-$x^{m}y^{n}z^{p}$-subject-to-the-constraint-$x+y+z=a.$\|Q&A Q22]].*
+*See [[Examples#example-12:-lagrange-multipliers\|Example 12]], [[Semester 1/Mathematics/Unit 1/Questions#7.-if-$(\sqrt{x}+\sqrt{y}\|Q&A Q7]]%5Csin^{2}u-x^{%5Cfrac{1}{3}}-y^{%5Cfrac{1}{3}}=0,$%20prove%20that%20$12x%5Cfrac{%5Cpartial%20u}{%5Cpartial%20x}+12y%5Cfrac{%5Cpartial%20u}{%5Cpartial%20y}+%5Ctan%20u=0.), [[Semester 1/Mathematics/Unit 1/Questions#19.-find-the-volume-of-the-largest-rectangular-parallelepiped-that-can-be-inscribed-in-the-ellipsoid\|Q&A Q19]], [[Semester 1/Mathematics/Unit 1/Questions#20.-a-tent-on-a-square-base-of-side-$x$,-has-its-sides-vertical-of-height-$y$-and-the-top-is-a-regular-pyramid-of-height-$h$.\|Q&A Q20]], [[Semester 1/Mathematics/Unit 1/Questions#21.-divide-the-number-24-into-three-parts-such-that-the-continued-product-of-the-first,-square-of-the-second,-and-the-cube-of-the-third-may-be-maximum.\|Q&A Q21]], and [[Semester 1/Mathematics/Unit 1/Questions#22.-find-the-maximum-value-of-$x^{m}y^{n}z^{p}$-subject-to-the-constraint-$x+y+z=a.$\|Q&A Q22]].*
 
 ***
 

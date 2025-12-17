@@ -4,7 +4,7 @@
 
 # [[Semester 1/Python/Python\|Back]]
 ***
-[[Semester 1/Python/Unit 2/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 2/Examples\|Examples]] | [[Semester 1/Python/Unit 2/Questions\|Questions]]
+[[Semester 1/Python/Unit 2/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 2/Questions\|Questions]] | [[Semester 1/Python/Unit 2/PYQs\|PYQs]] | [[Semester 1/Python/Unit 2/MCQs\|MCQs]]
 
 # Unit 2: Collections and Functions
 

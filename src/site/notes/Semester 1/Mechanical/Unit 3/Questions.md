@@ -5,7 +5,7 @@
 
 # [[Semester 1/Mechanical/Mechanical\|Back]]
 ***
-[[Semester 1/Mechanical/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 1/Examples\|Examples]] | [[Semester 1/Mechanical/Unit 3/Questions\|Questions]]
+[[Semester 1/Mechanical/Unit 3/Core Notes\|Core Notes]] | [[Examples\|Examples]] | [[Semester 1/Mechanical/Unit 3/Questions\|Questions]]
 ***
 # Unit 3: Manufacturing Techniques and Metal Joining Processes - Practice Questions
 
@@ -116,4 +116,10 @@
 *   **Answer**: Joins dissimilar metals, less preheating/distortion, faster speed, no spatter, little finishing, preserves base metal properties. See [[Semester 1/Mechanical/Unit 3/Core Notes#464-advantages-of-brazing\|Core Notes.md]].
 
 ---
-# [[Semester 1/Mechanical/Mechanical\|Back]]
+# [[Semester 1/Mechanical/Mechanical\|Back]]# Examples
+
+> **Unit 3** | Mechanical Engineering
+
+---
+
+*No examples available yet. This file is ready for future additions.*

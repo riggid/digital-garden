@@ -5,7 +5,7 @@
 
 # # [[Semester 1/Environmental Studies and Life Science/Environmental Studies\|Back]]
 ***
-[[Semester 1/Environmental Studies and Life Science/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Environmental Studies and Life Science/Unit 1/Examples\|Examples]] | [[Semester 1/Environmental Studies and Life Science/Unit 1/Questions\|Questions]]
+[[Semester 1/Environmental Studies and Life Science/Unit 1/Core Notes\|Core Notes]] | [[Examples\|Examples]] | [[Semester 1/Environmental Studies and Life Science/Unit 1/Questions\|Questions]]
 ***
 # Unit 1: Environmental Studies & Life Sciences
 

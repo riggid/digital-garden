@@ -4,7 +4,7 @@
 
 # [[Semester 1/Physics/Physics\|Back]]
 ***
-[[Semester 1/Physics/Unit 2/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 2/Examples\|Examples]] | [[Semester 1/Physics/Unit 2/Questions\|Questions]]
+[[Semester 1/Physics/Unit 2/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 2/Questions\|Questions]] | [[Semester 1/Physics/Unit 2/PYQs\|PYQs]] | [[Semester 1/Physics/Unit 2/MCQs\|MCQs]]
 ***
 # Unit 2: Quantum Mechanics of Simple Systems
 
@@ -48,7 +48,7 @@ Solution: $\psi_2(x) = D e^{ik_2 x}$. (No reflection term $e^{-ik_2 x}$ as there
     $$T = \frac{|\text{Transmitted Flux}|}{|\text{Incident Flux}|} = \frac{|D|^2 k_2}{|A|^2 k_1} = \frac{4k_1 k_2}{(k_1+k_2)^2}$$
 *   **Conservation of Probability**: $R+T=1$.
 
-*(See Example 1 and Example 9 in the [[Semester 1/Physics/Unit 2/Examples\|Examples]] file. See Q&A 1-3 in the [[Semester 1/Physics/Unit 2/Questions\|Questions]] file for derivation and calculations.)*
+*(See Example 1 and Example 9 in the [[Examples\|Examples]] file. See Q&A 1-3 in the [[Semester 1/Physics/Unit 2/Questions\|Questions]] file for derivation and calculations.)*
 
 
 **Case 2: $E < V_0$ (Classically forbidden region)**
@@ -70,7 +70,7 @@ Solution: $\psi_2(x) = F e^{-\alpha x} + G e^{\alpha x}$.
     $$\Delta x = \frac{1}{\alpha} = \frac{\hbar}{\sqrt{2m(V_0-E)}}$$
     Penetration depth increases as the particle's energy $E$ approaches the barrier height $V_0$, or for lighter particles.
 
-*(See Example 2 in the [[Semester 1/Physics/Unit 2/Examples\|Examples]] file. See Q&A 4 in the [[Semester 1/Physics/Unit 2/Questions\|Questions]] file.)*
+*(See Example 2 in the [[Examples\|Examples]] file. See Q&A 4 in the [[Semester 1/Physics/Unit 2/Questions\|Questions]] file.)*
 
 ---
 ## 2. Potential Barrier and Tunneling
@@ -109,7 +109,7 @@ $$T \propto e^{-2\alpha L} = \exp\left(-2L \frac{\sqrt{2m(V_0-E)}}{\hbar}\right)
 *   **Tunnel Diodes**: Semiconductor devices that leverage quantum tunneling for specific electronic characteristics (e.g., negative resistance region).
 *   **Chemical Reactions**: Tunneling can significantly enhance reaction rates, especially for reactions involving light atoms like hydrogen.
 
-*(See Example 3 and Example 10 in the [[Semester 1/Physics/Unit 2/Examples\|Examples]] file. See Q&A 5-8 in the [[Semester 1/Physics/Unit 2/Questions\|Questions]] file for wave function interpretation, mass dependence, and lifetime calculation.)*
+*(See Example 3 and Example 10 in the [[Examples\|Examples]] file. See Q&A 5-8 in the [[Semester 1/Physics/Unit 2/Questions\|Questions]] file for wave function interpretation, mass dependence, and lifetime calculation.)*
 
 ### **2.1 Multiple Potential Step / Barrier** **(Self-Study Topic)**
 Instead of a single potential barrier, a particle may encounter a series of potential steps or multiple barriers. The analysis for such systems extends the concepts used for a single step/barrier.
@@ -209,7 +209,7 @@ The wave functions can be chosen to have definite parity (symmetric or antisymme
 
 *(General Notes: $\psi_n(x)$ for symmetric well has $n-1$ nodes in $-a/2 < x < a/2$. $P_n(x)$ has $n$ peaks and $n-1$ nodes in $-a/2 < x < a/2$.)*
 
-*(See Example 4, Example 5, Example 6, Example 7 in the [[Semester 1/Physics/Unit 2/Examples\|Examples]] file for energy and probability calculations. See Q&A 9-14 in the [[Semester 1/Physics/Unit 2/Questions\|Questions]] file for quantization, zero-point energy, parity, wave functions, and probability plots.)*
+*(See Example 4, Example 5, Example 6, Example 7 in the [[Examples\|Examples]] file for energy and probability calculations. See Q&A 9-14 in the [[Semester 1/Physics/Unit 2/Questions\|Questions]] file for quantization, zero-point energy, parity, wave functions, and probability plots.)*
 
 ### Particle in 2D/3D Box and Degeneracy
 
@@ -405,7 +405,7 @@ Fermi-Dirac statistics describe the statistical distribution of identical, indis
     *   **Symmetry**: The probability of a state with energy $E_f - \Delta E$ being occupied is equal to the probability of a state with energy $E_f + \Delta E$ being *unoccupied*:
         $$f(E_f - \Delta E) = 1 - f(E_f + \Delta E)$$
 
-*(See Example 8 in the [[Semester 1/Physics/Unit 2/Examples\|Examples]] file for occupancy probability calculations. See Q&A 30-32 in the [[Semester 1/Physics/Unit 2/Questions\|Questions]] file for definition, temperature dependence, and the symmetry property.)*
+*(See Example 8 in the [[Examples\|Examples]] file for occupancy probability calculations. See Q&A 30-32 in the [[Semester 1/Physics/Unit 2/Questions\|Questions]] file for definition, temperature dependence, and the symmetry property.)*
 
 ---
 ## 8. Density of States ($g(E)$)
@@ -444,7 +444,7 @@ The energy levels are $E = \frac{h^2}{8mL^2}(n_x^2+n_y^2)$.
     *   $g_{2D}(E) = \frac{2}{A} \frac{dN(E)}{dE} = \frac{2}{L^2} \frac{2\pi m L^2}{h^2} = \frac{4\pi m}{h^2}$.
     *   **Result**: For 2D systems, the density of states is **constant and independent of energy**. $g_{2D}(E) \propto E^0$.
 
-*(See Example 12 in the [[Semester 1/Physics/Unit 2/Examples\|Examples]] file for a conceptual overview of 3D DOS. See Q&A 33 in the [[Semester 1/Physics/Unit 2/Questions\|Questions]] file for the derivation of 2D DOS.)*
+*(See Example 12 in the [[Examples\|Examples]] file for a conceptual overview of 3D DOS. See Q&A 33 in the [[Semester 1/Physics/Unit 2/Questions\|Questions]] file for the derivation of 2D DOS.)*
 
 ***
 # [[Semester 1/Physics/Physics\|Back]]

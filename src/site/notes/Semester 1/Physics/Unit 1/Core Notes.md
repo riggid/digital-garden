@@ -4,7 +4,7 @@
 
 # [[Semester 1/Physics/Physics\|Back]]
 ***
-[[Semester 1/Physics/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 1/Examples\|Examples]] | [[Semester 1/Physics/Unit 1/Questions\|Questions]]
+[[Semester 1/Physics/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 1/Questions\|Questions]] | [[Semester 1/Physics/Unit 1/PYQs\|PYQs]] | [[Semester 1/Physics/Unit 1/MCQs\|MCQs]]
 ***
 # Unit 1: Concepts Leading to Quantum Mechanics
 
@@ -50,7 +50,7 @@ For a plane electromagnetic wave:
 ![Attachments/em_wave_propagation.jpg|EM Wave Propagation](/img/user/Semester%201/Physics/Unit%201/Attachments/em_wave_propagation.jpg)
 
 > See also: [[Semester 1/Physics/Unit 1/Questions#discuss-the-phase-correlation-and-direction-of-the-e-and-b-fields-of-an-em-wave.\|Questions]]
-> For a numerical problem, see: [[Semester 1/Physics/Unit 1/Examples#example-1:-em-wave-properties\|Examples]]
+> For a numerical problem, see: [[Examples#example-1:-em-wave-properties\|Examples]]
 
 ---
 
@@ -97,7 +97,7 @@ An idealized object that absorbs all incident electromagnetic radiation and emit
     $$\rho(\nu)d\nu = \frac{8\pi h\nu^{3}}{c^{3}}\frac{1}{e^{h\nu / kT}-1}d\nu $$
     **Average energy of a Planck oscillator**: $\langle E \rangle = \frac{h\nu}{e^{h\nu/kT}-1}$.
     This formula correctly described the spectrum and explained the Ultraviolet Catastrophe by ensuring $\langle E \rangle \to 0$ for high frequencies.
-> See also: [[Semester 1/Physics/Unit 1/Questions#describe-the-characteristics-of-a-black-body-spectrum.\|Questions]], [[Semester 1/Physics/Unit 1/Questions#write-planck's-formula-for-black-body-radiation.\|Questions]], [[Semester 1/Physics/Unit 1/Examples#example-2:-planck's-vs.-classical-energy\|Examples]]
+> See also: [[Semester 1/Physics/Unit 1/Questions#describe-the-characteristics-of-a-black-body-spectrum.\|Questions]], [[Semester 1/Physics/Unit 1/Questions#write-planck's-formula-for-black-body-radiation.\|Questions]], [[Examples#example-2:-planck's-vs.-classical-energy\|Examples]]
 
 #### **Derivation of the Number of Electromagnetic Modes per Unit Frequency Interval in a 3D Cavity (Self-Study Topic)**
 This derivation is crucial for the classical Rayleigh-Jeans law. It involves counting the number of standing wave modes allowed in a cubic cavity.
@@ -152,7 +152,7 @@ Scattering of X-rays (or gamma rays) by electrons results in a decrease in energ
 
 ![Attachments/compton_scattering_diagram.jpg|Compton Scattering](/img/user/Semester%201/Physics/Unit%201/Attachments/compton_scattering_diagram.jpg)
 
-> See also: [[Semester 1/Physics/Unit 1/Questions#how-does-classical-theory-fail-to-explain-the-results-of-compton's-experiment?\|Questions]], [[Semester 1/Physics/Unit 1/Examples#example-3:-compton-scattering-calculation\|Examples]]
+> See also: [[Semester 1/Physics/Unit 1/Questions#how-does-classical-theory-fail-to-explain-the-results-of-compton's-experiment?\|Questions]], [[Examples#example-3:-compton-scattering-calculation\|Examples]]
 
 ### **Derivation of Compton Shift ($\Delta\lambda$)** **(Self-Study Topic - Simplified Version)**
 The Compton shift derived from relativistic conservation of energy and momentum during a collision between an incident photon and a stationary electron.
@@ -202,7 +202,7 @@ The Compton shift derived from relativistic conservation of energy and momentum 
 -   **de Broglie Wavelength**: $$\lambda = \frac{h}{p} = \frac{h}{mv} = \frac{h}{\sqrt{2mE_K}}$$ *(Using non-relativistic kinetic energy $E_K$).*
 -   **Significance**: Wave nature is significant only for microscopic particles (small $m$), producing measurable $\lambda$. For macroscopic objects, $\lambda$ is extremely small and undetectable.
 -   **Experimental Verification**: Davisson-Germer experiment (electron diffraction) confirmed the wave nature of electrons.
-> See also: [[Semester 1/Physics/Unit 1/Questions#what-are-matter-waves?-state-the-de-broglie-hypothesis.\|Questions]], [[Semester 1/Physics/Unit 1/Questions#why-is-the-wave-nature-of-matter-not-apparent-for-macroscopic-particles?\|Questions]], [[Semester 1/Physics/Unit 1/Examples#example-4:-de-broglie-wavelength-of-an-electron\|Examples]], [[Semester 1/Physics/Unit 1/Examples#example-5:-de-broglie-wavelength-of-an-alpha-particle\|Examples]]
+> See also: [[Semester 1/Physics/Unit 1/Questions#what-are-matter-waves?-state-the-de-broglie-hypothesis.\|Questions]], [[Semester 1/Physics/Unit 1/Questions#why-is-the-wave-nature-of-matter-not-apparent-for-macroscopic-particles?\|Questions]], [[Examples#example-4:-de-broglie-wavelength-of-an-electron\|Examples]], [[Examples#example-5:-de-broglie-wavelength-of-an-alpha-particle\|Examples]]
 
 ### **Wave Packets, Phase and Group Velocity**
 -   **Wave Packet**: A localized superposition of waves representing a moving particle.
@@ -287,7 +287,7 @@ The Heisenberg Uncertainty Principle provides a fundamental quantum mechanical a
     The binding energies of particles (protons and neutrons) inside the nucleus are typically only a few MeV (e.g., 7-8 MeV). The calculated minimum intrinsic kinetic energy for an electron confined within the nucleus (approx. 95 MeV) is vastly higher than these binding energies.
 
 **Conclusion:** Quantum mechanics (Heisenberg Uncertainty Principle) dictates that an electron confined to the nucleus *must* possess a minimum energy far exceeding the strong nuclear force's capacity to bind it. An electron with such high intrinsic kinetic energy would not be a stable bound state; it would instantaneously escape. This evidence supports that electrons are *created* during beta decay from neutron-proton transformations, rather than pre-existing within the nucleus.
-> See also: [[Semester 1/Physics/Unit 1/Examples#example-11:-minimum-energy-in-a-1d-box-(nucleus\|Examples]]) *(Note: Example 11 uses the particle-in-a-box energy, not the uncertainty principle directly, but yields a similarly high energy, reinforcing the incompatibility.)*
+> See also: [[Examples#example-11:-minimum-energy-in-a-1d-box-(nucleus\|Examples]]) *(Note: Example 11 uses the particle-in-a-box energy, not the uncertainty principle directly, but yields a similarly high energy, reinforcing the incompatibility.)*
 
 ### **The Wavefunction ($\Psi$)**
 -   **Definition**: A complex valued function $\Psi(\mathbf{r}, t)$ that contains all the probabilistic information about a quantum system.

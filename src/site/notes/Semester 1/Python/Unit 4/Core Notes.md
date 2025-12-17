@@ -4,7 +4,7 @@
 
 # [[Semester 1/Python/Python\|Back]]
 ***
-[[Semester 1/Python/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 4/Examples\|Examples]] | [[Semester 1/Python/Unit 4/Questions\|Questions]]
+[[Semester 1/Python/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 4/Questions\|Questions]] | [[Semester 1/Python/Unit 4/PYQs\|PYQs]] | [[Semester 1/Python/Unit 4/MCQs\|MCQs]]
 
 # Unit 4: Functional Programming and OOP
 

@@ -4,7 +4,7 @@
 
 # [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
-[[Semester 1/Mathematics/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 4/Examples\|Examples]] | [[Semester 1/Mathematics/Unit 4/Questions\|Questions]]
+[[Semester 1/Mathematics/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 4/Questions\|Questions]] | [[Semester 1/Mathematics/Unit 4/PYQs\|PYQs]] | [[Semester 1/Mathematics/Unit 4/MCQs\|MCQs]]
 
 # Unit 4: Special Functions
 
@@ -39,7 +39,7 @@ $$ \beta(m, n) = \int_0^1 x^{m-1} (1-x)^{n-1} \, dx $$
 2.  **Relation to Gamma Function**:
     $$ \beta(m, n) = \frac{\Gamma(m)\Gamma(n)}{\Gamma(m+n)} $$
 
-*See [[Semester 1/Mathematics/Unit 4/Examples#example-1:-evaluation-using-beta-gamma-relation\|Example 1]] and [[Semester 1/Mathematics/Unit 4/Questions#13.-evaluate-$\int_0^{\pi/2}-\sqrt{\tan-x}-\,-dx$.\|Q&A Q13]].*
+*See [[Examples#example-1:-evaluation-using-beta-gamma-relation\|Example 1]] and [[Semester 1/Mathematics/Unit 4/Questions#13.-evaluate-$\int_0^{\pi/2}-\sqrt{\tan-x}-\,-dx$.\|Q&A Q13]].*
 
 ### 1.3 Important Theorems
 **Legendre's Duplication Formula**:
@@ -91,4 +91,4 @@ When the order is half an odd integer ($p = n + 1/2$), Bessel functions reduce t
 *   **$J_{-1/2}(x) = \sqrt{\frac{2}{\pi x}} \cos x$**
 *   **$J_{3/2}(x) = \sqrt{\frac{2}{\pi x}} \left( \frac{\sin x}{x} - \cos x \right)$**
 
-*See [[Semester 1/Mathematics/Unit 4/Examples#example-3:-prove-j_1/2-identity\|Example 3]] and [[Semester 1/Mathematics/Unit 4/Questions#10.-prove-that-$j_{-1/2}(x\|Q&A Q10]]-=-\sqrt{\frac{2}{\pi-x}}-\cos-x$.).*
+*See [[Examples#example-3:-prove-j_1/2-identity\|Example 3]] and [[Semester 1/Mathematics/Unit 4/Questions#10.-prove-that-$j_{-1/2}(x\|Q&A Q10]]-=-\sqrt{\frac{2}{\pi-x}}-\cos-x$.).*

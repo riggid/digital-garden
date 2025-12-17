@@ -4,7 +4,7 @@
 
 # [[Semester 1/Electrical/Electrical\|Back]]
 ***
-[[Semester 1/Electrical/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Electrical/Unit 3/Examples\|Examples]] | [[Semester 1/Electrical/Unit 3/Questions\|Questions]]
+[[Semester 1/Electrical/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Electrical/Unit 3/Questions\|Questions]] | [[Semester 1/Electrical/Unit 3/PYQs\|PYQs]] | [[Semester 1/Electrical/Unit 3/MCQs\|MCQs]]
 ***
 
 # Unit 3: Three Phase Balanced Systems & Electrical Installations
@@ -37,7 +37,7 @@ The order in which the three-phase voltages attain their peak positive values. T
 ### 1.2 Balanced Star (WYE) Connected System
 In a **Star ($\mathbf{Y}$)** connection, similar terminals (e.g., all "finish" ends) of the three phases are connected together to form a common point called the **Neutral (N)**.
 
-![[https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Three-phase_star_schematic.svg/400px-Three-phase_star_schematic.svg.png\|Star Connection]]
+![Attachments/star_connection.png|Star Connection](/img/user/Semester%201/Electrical/Unit%203/Attachments/star_connection.png)
 
 #### 1.2.1 Voltage and Current Definitions
 *   **Phase Voltage ($V_{ph}$)**: Voltage across the terminals of a single phase winding (e.g., $V_{RN}, V_{YN}, V_{BN}$).
@@ -57,7 +57,7 @@ In a **Star ($\mathbf{Y}$)** connection, similar terminals (e.g., all "finish" e
 ### 1.3 Balanced Delta (Mesh) Connected System
 In a **Delta ($\mathbf{\Delta}$)** connection, the coils are connected end-to-end (R finish to Y start, Y finish to B start, etc.) to form a closed loop. There is no neutral point.
 
-![[https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Three-phase_delta_schematic.svg/400px-Three-phase_delta_schematic.svg.png\|Delta Connection]]
+![Attachments/delta_connection.png|Delta Connection](/img/user/Semester%201/Electrical/Unit%203/Attachments/delta_connection.png)
 
 #### 1.3.1 Relationships in Delta Connection
 1.  **Voltage Relation**: The voltage across the lines is directly across the phase windings.
@@ -98,7 +98,7 @@ The power calculations are identical for both Star and Delta balanced systems wh
 ### 1.5 Measurement of Power: Two Wattmeter Method
 Two wattmeters are sufficient to measure the total three-phase active power in a three-wire system (Star or Delta), balanced or unbalanced.
 
-![[https://upload.wikimedia.org/wikipedia/commons/6/67/Two-wattmeter_method_circuit_diagram_(A).png\|Two Wattmeter Method Circuit]]
+![Attachments/two_wattmeter_method.png|Two Wattmeter Method Circuit](/img/user/Semester%201/Electrical/Unit%203/Attachments/two_wattmeter_method.png)
 > Two Wattmeter method with phase A common
 
 *   **Current Coils (CC)**: Connected in series with two of the lines (e.g., R and B).

@@ -4,7 +4,7 @@
 
 # [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
-[[Semester 1/Mathematics/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 3/Examples\|Examples]] | [[Semester 1/Mathematics/Unit 3/Questions\|Questions]]
+[[Semester 1/Mathematics/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 3/Questions\|Questions]] | [[Semester 1/Mathematics/Unit 3/PYQs\|PYQs]] | [[Semester 1/Mathematics/Unit 3/MCQs\|MCQs]]
 
 # Unit 3: Partial Differential Equations
 
@@ -46,7 +46,7 @@ Consider a relation $f(x, y, z, a, b) = 0$ involving two arbitrary constants $a$
 3.  Eliminate the constants $a$ and $b$ using the original equation and the two derived equations.
 Since there are two constants to be eliminated from three equations, we typically get a first-order PDE.
 
-*See [[Semester 1/Mathematics/Unit 3/Examples#example-1:-formation-by-eliminating-constants\|Example 1]] for a detailed walkthrough.*
+*See [[Examples#example-1:-formation-by-eliminating-constants\|Example 1]] for a detailed walkthrough.*
 
 ### 2.2 Elimination of Arbitrary Functions
 Consider a relation $z = f(u)$ where $u$ is a known function of $x, y$ (e.g., $u = x^2 + y^2$), or a more general implicit form $\phi(u, v) = 0$ where $u, v$ are functions of $x, y, z$.
@@ -68,7 +68,7 @@ $$ P p + Q q = R $$
 where
 $$ P = \frac{\partial(u, v)}{\partial(y, z)}, \quad Q = \frac{\partial(u, v)}{\partial(z, x)}, \quad R = \frac{\partial(u, v)}{\partial(x, y)} $$
 
-*See [[Semester 1/Mathematics/Unit 3/Examples#example-2:-formation-by-eliminating-arbitrary-functions\|Example 2]] and [[Semester 1/Mathematics/Unit 3/Questions#1.-form-the-pde-from-$z-=-y^2-+-2f(1/x-+-\log-y\|Q&A Q1]]$.).*
+*See [[Examples#example-2:-formation-by-eliminating-arbitrary-functions\|Example 2]] and [[Semester 1/Mathematics/Unit 3/Questions#1.-form-the-pde-from-$z-=-y^2-+-2f(1/x-+-\log-y\|Q&A Q1]]$.).*
 
 ***
 
@@ -87,7 +87,7 @@ To find $u$ and $v$:
 1.  **Method of Grouping**: Take any two fractions where variables can be separated easily (e.g., $dx/x = dy/y$) and integrate.
 2.  **Method of Multipliers**: Choose multipliers $(l, m, n)$ such that $lP + mQ + nR = 0$ or is an exact differential. If the denominator becomes zero, then the numerator $l dx + m dy + n dz = 0$, which can be integrated.
 
-*See [[Semester 1/Mathematics/Unit 3/Examples#example-3:-lagrange's-method---grouping\|Example 3]] and [[Semester 1/Mathematics/Unit 3/Questions#6.-solve-$2yzp-+-zxq-=-3xy$.\|Q&A Q6]].*
+*See [[Examples#example-3:-lagrange's-method---grouping\|Example 3]] and [[Semester 1/Mathematics/Unit 3/Questions#6.-solve-$2yzp-+-zxq-=-3xy$.\|Q&A Q6]].*
 
 ***
 
@@ -140,7 +140,7 @@ Resolve into partial fractions or apply successively:
 $$ \frac{1}{D - mD'} f(x, y) = \int f(x, c - mx) dx $$
 where $y$ is replaced by $c - mx$ for integration, and after integration $c$ is replaced back by $y + mx$.
 
-*See [[Semester 1/Mathematics/Unit 3/Examples#example-5:-higher-order-pde-solution\|Example 5]] and [[Semester 1/Mathematics/Unit 3/Questions#13.-solve-$(d^2-+-dd'---2d'^2\|Q&A Q13]]z-=-5e^{x+2y}$.).*
+*See [[Examples#example-5:-higher-order-pde-solution\|Example 5]] and [[Semester 1/Mathematics/Unit 3/Questions#13.-solve-$(d^2-+-dd'---2d'^2\|Q&A Q13]]z-=-5e^{x+2y}$.).*
 
 ***
 
@@ -169,4 +169,4 @@ Three cases for $k$:
 
 This form ($k < 0$) is the only physically realistic solution for transient heat conduction (decaying over time). Examples involve applying boundary conditions (e.g., $u(0, t)=0, u(L, t)=0$) to find $p$ and initial conditions to find coefficients using Fourier series.
 
-*See [[Semester 1/Mathematics/Unit 3/Examples#example-6:-separation-of-variables---heat-eq\|Example 6]] and [[Semester 1/Mathematics/Unit 3/Questions#10.-solve-$x^2-\frac{\partial-u}{\partial-x}-+-y^2-\frac{\partial-u}{\partial-y}-=-0$.\|Q&A Q10]].*
+*See [[Examples#example-6:-separation-of-variables---heat-eq\|Example 6]] and [[Semester 1/Mathematics/Unit 3/Questions#10.-solve-$x^2-\frac{\partial-u}{\partial-x}-+-y^2-\frac{\partial-u}{\partial-y}-=-0$.\|Q&A Q10]].*

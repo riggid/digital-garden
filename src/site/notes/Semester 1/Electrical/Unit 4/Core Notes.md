@@ -4,7 +4,7 @@
 
 # [[Semester 1/Electrical/Electrical\|Back]]
 ***
-[[Semester 1/Electrical/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Electrical/Unit 4/Examples\|Examples]] | [[Semester 1/Electrical/Unit 4/Questions\|Questions]]
+[[Semester 1/Electrical/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Electrical/Unit 4/Questions\|Questions]] | [[Semester 1/Electrical/Unit 4/PYQs\|PYQs]] | [[Semester 1/Electrical/Unit 4/MCQs\|MCQs]]
 ***
 
 # Unit 4: Electromagnetism & Electrical Machines
@@ -29,7 +29,7 @@ The **B-H Curve** (Magnetization Curve) plots Flux Density ($B$) vs Magnetizing 
 *   **Saturation**: The point where increasing $H$ yields no significant increase in $B$.
 *   **Hysteresis Loop**: The loop formed by the B-H curve when a magnetic material is magnetized, demagnetized, and re-magnetized in the opposite direction.
 
-    ![[https://upload.wikimedia.org/wikipedia/commons/4/4b/Hysteresis-comparison.svg\|Hysteresis Loop]]
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="400" width="Hysteresis Loop"><path d="M0 0v400h800V0z" fill="#fff"/><path d="M508.59 193.69c-1.295 64.668-1.998 154.014-38.004 165.35v.002c218.997.747 213.749-56.53 218.014-122.902m0 0c1.295-64.667 1.998-154.013 38.005-165.35-218.998-.748-213.75 56.528-218.015 122.9M188.59 193.69c-9.86 64.92-10.752 150.095-118.004 165.35v.002c119.4-.02 124.933-57.033 138.014-122.902m0 0c9.86-64.92 10.752-150.094 118.005-165.35-119.4.018-124.933 57.032-138.015 122.9" fill="#f2f2f2"/><g id="a"><path stroke-width="2" fill="none" d="M18.384 216.88h314.833" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/><g stroke="#000" stroke-linecap="round" stroke-linejoin="round"><path d="M240.381 111.863l3.744 21.444h-7.488z" transform="translate(-41.98 -93.5)"/><path stroke-width="2" fill="none" d="M198.402 384.46V38.064"/></g><path d="M354.92 216.88l-21.444 3.745v-7.489z" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/><g font-family="serif" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1.292"><text x="185.805" y="91.886" font-size="12" style="line-height:0%" transform="translate(31.21 81.382) scale(1.7037)">B</text><text x="194.338" y="95.446" font-size="10.258" style="line-height:0%" transform="translate(31.21 81.382) scale(1.7037)">err</text></g><g stroke-width="1.292" stroke-miterlimit="10" stroke-linecap="square" font-family="serif"><text style="line-height:0%" font-size="12" y="91.886" x="185.805" transform="translate(-174.372 -115.191) scale(1.7037)">B</text><text style="line-height:0%" font-size="10.258" y="95.446" x="194.338" transform="translate(-174.372 -115.191) scale(1.7037)">ges</text></g><text style="line-height:0%" font-size="20.444" y="238.351" x="179.536" font-family="serif" stroke-width="2.202" stroke-linecap="square" stroke-miterlimit="10">0</text><text x="179.536" y="238.351" font-size="20.444" style="line-height:0%" font-family="serif" stroke-width="2.202" stroke-linecap="square" stroke-miterlimit="10">0</text></g><use height="100%" width="100%" transform="translate(400)" xlink:href="#a"/><path id="b" fill="none" d="M208.6 236.14c9.86-64.92 10.752-150.094 118.005-165.35v0c-119.4.018-124.933 57.032-138.015 122.9" stroke="red" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none"/><use height="100%" width="100%" transform="rotate(180 198.595 214.916)" xlink:href="#b"/><path d="M688.6 236.14c1.295-64.667 1.998-154.013 38.005-165.35v0c-218.998-.748-213.75 56.528-218.015 122.9" fill="none" id="c" stroke="red" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none"/><use height="100%" width="100%" transform="rotate(180 598.595 214.916)" xlink:href="#c"/><text x="185.805" y="91.886" font-size="12" style="line-height:0%" transform="translate(-300.93 -123.17) scale(1.7037)" font-family="serif" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1.292"><tspan style="-inkscape-font-specification:sans-serif" font-weight="400" font-family="sans-serif">(a)</tspan></text><text style="line-height:0%" font-size="12" y="91.886" x="185.805" transform="translate(99.07 -123.17) scale(1.7037)" stroke-width="1.292" stroke-miterlimit="10" stroke-linecap="square" font-family="serif"><tspan style="-inkscape-font-specification:sans-serif" font-weight="400" font-family="sans-serif">(b)</tspan></text></svg>
     > Hysteresis loops for soft and hard ferromagnetic materials.
 
     *   **Retentivity**: The amount of magnetism remaining ($B$) when the external field $H$ is reduced to zero (Residual Magnetism).
@@ -53,7 +53,7 @@ A static device transferring electrical energy between two circuits via mutual i
 *   **Core Type**: Windings surround the core. Easier insulation.
 *   **Shell Type**: Core surrounds the windings. Stronger mechanical support.
 
-![[https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Transformer_winding_formats.jpg/640px-Transformer_winding_formats.jpg\|Transformer Winding Formats]]
+![Attachments/transformer_winding.jpg|Transformer Winding Formats](/img/user/Semester%201/Electrical/Unit%204/Attachments/transformer_winding.jpg)
 > (a) Core Type Transformer (b) Shell Type Transformer Windings
 
 ### 2.2 EMF Equation and Ratios
@@ -94,7 +94,7 @@ Same for Generator and Motor:
     *   **Wave Winding**: Parallel paths $A = 2$. For high voltage.
 *   **Commutator**: Converts AC induced in armature to DC (Generator) or limits constant torque direction (Motor).
 
-![[https://upload.wikimedia.org/wikipedia/commons/6/6e/DC-MOTOR_CONSTRUCTION.PNG\|DC Machine Construction]]
+![Attachments/dc_motor.png|DC Machine Construction](/img/user/Semester%201/Electrical/Unit%204/Attachments/dc_motor.png)
 > Cross-section of a DC Machine
 
 ### 3.2 DC Generator
