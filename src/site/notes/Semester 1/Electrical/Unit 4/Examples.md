@@ -2,14 +2,14 @@
 {"dg-publish":true,"permalink":"/semester-1/electrical/unit-4/examples/"}
 ---
 
-# [Back](../../Electrical.md)
+# [[Semester 1/Electrical/Electrical\|Back]]
 ***
-[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Questions](Questions.md)
+[[Semester 1/Electrical/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Electrical/Unit 4/Examples\|Examples]] | [[Semester 1/Electrical/Unit 4/Questions\|Questions]]
 ***
 
 # Unit 4 Examples: Machines
 
-> See also: [Core Notes](Core%20Notes.md#unit-4-electromagnetism--electrical-machines)
+> See also: [[Semester 1/Electrical/Unit 4/Core Notes#unit-4-electromagnetism--electrical-machines\|Core Notes]]
 
 ## 1. Magnetic Circuits
 

@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/semester-1/electrical/unit-1/questions/"}
 ---
 
-
 # [[Semester 1/Electrical/Electrical\|Back]]
 ***
 [[Semester 1/Electrical/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Electrical/Unit 1/Examples\|Examples]] | [[Semester 1/Electrical/Unit 1/Questions\|Questions]]
@@ -207,28 +206,7 @@ $$\text{Load current range: } I_{L} \text{ varies between } 49.66 \, \text{mA} \
 ### Question 2: Find Voltage $V_{AB}$
 *Find the voltage $V_{AB}$ in the network shown.*
 
-```tikz
-\usepackage{circuitikz}
-\begin{document}
-% Circuit Diagram 1: Lecture 1, Question 2
-\begin{circuitikz}[american]
-    % Left Loop
-    \draw (0,0) node[ground]{} to[V, v=20V] (0,3)
-        to[R, l=5<$\Omega$>] (2,3)
-        to[R, l=3<$\Omega$>] (4,3) node[above] {A}
-        to[R, l=2<$\Omega$>] (6,3)
-        to[short] (6,0) node[ground]{};
-    \draw (0,0) to[short] (6,0);
-
-    % Right Loop
-    \draw (8,0) node[ground]{} to[V, v=40V, invert] (8,3)
-        to[R, l=5<$\Omega$>] (10,3) node[above] {B}
-        to[R, l=5<$\Omega$>] (12,3)
-        to[V, v_=10V, invert] (12,0) node[ground]{};
-    \draw (8,0) to[short] (12,0);
-\end{circuitikz}
-\end{document}
-```
+![Question 2 Diagram](/img/user/Semester%201/Electrical/Unit%201/Attachments/l1_q2_diagram.png)
 **Solution:**
 We apply KVL to each independent loop to find the potential at points A and B relative to the bottom common wire.
 

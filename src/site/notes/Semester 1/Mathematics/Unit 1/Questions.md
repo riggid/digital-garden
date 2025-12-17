@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/semester-1/mathematics/unit-1/questions/"}
 ---
 
-
 # [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
 ---

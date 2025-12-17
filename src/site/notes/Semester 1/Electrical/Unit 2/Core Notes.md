@@ -35,9 +35,9 @@ Where:
 
 ![Sinusoidal Waveform](/img/user/Semester%201/Electrical/Unit%202/Attachments/sine_wave_ac.png)
 
-*(See Example 1 in the [Examples](Examples.md#example-1-sine-wave-properties) file for calculations involving frequency and time period.)*
-*(See Example 2 in the [Examples](Examples.md#example-2-instantaneous-value) file for calculating instantaneous values.)*
-*(See Example 3 in the [Examples](Examples.md#example-3-phase-lag-lead) file for understanding phase relationships.)*
+*(See Example 1 in the [[Semester 1/Electrical/Unit 2/Examples#example-1-sine-wave-properties\|Examples]] file for calculations involving frequency and time period.)*
+*(See Example 2 in the [[Semester 1/Electrical/Unit 2/Examples#example-2-instantaneous-value\|Examples]] file for calculating instantaneous values.)*
+*(See Example 3 in the [[Semester 1/Electrical/Unit 2/Examples#example-3-phase-lag-lead\|Examples]] file for understanding phase relationships.)*
 
 ---
 ## Average and RMS Values
@@ -68,8 +68,8 @@ $$\bar{F} = \frac{F_m}{\sqrt{2}} \angle \phi = F_{rms} \angle \phi$$
 
 ![Phasor Diagram](/img/user/Semester%201/Electrical/Unit%202/Attachments/phasor_diagram_basic.png)
 
-*(See Example 4 in the [Examples](Examples.md#example-4-phasor-representation) file for converting sine waves to phasors.)*
-*(See Example 5 in the [Examples](Examples.md#example-5-phasor-addition) file for adding phasors.)*
+*(See Example 4 in the [[Semester 1/Electrical/Unit 2/Examples#example-4-phasor-representation\|Examples]] file for converting sine waves to phasors.)*
+*(See Example 5 in the [[Semester 1/Electrical/Unit 2/Examples#example-5-phasor-addition\|Examples]] file for adding phasors.)*
 
 ---
 ## Response of Basic Elements (R, L, C)
@@ -98,7 +98,7 @@ When a sinusoidal voltage $v(t) = V_m \sin(\omega t)$ (Phasor $\bar{V} = V \angl
     * **Capacitive Reactance ($X_C$)**: Opposition due to capacitance. $X_C = \frac{1}{\omega C} = \frac{1}{2\pi f C}$ Ohms ($\Omega$).
     * **Impedance ($\bar{Z}_C$)**: $Z_C = \bar{V}/\bar{I} = \frac{1}{\omega C} \angle -90^{\circ} = -jX_C$ Ohms ($\Omega$).
 
-*(See Example 6 in the [Examples](Examples.md#example-6-capacitor-calculations) file for calculations involving a capacitor.)*
+*(See Example 6 in the [[Semester 1/Electrical/Unit 2/Examples#example-6-capacitor-calculations\|Examples]] file for calculations involving a capacitor.)*
 
 ---
 ## Series AC Circuits
@@ -124,8 +124,8 @@ For elements in series, the same current $\bar{I}$ flows through them. The total
 
 ![Impedance Triangle](/img/user/Semester%201/Electrical/Unit%202/Attachments/impedance_triangle.png)
 
-*(See Example 7 in the [Examples](Examples.md#example-7-series-rl-calculations) file for series RL analysis.)*
-*(See Example 8 and Example 9 in the [Examples](Examples.md#example-8-series-rlc-calculations) file for series RLC analysis.)*
+*(See Example 7 in the [[Semester 1/Electrical/Unit 2/Examples#example-7-series-rl-calculations\|Examples]] file for series RL analysis.)*
+*(See Example 8 and Example 9 in the [[Semester 1/Electrical/Unit 2/Examples#example-8-series-rlc-calculations\|Examples]] file for series RLC analysis.)*
 
 ---
 ## Power in AC Circuits
@@ -150,7 +150,7 @@ For elements in series, the same current $\bar{I}$ flows through them. The total
 
 ![Power Triangle](/img/user/Semester%201/Electrical/Unit%202/Attachments/power_triangle_diagram.png)
 
-*(See Example 10 in the [Examples](Examples.md#example-10-power-calculations) file for power calculations.)*
+*(See Example 10 in the [[Semester 1/Electrical/Unit 2/Examples#example-10-power-calculations\|Examples]] file for power calculations.)*
 
 ---
 ## Admittance and Parallel Circuits
@@ -177,7 +177,7 @@ Phase angle $\phi = \angle \bar{V} - \angle \bar{I} = -\angle \bar{Y}_T$.
     * If $B_L > B_C$, circuit is **inductive** (current lags voltage).
     * If $B_C > B_L$, circuit is **capacitive** (current leads voltage).
     * If $B_L = B_C$, circuit is **resistive** (current in phase with voltage). This is **parallel resonance**. 
-*(See Example 11 and Example 12 in the [Examples](Examples.md#example-11-parallel-circuit-admittance) file for parallel circuit analysis.)*
+*(See Example 11 and Example 12 in the [[Semester 1/Electrical/Unit 2/Examples#example-11-parallel-circuit-admittance\|Examples]] file for parallel circuit analysis.)*
 
 ---
 ## Series-Parallel Circuits
@@ -187,7 +187,7 @@ These circuits combine series and parallel connections. They are solved by simpl
 2.  Combine admittances in parallel ($\bar{Y}_{eq} = \bar{Y}_1 + \bar{Y}_2 + \dots$) or use the formula for two parallel impedances ($\bar{Z}_{eq} = \frac{\bar{Z}_1 \bar{Z}_2}{\bar{Z}_1 + \bar{Z}_2}$).
 3.  Repeat until the total equivalent impedance or admittance is found. Use Ohm's Law ($\bar{V}=\bar{I}\bar{Z}$) and current/voltage division rules as needed. Phasor methods are generally preferred.
 
-*(See Example 13, Example 14, Example 15, and Example 16 in the [Examples](Examples.md#example-13-series-parallel-impedance) file for series-parallel analysis.)*
+*(See Example 13, Example 14, Example 15, and Example 16 in the [[Semester 1/Electrical/Unit 2/Examples#example-13-series-parallel-impedance\|Examples]] file for series-parallel analysis.)*
 
 ---
 ## Power Factor Improvement
@@ -204,7 +204,7 @@ The required capacitor rating (in kVAR or capacitance in Farads) can be calculat
 * Reactive Power supplied by Capacitor: $Q_C = Q_1 - Q_2 = P (\tan \phi_1 - \tan \phi_2)$.
 * Capacitance: $C = Q_C / (\omega V^2)$.
 
-*(See Example 17 and Example 18 in the [Examples](Examples.md#example-17-power-factor-correction) file for power factor correction calculations.)*
+*(See Example 17 and Example 18 in the [[Semester 1/Electrical/Unit 2/Examples#example-17-power-factor-correction\|Examples]] file for power factor correction calculations.)*
 
 ***
 # [[Semester 1/Mathematics/Mathematics\|Back]]

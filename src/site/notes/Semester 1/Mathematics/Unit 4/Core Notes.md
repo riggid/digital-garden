@@ -2,10 +2,9 @@
 {"dg-publish":true,"permalink":"/semester-1/mathematics/unit-4/core-notes/"}
 ---
 
-
-# [Back](../../Mathematics.md)
+# [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
-[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Questions](Questions.md)
+[[Semester 1/Mathematics/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 4/Examples\|Examples]] | [[Semester 1/Mathematics/Unit 4/Questions\|Questions]]
 
 # Unit 4: Special Functions
 
@@ -40,7 +39,7 @@ $$ \beta(m, n) = \int_0^1 x^{m-1} (1-x)^{n-1} \, dx $$
 2.  **Relation to Gamma Function**:
     $$ \beta(m, n) = \frac{\Gamma(m)\Gamma(n)}{\Gamma(m+n)} $$
 
-> See also: [Examples](Examples.md#Example%201:%20Evaluation%20using%20Beta-Gamma%20Relation)
+> See also: [[Semester 1/Mathematics/Unit 4/Examples#Example 1: Evaluation using Beta-Gamma Relation\|Examples]]
 
 ### 1.3 Important Theorems
 **Legendre's Duplication Formula**:
@@ -92,4 +91,4 @@ When the order is half an odd integer ($p = n + 1/2$), Bessel functions reduce t
 *   **$J_{-1/2}(x) = \sqrt{\frac{2}{\pi x}} \cos x$**
 *   **$J_{3/2}(x) = \sqrt{\frac{2}{\pi x}} \left( \frac{\sin x}{x} - \cos x \right)$**
 
-> See also: [Examples](Examples.md#Example%203:%20Prove%20J_1/2%20Identity)
+> See also: [[Semester 1/Mathematics/Unit 4/Examples#Example 3: Prove J_1/2 Identity\|Examples]]

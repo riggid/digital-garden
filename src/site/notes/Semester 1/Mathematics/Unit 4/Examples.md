@@ -2,10 +2,9 @@
 {"dg-publish":true,"permalink":"/semester-1/mathematics/unit-4/examples/"}
 ---
 
-
-# [Back](../../Mathematics.md)
+# [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
-[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Questions](Questions.md)
+[[Semester 1/Mathematics/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 4/Examples\|Examples]] | [[Semester 1/Mathematics/Unit 4/Questions\|Questions]]
 
 # Unit 4 Examples: Special Functions
 
@@ -74,5 +73,5 @@
     Substitute $J_4, J_3$ and simplify to get final expression in terms of $J_1, J_0$.
     Final result involves terms like $\frac{1}{x^4}, \frac{1}{x^2}$ etc.
 
-> See [Questions](Questions.md#Bessel%20Functions) for result.
+> See [[Semester 1/Mathematics/Unit 4/Questions#Bessel Functions\|Questions]] for result.
 

@@ -2,10 +2,9 @@
 {"dg-publish":true,"permalink":"/semester-1/mathematics/unit-2/examples/"}
 ---
 
-
 # [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
-[[Semester 1/Mathematics/Unit 2/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 2/Examples\|Examples]] | [[Semester 1/Mathematics/Unit 2/Q&A\|Questions]]
+[[Semester 1/Mathematics/Unit 2/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 2/Examples\|Examples]] | [[Semester 1/Mathematics/Unit 2/Questions\|Questions]]
 ***
 # Unit 2: Worked Examples
 

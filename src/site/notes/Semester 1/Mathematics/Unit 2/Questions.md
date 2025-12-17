@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/semester-1/mathematics/unit-2/questions/"}
 ---
 
-
 # [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
 # Unit 2: Q&A and Worked Problems

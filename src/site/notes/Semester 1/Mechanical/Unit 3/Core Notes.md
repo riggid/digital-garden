@@ -2,10 +2,9 @@
 {"dg-publish":true,"permalink":"/semester-1/mechanical/unit-3/core-notes/"}
 ---
 
-
 # [[Semester 1/Mechanical/Mechanical\|Back]]
 ***
-[[Semester 1/Mechanical/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Mechanical/Unit 3/Examples\|Examples]] | [[Semester 1/Mechanical/Unit 3/Q&A\|Questions]]
+[[Semester 1/Mechanical/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 2/Examples\|Examples]] | [[Semester 1/Mechanical/Unit 3/Questions\|Questions]]
 ***
 # Unit 3: Manufacturing Techniques and Metal Joining Processes
 

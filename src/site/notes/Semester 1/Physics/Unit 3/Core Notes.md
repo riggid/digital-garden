@@ -2,10 +2,9 @@
 {"dg-publish":true,"permalink":"/semester-1/physics/unit-3/core-notes/"}
 ---
 
-
 # [[Semester 1/Physics/Physics\|Back]]
 ***
-[[Semester 1/Physics/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 3/Examples\|Examples]] | [[Semester 1/Physics/Unit 3/Q&A\|Questions]]
+[[Semester 1/Physics/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 3/Examples\|Examples]] | [[Semester 1/Physics/Unit 3/Questions\|Questions]]
 ***
 # Unit 3: Quantum Mechanical Treatment of Electron Transport and Magnetic Materials
 
@@ -53,7 +52,7 @@ The **Maxwell-Boltzmann (MB) distribution function** is a classical statistical 
     Where $n$ is the free electron concentration (number of free electrons per unit volume).
     **Resistivity ($\rho$)** is the inverse of conductivity:
     $$\rho = \frac{1}{\sigma} = \frac{m}{ne^2\tau}$$
-    > See also: [Examples](Examples.md#Example%207:%20Relaxation%20Time%20in%20a%20Metal)
+    > See also: [[Semester 1/Physics/Unit 3/Examples#Example 7: Relaxation Time in a Metal\|Examples]]
 5.  **Mean Free Path ($\lambda$)**: The average distance an electron travels between successive collisions with ion cores or other scattering centers. It is related to the relaxation time ($\tau$) and the electron's velocity ($v_{th}$): $\lambda = v_{th} \tau$.
 
 #### **1.1.5 Derivation of Thermal Conductivity (CFET)**
@@ -125,7 +124,7 @@ Particles in the universe are fundamentally classified into two groups based on 
 *   **Fermi-Dirac Distribution Function ($F_d(E)$)**: Gives the probability that an energy state $E$ is occupied by an electron at temperature $T$. This distribution is crucial for quantum systems of fermions.
     $$F_d(E) = \frac{1}{e^{(E-E_f)/k_B T} + 1}$$
     Where $E_f$ is the **Fermi energy** and $k_B$ is the Boltzmann constant.
-    > See also: [Examples](Examples.md#Example%201:%20Fermi%20Factor%20Calculation)
+    > See also: [[Semester 1/Physics/Unit 3/Examples#Example 1: Fermi Factor Calculation\|Examples]]
 *   **Interpretation of $\mathbf{F_d(E)}$**:
     *   **At T=0K**: (Absolute Zero Temperature)
         *   If $E < E_f$: The exponent $(E-E_f)/k_B T \rightarrow -\infty$. So $F_d(E) = \frac{1}{e^{-\infty} + 1} = \frac{1}{0+1} = 1$. This means all energy states below the Fermi energy are completely filled.
@@ -653,7 +652,7 @@ L269.625000 218.546648"/>
 *   **Fermi Velocity ($v_f$)**: The velocity of an electron that possesses a kinetic energy exactly equal to the Fermi energy ($E_f$). It represents the maximum velocity an electron possesses at 0 Kelvin. It is calculated using the classical kinetic energy formula (though arising from quantum phenomena):
     $$E_f = \frac{1}{2}m v_f^2 \implies v_f = \sqrt{\frac{2E_f}{m}}$$
     For copper, $v_f \approx 1.6 \times 10^6 \text{ m/s}$, which is orders of magnitude higher than the classical thermal velocity ($~10^5 \text{ m/s}$). This substantial velocity at 0K is a direct consequence of the Pauli Exclusion Principle forcing electrons into high-energy states. These fast-moving electrons near the Fermi surface are primarily responsible for electrical and thermal conduction.
-    > See also: [Examples](Examples.md#Example%203:%20Fermi%20Velocity%20Calculation)
+    > See also: [[Semester 1/Physics/Unit 3/Examples#Example 3: Fermi Velocity Calculation\|Examples]]
 
 ### **2.3 Graphical Representations of g(E) and N(E) and Analysis**
 
@@ -684,7 +683,7 @@ To understand electron distribution and overall properties, we need the **densit
     *   **Plot:**
         ![Density of States 1D](https://www.tf.uni-kiel.de/matwis/ag_th/lectures/esm/esmfiles/image009.gif) *(Conceptual image for 1D DoS)*
 
-    > See also: [Examples](Examples.md#Example%204:%20Number%20of%20Electron%20States)
+    > See also: [[Semester 1/Physics/Unit 3/Examples#Example 4: Number of Electron States\|Examples]]
 
 #### **2.3.2 Relation between Total Electron Concentration (n) and Fermi Energy (E_f)**
 The total number of free electrons per unit volume ($n$) in a metal is found by integrating the density of states ($g(E)$) from $E=0$ up to $E_f$, given that at 0K, all states up to $E_f$ are completely filled and all states above $E_f$ are empty:

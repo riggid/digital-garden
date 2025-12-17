@@ -2,10 +2,9 @@
 {"dg-publish":true,"permalink":"/semester-1/mechanical/unit-4/core-notes/"}
 ---
 
-
 # [[Semester 1/Mechanical/Mechanical\|Back]]
 ***
-[[Semester 1/Mechanical/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Mechanical/Unit 4/Examples\|Examples]] | [[Semester 1/Mechanical/Unit 4/Q&A\|Questions]]
+[[Semester 1/Mechanical/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Mechanical/Unit 4/Examples\|Examples]] | [[Semester 1/Mechanical/Unit 4/Questions\|Questions]]
 ***
 # Unit 4: Modern Machining, Heat Treatment, Control Systems, and Robotics
 
@@ -283,7 +282,7 @@ The total amount of material to be removed from a workpiece is typically achieve
 #### **2.4.4 Total Actual Machining Time**
 The total actual machining time is the sum of the machining times for all roughing passes and all finishing passes.
 $$ \text{Total Machining Time} = (P_r \times t_{rough}) + (P_f \times t_{finish}) $$
-> See also: [Examples](Examples.md#Example%201:%20Machining%20Time%20Calculation%20for%20a%20Turning%20Operation)
+> See also: [[Semester 1/Mechanical/Unit 4/Examples#Example 1: Machining Time Calculation for a Turning Operation\|Examples]]
 
 ### **2.5 Drilling Operations and Twist Drills**
 

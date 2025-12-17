@@ -2,9 +2,9 @@
 {"dg-publish":true,"permalink":"/semester-1/electrical/unit-3/core-notes/"}
 ---
 
-# [Back](../../Electrical.md)
+# [[Semester 1/Electrical/Electrical\|Back]]
 ***
-[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Questions](Questions.md)
+[[Semester 1/Electrical/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Electrical/Unit 3/Examples\|Examples]] | [[Semester 1/Electrical/Unit 3/Questions\|Questions]]
 ***
 
 # Unit 3: Three Phase Balanced Systems & Electrical Installations

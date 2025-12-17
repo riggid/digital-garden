@@ -142,7 +142,7 @@ Questions
 
     41.Which of the following lists are syntactically correct in Python?
 
-    (a) [1, 2, 3, 'four'] (b) [1, 2, [3, 4]] (c) [[1, 2, 3]['four'\|1, 2, 3]['four']]
+    (a) [1, 2, 3, 'four'] (b) [1, 2, [3, 4]] (c) `[[1, 2, 3]['four']]`
 
     42.For lst [4, 2, 9, 1], what is the result of each of the following list operations?
 
@@ -584,7 +584,7 @@ Questions:
 
 41. Which of the following lists are syntactically correct in Python?
 
-    (a) [1, 2, 3, 'four'] (b) [1, 2, [3, 4]] (c) [[1, 2, 3]['four'\|1, 2, 3]['four']]
+    (a) [1, 2, 3, 'four'] (b) [1, 2, [3, 4]] (c) `[[1, 2, 3]['four']]`
 
     Answer:all are correct
 

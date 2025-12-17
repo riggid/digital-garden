@@ -3,9 +3,9 @@
 ---
 
 
-# [Back](../../Python.md)
+# [[../../Python\|Back]]
 ***
-[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Questions](Questions.md)
+[[Semester 1/Python/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 4/Examples\|Examples]] | [[Semester 1/Python/Unit 4/Questions\|Questions]]
 
 # Unit 4: Functional Programming and OOP
 

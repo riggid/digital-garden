@@ -2,10 +2,9 @@
 {"dg-publish":true,"permalink":"/semester-1/physics/unit-3/examples/"}
 ---
 
-
 # [[Semester 1/Physics/Physics\|Back]]
 ***
-[[Semester 1/Physics/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 3/Examples\|Examples]] | [[Semester 1/Physics/Unit 3/Q&A\|Questions]]
+[[Semester 1/Physics/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 3/Examples\|Examples]] | [[Semester 1/Physics/Unit 3/Questions\|Questions]]
 ***
 # Unit 3: Worked Examples
 

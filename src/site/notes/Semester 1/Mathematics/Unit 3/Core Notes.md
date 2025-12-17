@@ -2,10 +2,9 @@
 {"dg-publish":true,"permalink":"/semester-1/mathematics/unit-3/core-notes/"}
 ---
 
-
-# [Back](../../Mathematics.md)
+# [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
-[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Questions](Questions.md)
+[[Semester 1/Mathematics/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 3/Examples\|Examples]] | [[Semester 1/Mathematics/Unit 3/Questions\|Questions]]
 
 # Unit 3: Partial Differential Equations
 
@@ -47,7 +46,7 @@ Consider a relation $f(x, y, z, a, b) = 0$ involving two arbitrary constants $a$
 3.  Eliminate the constants $a$ and $b$ using the original equation and the two derived equations.
  Since there are two constants to be eliminated from three equations, we typically get a first-order PDE.
 
-> See also: [Examples](Examples.md#Example%201:%20Formation%20by%20Eliminating%20Constants)
+> See also: [[Semester 1/Mathematics/Unit 3/Examples#Example 1: Formation by Eliminating Constants\|Examples]]
 
 ### 2.2 Elimination of Arbitrary Functions
 Consider a relation $z = f(u)$ where $u$ is a known function of $x, y$ (e.g., $u = x^2 + y^2$), or a more general implicit form $\phi(u, v) = 0$ where $u, v$ are functions of $x, y, z$.
@@ -69,7 +68,7 @@ $$ P p + Q q = R $$
 where
 $$ P = \frac{\partial(u, v)}{\partial(y, z)}, \quad Q = \frac{\partial(u, v)}{\partial(z, x)}, \quad R = \frac{\partial(u, v)}{\partial(x, y)} $$
 
-> See also: [Examples](Examples.md#Example%202:%20Formation%20by%20Eliminating%20Arbitrary%20Functions)
+> See also: [[Semester 1/Mathematics/Unit 3/Examples#Example 2: Formation by Eliminating Arbitrary Functions\|Examples]]
 
 ***
 
@@ -88,7 +87,7 @@ To find $u$ and $v$:
 1.  **Method of Grouping**: Take any two fractions where variables can be separated easily (e.g., $dx/x = dy/y$) and integrate.
 2.  **Method of Multipliers**: Choose multipliers $(l, m, n)$ such that $lP + mQ + nR = 0$ or is an exact differential. If the denominator becomes zero, then the numerator $l dx + m dy + n dz = 0$, which can be integrated.
 
-> See also: [Examples](Examples.md#Example%203:%20Lagrange's%20Method%20-%20Grouping)
+> See also: [[Semester 1/Mathematics/Unit 3/Examples#Example 3: Lagrange's Method - Grouping\|Examples]]
 
 ***
 
@@ -141,7 +140,7 @@ Resolve into partial fractions or apply successively:
 $$ \frac{1}{D - mD'} f(x, y) = \int f(x, c - mx) dx $$
 where $y$ is replaced by $c - mx$ for integration, and after integration $c$ is replaced back by $y + mx$.
 
-> See also: [Examples](Examples.md#Example%205:%20Higher%20Order%20PDE%20Solution)
+> See also: [[Semester 1/Mathematics/Unit 3/Examples#Example 5: Higher Order PDE Solution\|Examples]]
 
 ***
 
@@ -170,4 +169,4 @@ Three cases for $k$:
 
 This form ($k < 0$) is the only physically realistic solution for transient heat conduction (decaying over time). Examples involve applying boundary conditions (e.g., $u(0, t)=0, u(L, t)=0$) to find $p$ and initial conditions to find coefficients using Fourier series.
 
-> See also: [Examples](Examples.md#Example%206:%20Separation%20of%20Variables%20-%20Heat%20Eq)
+> See also: [[Semester 1/Mathematics/Unit 3/Examples#Example 6: Separation of Variables - Heat Eq\|Examples]]

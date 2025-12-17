@@ -2,10 +2,9 @@
 {"dg-publish":true,"permalink":"/semester-1/physics/unit-4/core-notes/"}
 ---
 
-
 # [[Semester 1/Physics/Physics\|Back]]
 ***
-[[Semester 1/Physics/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 4/Examples\|Examples]] | [[Semester 1/Physics/Unit 4/Q&A\|Questions]]
+[[Semester 1/Physics/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 4/Examples\|Examples]] | [[Semester 1/Physics/Unit 4/Questions\|Questions]]
 ***
 
 # Unit 7: Lasers, Optoelectronics, and Advanced Materials
@@ -258,7 +257,7 @@ Or, using $B_{12}=B_{21}$:
 $$ u(\nu) = \frac{A_{21}}{B_{12}} \frac{1}{e^{h\nu/k_B T} - 1} $$
 This expression, identical to Planck's distribution when using the derived relations, underscores the necessity of stimulated emission for achieving thermal equilibrium in light-matter interaction.
 
-> See also: [Examples](Examples.md#Example%201:%20Population%20of%20Higher%20Energy%20State), [Examples](Examples.md#Example%202:%20Emission%20Wavelength%20and%20A/B%20Ratio), [Examples](Examples.md#Example%203:%20Wavelength%20and%20Energy%20Density%20of%20Radiation)
+> See also: [[Semester 1/Physics/Unit 4/Examples#Example 1: Population of Higher Energy State\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 2: Emission Wavelength and A/B Ratio\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 3: Wavelength and Energy Density of Radiation\|Examples]]
 
 ## 2. Conditions for Laser Action
 
@@ -897,7 +896,7 @@ This equation states that the threshold gain coefficient must be sufficient to o
 </svg>
 
 
-> See also: [Examples](Examples.md#Example%2012:%20Threshold%20Gain%20Factor%20for%20He-Ne%20Laser)
+> See also: [[Semester 1/Physics/Unit 4/Examples#Example 12: Threshold Gain Factor for He-Ne Laser\|Examples]]
 
 ### 4.2 Cavity Design Considerations for a Laser
 
@@ -970,7 +969,7 @@ Laser light exhibits several distinctive properties that make it invaluable acro
 **Description of Diagram (Spatial Coherence):** A diagram showing two points on a wavefront. In spatially coherent light, the phase difference between these two points remains constant over time. In incoherent light, this phase difference fluctuates randomly.
 ![Spatial Coherence Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Spatial_coherence.svg/400px-Spatial_coherence.svg.png)
 
-> See also: [Examples](Examples.md#Example%208:%20Degree%20of%20Non-Monochromaticity), [Examples](Examples.md#Example%209:%20Coherence%20Length%20of%20a%20Laser%20Beam), [Examples](Examples.md#Example%2010:%20Einstein%20Coefficients%20and%20Coherence%20Length), [Examples](Examples.md#Example%2011:%20He-Ne%20Laser%20Coherence)
+> See also: [[Semester 1/Physics/Unit 4/Examples#Example 8: Degree of Non-Monochromaticity\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 9: Coherence Length of a Laser Beam\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 10: Einstein Coefficients and Coherence Length\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 11: He-Ne Laser Coherence\|Examples]]
 
 ### 5.3 Directionality (Low Divergence)
 
@@ -1012,7 +1011,7 @@ The optical resonant cavity acts as a filter, supporting only specific frequenci
 **Description of Diagram (Gain Curve and Cavity Modes):** A plot showing a broad, bell-shaped curve representing the laser gain as a function of optical frequency. Superimposed are sharp, equally spaced vertical lines representing the longitudinal modes of the resonant cavity. Only the modes under the gain curve and above the threshold gain oscillate.
 ![Gain Curve and Cavity Modes Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Laser_modes.svg/600px-Laser_modes.svg.png)
 
-> See also: [Examples](Examples.md#Example%2013:%20Number%20of%20Modes%20and%20Frequency%20Separation%20in%20a%20Resonant%20Cavity)
+> See also: [[Semester 1/Physics/Unit 4/Examples#Example 13: Number of Modes and Frequency Separation in a Resonant Cavity\|Examples]]
 
 ## 6. Types of LASERs: Atomic Gas Laser - He-Ne Laser
 
@@ -1204,7 +1203,7 @@ A **semiconductor laser** (or **diode laser**) is essentially an LED designed to
 **Description of Diagram (Semiconductor Laser Energy Band Diagram under Lasing Condition):** A simplified energy band diagram for a p-n junction displaying distinct quasi-Fermi levels for electrons ($E_{F_e}$) and holes ($E_{F_h}$) under strong forward bias. The splitting $E_{F_e} - E_{F_h} > E_g$ signifies population inversion. An arrow depicts stimulated emission ($h\nu \approx E_g$) via electron-hole recombination.
 ![Semiconductor Laser Band Diagram](https://qph.cf2.quoracdn.net/main-qimg-e069542a73fd0fb5fb057406a441399f-lq)
 
-> See also: [Examples](Examples.md#Example%204:%20Wavelength%20of%20Laser%20Emitted%20from%20Semiconductor)
+> See also: [[Semester 1/Physics/Unit 4/Examples#Example 4: Wavelength of Laser Emitted from Semiconductor\|Examples]]
 
 ### 8.4 Homo-junction Laser and Hetero-junction Laser
 
@@ -1442,7 +1441,7 @@ Since $E = E_0 / \epsilon_r$,
 $$ P = \epsilon_0 (\epsilon_r - 1) \frac{E_0}{\epsilon_r} $$
 This expression relates the polarization to the external field.
 
-> See also: [Examples](Examples.md#Example%2014:%20Induced%20Surface%20Charge%20and%20Electric%20Fields), [Examples](Examples.md#Example%2015:%20Dielectric%20Properties%20with%20Charge%20Density), [Examples](Examples.md#Example%2016:%20Electronic%20Polarizability%20Calculation), [Examples](Examples.md#Example%2018:%20Polarization%20and%20Electric%20Field%20in%20a%20Capacitor)
+> See also: [[Semester 1/Physics/Unit 4/Examples#Example 14: Induced Surface Charge and Electric Fields\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 15: Dielectric Properties with Charge Density\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 16: Electronic Polarizability Calculation\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 18: Polarization and Electric Field in a Capacitor\|Examples]]
 
 #### 10.1.4 Susceptibility Tensor
 
@@ -1509,7 +1508,7 @@ The Lorentz field is fundamental in connecting the macroscopic dielectric proper
     $$ \frac{\epsilon_r - 1}{\epsilon_r + 2} = \frac{N \alpha}{3\epsilon_0} $$
 This is the **Clausius-Mossotti relation**, valid for materials with cubic symmetry and where electronic and ionic polarization mechanisms are dominant. It links macroscopic dielectric constant ($\epsilon_r$) to microscopic polarizability ($\alpha$) and number density ($N$).
 
-> See also: [Examples](Examples.md#Example%2017:%20Polarizability%20of%20Kr%20Atom), [Examples](Examples.md#Example%2019:%20Electronic%20Polarizability%20of%20Sulphur), [Examples](Examples.md#Example%2020:%20Total%20Polarizability%20of%20CO2)
+> See also: [[Semester 1/Physics/Unit 4/Examples#Example 17: Polarizability of Kr Atom\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 19: Electronic Polarizability of Sulphur\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 20: Total Polarizability of CO2\|Examples]]
 
 ### 10.3 Frequency Dependence of Dielectric Constant
 

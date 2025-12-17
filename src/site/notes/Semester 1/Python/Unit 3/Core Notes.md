@@ -3,9 +3,9 @@
 ---
 
 
-# [Back](../../Python.md)
+# [[../../Python\|Back]]
 ***
-[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Questions](Questions.md)
+[[Semester 1/Python/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 3/Examples\|Examples]] | [[Semester 1/Python/Unit 3/Questions\|Questions]]
 
 # Unit 3: Advanced Functions, Testing, Debugging, and GUI
 

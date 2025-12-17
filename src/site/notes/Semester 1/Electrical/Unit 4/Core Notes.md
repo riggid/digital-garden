@@ -2,9 +2,9 @@
 {"dg-publish":true,"permalink":"/semester-1/electrical/unit-4/core-notes/"}
 ---
 
-# [Back](../../Electrical.md)
+# [[Semester 1/Electrical/Electrical\|Back]]
 ***
-[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Questions](Questions.md)
+[[Semester 1/Electrical/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Electrical/Unit 4/Examples\|Examples]] | [[Semester 1/Electrical/Unit 4/Questions\|Questions]]
 ***
 
 # Unit 4: Electromagnetism & Electrical Machines

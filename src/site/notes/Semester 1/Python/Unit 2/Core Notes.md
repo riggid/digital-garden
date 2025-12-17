@@ -3,9 +3,9 @@
 ---
 
 
-# [Back](../../Python.md)
+# [[../../Python\|Back]]
 ***
-[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Questions](Questions.md)
+[[Semester 1/Python/Unit 2/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 2/Examples\|Examples]] | [[Semester 1/Python/Unit 2/Questions\|Questions]]
 
 # Unit 2: Collections and Functions
 

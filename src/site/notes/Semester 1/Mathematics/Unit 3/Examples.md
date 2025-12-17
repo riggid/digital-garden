@@ -2,10 +2,9 @@
 {"dg-publish":true,"permalink":"/semester-1/mathematics/unit-3/examples/"}
 ---
 
-
-# [Back](../../Mathematics.md)
+# [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
-[Core Notes](Core%20Notes.md) | [Examples](Examples.md) | [Questions](Questions.md)
+[[Semester 1/Mathematics/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 3/Examples\|Examples]] | [[Semester 1/Mathematics/Unit 3/Questions\|Questions]]
 
 # Unit 3 Examples: Partial Differential Equations
 

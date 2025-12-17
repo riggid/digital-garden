@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/semester-1/mathematics/unit-1/examples/"}
 ---
 
-
 # [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
 # Questions and Examples from Unit 1
