@@ -13,20 +13,20 @@
 Maxwell's equations are a set of fundamental equations that describe the behavior of electric and magnetic fields. They can be expressed in differential form (applying to every point in space) or integral form (applying to larger regions).
 *   **Integral Forms**: Describe field behavior over **extended regions** (volumes, surfaces, lines). Useful for calculations with high symmetry.
 *   **Differential Forms**: Describe field behavior **at a specific point**. Relate local spatial variations (divergence, curl) to local sources or time variations. Essential for deriving other results (like the wave equation) and for analyzing fields in complex situations without symmetry.
-> See also: [[Semester 1/Physics/Unit 1/Questions#CL2_Q1: Difference between integral and differential forms of Maxwell's equations\|Questions]]
+> See also: [[Semester 1/Physics/Unit 1/Questions#cl2_q1:-difference-between-integral-and-differential-forms-of-maxwell's-equations\|Questions]]
 
 ### **Vector Operators**
 -   **Gradient ($\nabla\phi$)**: Acts on a scalar field ($\phi$) to produce a vector field. Points in the direction of **steepest increase**. Its magnitude is the maximum rate of change. (e.g., $\vec{E} = -\nabla V$).
 -   **Divergence ($\nabla \cdot \vec{A}$)**: Acts on a vector field ($\vec{A}$) to produce a scalar. Measures the "spreading out" or net outflow (source/sink) of the vector field from a point.
 -   **Curl ($\nabla \times \vec{A}$)**: Acts on a vector field ($\vec{A}$) to produce another vector field. Measures the "circulation density" or "vorticity" of the vector field at a point. Its direction indicates the axis of rotation, and its magnitude the strength of rotation. (e.g., current creates circulating $\vec{B}$).
-> See also: [[Semester 1/Physics/Unit 1/Questions#Explain the geometric interpretation of the gradient, divergence and curl of a vector field?\|Questions]]
+> See also: [[Semester 1/Physics/Unit 1/Questions#explain-the-geometric-interpretation-of-the-gradient,-divergence-and-curl-of-a-vector-field?\|Questions]]
 
 ### **Maxwell's Equations in a Medium**
 -   **Gauss's Law for Electric Fields**: $\nabla \cdot \vec{E} = \frac{\rho}{\epsilon_{0}}$. Source: **electric charge density** $\rho$.
 -   **Gauss's Law for Magnetic Fields**: $\nabla \cdot \vec{B} = 0$. Physically, **magnetic monopoles do not exist** (magnetic field lines always form closed loops).
 -   **Faraday's Law of Induction**: $\nabla \times \vec{E} = - \frac{\partial \vec{B}}{\partial t}$. A time-varying magnetic field induces an electric field.
 -   **Ampere-Maxwell Law**: $\nabla \times \vec{B} = \mu_{0}\vec{J} + \mu_{0}\epsilon_{0} \frac{\partial \vec{E}}{\partial t}$. Sources: **electric current density** $\vec{J}$ and **displacement current** density $\epsilon_0 \frac{\partial\vec{E}}{\partial t}$.
-> See also: [[Semester 1/Physics/Unit 1/Questions#Which of Maxwell's equations contain 'sources'?\|Questions]]
+> See also: [[Semester 1/Physics/Unit 1/Questions#which-of-maxwell's-equations-contain-'sources'?\|Questions]]
 
 ### **The Wave Equation from Maxwell's Equations**
 In free space ($\rho=0, \vec{J}=0$), Maxwell's equations can be combined to derive the wave equation for both $\vec{E}$ and $\vec{B}$.
@@ -47,10 +47,10 @@ For a plane electromagnetic wave:
 *   They are mutually **perpendicular** to each other.
 *   They are both perpendicular to the direction of wave propagation. The direction of propagation is given by the cross product $\vec{S} \propto \vec{E} \times \vec{B}$.
 
-![EM Wave Propagation](/img/user/Semester%201/Physics/Unit%201/Attachments/em_wave_propagation.jpg)
+![Attachments/em_wave_propagation.jpg|EM Wave Propagation](/img/user/Semester%201/Physics/Unit%201/Attachments/em_wave_propagation.jpg)
 
-> See also: [[Semester 1/Physics/Unit 1/Questions#Discuss the phase correlation and direction of the E and B fields of an EM Wave.\|Questions]]
-> For a numerical problem, see: [[Semester 1/Physics/Unit 1/Examples#Example 1: EM Wave Properties\|Examples]]
+> See also: [[Semester 1/Physics/Unit 1/Questions#discuss-the-phase-correlation-and-direction-of-the-e-and-b-fields-of-an-em-wave.\|Questions]]
+> For a numerical problem, see: [[Semester 1/Physics/Unit 1/Examples#example-1:-em-wave-properties\|Examples]]
 
 ---
 
@@ -65,13 +65,13 @@ The energy density (energy per unit volume, $u$) in an EM wave is shared equally
 The **Poynting Vector** ($\vec{S}$) describes the direction and rate of energy flow per unit area (power per unit area, or energy flux) in an EM wave.
 $$\vec{S} = \frac{1}{\mu_{0}} (\vec{E} \times \vec{B})$$
 The magnitude of the Poynting vector ($S$) is equal to the total energy density ($u$) multiplied by the speed of the wave ($c$): $S = uc$.
-> See also: [[Semester 1/Physics/Unit 1/Questions#Discuss the energy density in electromagnetic waves and how is it related to the Poynting vector?\|Questions]]
+> See also: [[Semester 1/Physics/Unit 1/Questions#discuss-the-energy-density-in-electromagnetic-waves-and-how-is-it-related-to-the-poynting-vector?\|Questions]]
 
 ### **Polarization of Light**
 Polarization describes the orientation of the electric field oscillations in an electromagnetic wave.
 -   **Circularly Polarized Light**: Electric field vector rotates in a **circle**. Formed by two perpendicular plane-polarized waves of **equal amplitude** with a **$90^{\circ}$ phase difference**.
 -   **Elliptically Polarized Light**: Electric field vector traces an **ellipse**. Formed when the two perpendicular components have **unequal amplitudes** or a phase difference other than $0^\circ$, $\pm 90^\circ$, or $180^\circ$.
-> See also: [[Semester 1/Physics/Unit 1/Questions#Differentiate between circular and elliptical polarization of light.\|Questions]]
+> See also: [[Semester 1/Physics/Unit 1/Questions#differentiate-between-circular-and-elliptical-polarization-of-light.\|Questions]]
 
 ---
 
@@ -90,14 +90,14 @@ An idealized object that absorbs all incident electromagnetic radiation and emit
 2.  **Wien's Displacement Law**: As blackbody temperature increases, the peak intensity shifts to shorter wavelengths (higher frequencies).
 3.  **Stefan-Boltzmann Law**: Total energy radiated (area under the curve) increases dramatically ($\propto T^4$) with temperature.
 
-![Blackbody Radiation Spectrum](/img/user/Semester%201/Physics/Unit%201/Attachments/blackbody_spectrum_curves.jpg)
+![Attachments/blackbody_spectrum_curves.jpg|Blackbody Radiation Spectrum](/img/user/Semester%201/Physics/Unit%201/Attachments/blackbody_spectrum_curves.jpg)
 
 -   **Classical Failure (Ultraviolet Catastrophe)**: The classical Rayleigh-Jeans law ($\rho(\nu)d\nu = \frac{8\pi \nu^2}{c^3}kT d\nu$) incorrectly predicted infinite energy at high frequencies.
 -   **Planck's Solution (Quantum Hypothesis)**: Max Planck resolved this by postulating that energy is quantized ($E = nh\nu$). His formula:
     $$\rho(\nu)d\nu = \frac{8\pi h\nu^{3}}{c^{3}}\frac{1}{e^{h\nu / kT}-1}d\nu $$
     **Average energy of a Planck oscillator**: $\langle E \rangle = \frac{h\nu}{e^{h\nu/kT}-1}$.
     This formula correctly described the spectrum and explained the Ultraviolet Catastrophe by ensuring $\langle E \rangle \to 0$ for high frequencies.
-> See also: [[Semester 1/Physics/Unit 1/Questions#Describe the characteristics of a black body spectrum.\|Questions]], [[Semester 1/Physics/Unit 1/Questions#Write Planck's formula for black body radiation.\|Questions]], [[Semester 1/Physics/Unit 1/Examples#Example 2: Planck's vs. Classical Energy\|Examples]]
+> See also: [[Semester 1/Physics/Unit 1/Questions#describe-the-characteristics-of-a-black-body-spectrum.\|Questions]], [[Semester 1/Physics/Unit 1/Questions#write-planck's-formula-for-black-body-radiation.\|Questions]], [[Semester 1/Physics/Unit 1/Examples#example-2:-planck's-vs.-classical-energy\|Examples]]
 
 #### **Derivation of the Number of Electromagnetic Modes per Unit Frequency Interval in a 3D Cavity (Self-Study Topic)**
 This derivation is crucial for the classical Rayleigh-Jeans law. It involves counting the number of standing wave modes allowed in a cubic cavity.
@@ -135,7 +135,7 @@ This derivation is crucial for the classical Rayleigh-Jeans law. It involves cou
 -   **Classical Failure**: Predicted energy of emitted electrons depends on intensity, and emission should have time delay.
 -   **Einstein's Explanation (1905)**: Light consists of photons ($E = h\nu$). $KE_{max} = h\nu - \phi$ (Work Function). This explained instantaneous, frequency-dependent emission.
 
-![Photoelectric Effect](/img/user/Semester%201/Physics/Unit%201/Attachments/photoelectric_effect_schematic.jpg)
+![Attachments/photoelectric_effect_schematic.jpg|Photoelectric Effect](/img/user/Semester%201/Physics/Unit%201/Attachments/photoelectric_effect_schematic.jpg)
 
 ---
 
@@ -150,9 +150,9 @@ Scattering of X-rays (or gamma rays) by electrons results in a decrease in energ
     *   Minimum shift ($\Delta\lambda = 0$) at $\theta = 0^\circ$.
     *   Maximum shift ($\Delta\lambda = 2\lambda_C$) at $\theta = 180^\circ$.
 
-![Compton Scattering](/img/user/Semester%201/Physics/Unit%201/Attachments/compton_scattering_diagram.jpg)
+![Attachments/compton_scattering_diagram.jpg|Compton Scattering](/img/user/Semester%201/Physics/Unit%201/Attachments/compton_scattering_diagram.jpg)
 
-> See also: [[Semester 1/Physics/Unit 1/Questions#How does classical theory fail to explain the results of Compton's experiment?\|Questions]], [[Semester 1/Physics/Unit 1/Examples#Example 3: Compton Scattering Calculation\|Examples]]
+> See also: [[Semester 1/Physics/Unit 1/Questions#how-does-classical-theory-fail-to-explain-the-results-of-compton's-experiment?\|Questions]], [[Semester 1/Physics/Unit 1/Examples#example-3:-compton-scattering-calculation\|Examples]]
 
 ### **Derivation of Compton Shift ($\Delta\lambda$)** **(Self-Study Topic - Simplified Version)**
 The Compton shift derived from relativistic conservation of energy and momentum during a collision between an incident photon and a stationary electron.
@@ -202,7 +202,7 @@ The Compton shift derived from relativistic conservation of energy and momentum 
 -   **de Broglie Wavelength**: $$\lambda = \frac{h}{p} = \frac{h}{mv} = \frac{h}{\sqrt{2mE_K}}$$ *(Using non-relativistic kinetic energy $E_K$).*
 -   **Significance**: Wave nature is significant only for microscopic particles (small $m$), producing measurable $\lambda$. For macroscopic objects, $\lambda$ is extremely small and undetectable.
 -   **Experimental Verification**: Davisson-Germer experiment (electron diffraction) confirmed the wave nature of electrons.
-> See also: [[Semester 1/Physics/Unit 1/Questions#What are matter waves? State the De-Broglie hypothesis.\|Questions]], [[Semester 1/Physics/Unit 1/Questions#Why is the wave nature of matter not apparent for macroscopic particles?\|Questions]], [[Semester 1/Physics/Unit 1/Examples#Example 4: De-Broglie Wavelength of an Electron\|Examples]], [[Semester 1/Physics/Unit 1/Examples#Example 5: De-Broglie Wavelength of an Alpha Particle\|Examples]]
+> See also: [[Semester 1/Physics/Unit 1/Questions#what-are-matter-waves?-state-the-de-broglie-hypothesis.\|Questions]], [[Semester 1/Physics/Unit 1/Questions#why-is-the-wave-nature-of-matter-not-apparent-for-macroscopic-particles?\|Questions]], [[Semester 1/Physics/Unit 1/Examples#example-4:-de-broglie-wavelength-of-an-electron\|Examples]], [[Semester 1/Physics/Unit 1/Examples#example-5:-de-broglie-wavelength-of-an-alpha-particle\|Examples]]
 
 ### **Wave Packets, Phase and Group Velocity**
 -   **Wave Packet**: A localized superposition of waves representing a moving particle.
@@ -287,14 +287,14 @@ The Heisenberg Uncertainty Principle provides a fundamental quantum mechanical a
     The binding energies of particles (protons and neutrons) inside the nucleus are typically only a few MeV (e.g., 7-8 MeV). The calculated minimum intrinsic kinetic energy for an electron confined within the nucleus (approx. 95 MeV) is vastly higher than these binding energies.
 
 **Conclusion:** Quantum mechanics (Heisenberg Uncertainty Principle) dictates that an electron confined to the nucleus *must* possess a minimum energy far exceeding the strong nuclear force's capacity to bind it. An electron with such high intrinsic kinetic energy would not be a stable bound state; it would instantaneously escape. This evidence supports that electrons are *created* during beta decay from neutron-proton transformations, rather than pre-existing within the nucleus.
-> See also: [[Semester 1/Physics/Unit 1/Examples#Example 11: Minimum Energy in a 1D Box (Nucleus\|Examples]]) *(Note: Example 11 uses the particle-in-a-box energy, not the uncertainty principle directly, but yields a similarly high energy, reinforcing the incompatibility.)*
+> See also: [[Semester 1/Physics/Unit 1/Examples#example-11:-minimum-energy-in-a-1d-box-(nucleus\|Examples]]) *(Note: Example 11 uses the particle-in-a-box energy, not the uncertainty principle directly, but yields a similarly high energy, reinforcing the incompatibility.)*
 
 ### **The Wavefunction ($\Psi$)**
 -   **Definition**: A complex valued function $\Psi(\mathbf{r}, t)$ that contains all the probabilistic information about a quantum system.
 -   **Physical Interpretation (Born Interpretation)**: The wavefunction $\Psi$ itself has no direct physical meaning. Its squared magnitude, $|\Psi|^2 = \Psi^*\Psi$, represents the **probability density** of finding the particle at a certain position $\mathbf{r}$ and time $t$.
 -   **Properties of a Valid Wavefunction**: Must be finite, single-valued, continuous, have continuous first derivatives, and be normalizable (total probability = 1).
 -   **Superposition Principle**: If $\psi_1$ and $\psi_2$ are possible states, then any linear combination $\psi = c_1\psi_1 + c_2\psi_2$ is also a possible state. This underlies interference phenomena.
-> See also: [[Semester 1/Physics/Unit 1/Questions#Give the physical interpretation of the wave function.\|Questions]], [[Semester 1/Physics/Unit 1/Questions#Mention the important properties of a wave function.\|Questions]], [[Semester 1/Physics/Unit 1/Questions#What is the physical significance of the normalization of a wave function?\|Questions]]
+> See also: [[Semester 1/Physics/Unit 1/Questions#give-the-physical-interpretation-of-the-wave-function.\|Questions]], [[Semester 1/Physics/Unit 1/Questions#mention-the-important-properties-of-a-wave-function.\|Questions]], [[Semester 1/Physics/Unit 1/Questions#what-is-the-physical-significance-of-the-normalization-of-a-wave-function?\|Questions]]
 
 ### **Observables, Operators, and Eigenvalues**
 -   **Observables**: Measurable physical quantities (e.g., position, momentum, energy).
@@ -308,7 +308,7 @@ The Heisenberg Uncertainty Principle provides a fundamental quantum mechanical a
     | Total Energy (Hamiltonian) | $\hat{H} = -\frac{\hbar^2}{2m}\nabla^2 + V(\mathbf{r})$ |
 -   **Eigenvalue Equation**: $\hat{A}\psi = a\psi$. Here, $\psi$ is an **eigenfunction** (a state where the observable has a definite value), and $a$ is the **eigenvalue** (that definite measured value).
 -   **Expectation Value ($\langle A \rangle$)**: The theoretical average result of measuring an observable $A$ on many identical systems in state $\Psi$. If $\Psi$ is normalized, $\langle A \rangle = \int \Psi^* \hat{A} \Psi dV$.
-> See also: [[Semester 1/Physics/Unit 1/Questions#Explain operators, observables, and the eigenvalue equation.\|Questions]], [[Semester 1/Physics/Unit 1/Questions#Write five operators associated with dynamical variables.\|Questions]], [[Semester 1/Physics/Unit 1/Questions#Explain the concept of the "expectation value".\|Questions]], [[Semester 1/Physics/Unit 1/Questions#Find the expectation value of position, $\langle x \rangle$, for a particle in a box of width L.\|Questions]]
+> See also: [[Semester 1/Physics/Unit 1/Questions#explain-operators,-observables,-and-the-eigenvalue-equation.\|Questions]], [[Semester 1/Physics/Unit 1/Questions#write-five-operators-associated-with-dynamical-variables.\|Questions]], [[Semester 1/Physics/Unit 1/Questions#explain-the-concept-of-the-"expectation-value".\|Questions]], [[Semester 1/Physics/Unit 1/Questions#find-the-expectation-value-of-position,-$\langle-x-\rangle$,-for-a-particle-in-a-box-of-width-l.\|Questions]]
 
 ---
 
@@ -326,7 +326,7 @@ The Heisenberg Uncertainty Principle provides a fundamental quantum mechanical a
     This allows them to represent distinct, measurable outcomes.
 -   **Bloch Sphere**: A single qubit's state can be visualized as a point on the surface of a unit sphere (the Bloch sphere). $|0\rangle$ is at the North Pole, $|1\rangle$ at the South Pole. Any superposition $\alpha|0\rangle + \beta|1\rangle$ (after some phase factor elimination) maps to a unique point on the sphere, where the angles define $\alpha$ and $\beta$.
 
-![Bloch Sphere](/img/user/Semester%201/Physics/Unit%201/Attachments/bloch_sphere_qubit.jpg)
+![Attachments/bloch_sphere_qubit.jpg|Bloch Sphere](/img/user/Semester%201/Physics/Unit%201/Attachments/bloch_sphere_qubit.jpg)
 
 ### **Inner and Outer Products of Qubits**
 These are operations on state vectors that are fundamental in quantum mechanics.

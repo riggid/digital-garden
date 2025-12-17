@@ -612,7 +612,7 @@ Phasor Diagram:
 
 ---
 ### 27. 4kW inductive load, 200V, 50Hz, 0.8 Lag pf. i) Find P, Q, S. ii) Find C in parallel for unity pf.
-![](/img/user/Semester%201/Electrical/Unit%202/Q&A-1.png)
+![Q&A-1.png](/img/user/Semester%201/Electrical/Unit%202/Q&A-1.png)
 #### Solution:
 i) Powers:
 Active Power $P = 4$ kW $= 4000$ W (given).

@@ -36,7 +36,7 @@ The Classical Free Electron Theory (CFET), proposed by Drude and Lorentz (1904),
     The mean free path is the average distance an electron travels between successive collisions with ion cores or other scattering centers in a material. It is related to the relaxation time ($\tau$) and the electron's velocity ($v_{th}$ or $v_f$) by $\lambda = v \tau$.
 
 *   **(v) Relaxation time ($\tau$)**
-    The relaxation time (or mean free time) is the average time between two successive collisions of a conduction electron in a material. When an external electric field is applied, electrons accelerate, but collisions tend to restore them to equilibrium. $\tau$ is the characteristic time for this relaxation process. It is a key parameter in determining electrical conductivity. (See [[Semester 1/Physics/Unit 3/Examples#Example 7: Relaxation Time in a Metal\|Example 7: Relaxation Time in a Metal]])
+    The relaxation time (or mean free time) is the average time between two successive collisions of a conduction electron in a material. When an external electric field is applied, electrons accelerate, but collisions tend to restore them to equilibrium. $\tau$ is the characteristic time for this relaxation process. It is a key parameter in determining electrical conductivity. (See [[Semester 1/Physics/Unit 3/Examples#example-7:-relaxation-time-in-a-metal\|Example 7: Relaxation Time in a Metal]])
 
 *   **(vi) Mobility ($\mu$)**
     Electron mobility is a measure of how quickly an electron (or hole) can move through a metal or semiconductor under the influence of an electric field. It is defined as the magnitude of drift velocity per unit electric field: $\mu = \frac{|\mathbf{v_d}|}{E}$. In CFET, $\mu = \frac{e\tau}{m}$. Its unit is m$^2$/(V s).
@@ -179,19 +179,19 @@ This is the expression for the Fermi energy in terms of the electron (carrier) d
     *   **Expression:** $g(E) \propto E^{-1/2}$
     *   **Description of Plot:** The plot of $g(E)$ versus energy $E$ for a 1D system shows an inverse square root dependence, $g(E) \propto E^{-1/2}$. This means that the density of states is highest at low energies close to the band edges and decreases as energy increases. The plot starts with a high value and quickly drops for increasing $E$. It is continuous between step-like changes as new 1D sub-bands are started.
     *   **Plot:**
-        ![1D Density of States Plot](https://www.tf.uni-kiel.de/matwis/ag_th/lectures/esm/esmfiles/image009.gif) *(Conceptual image for 1D DoS - actual image source: tf.uni-kiel.de)*
+        ![[https://www.tf.uni-kiel.de/matwis/ag_th/lectures/esm/esmfiles/image009.gif\|1D Density of States Plot]] *(Conceptual image for 1D DoS - actual image source: tf.uni-kiel.de)*
 
 *   **2D System (e.g., Quantum Well):**
     *   **Expression:** $g(E) \propto \text{constant}$ (independent of E)
     *   **Description of Plot:** The plot of $g(E)$ versus energy $E$ for a 2D system is a horizontal line (a constant value) that begins at $E=0$ and extends outwards. This means that after a certain energy threshold (e.g., if there are multiple 2D sub-bands due to confinement), the DoS is a series of steps. Within each step, the DoS is constant, starting from a particular energy value.
     *   **Plot:**
-        ![2D Density of States Plot](https://www.tf.uni-kiel.de/matwis/ag_th/lectures/esm/esmfiles/image010.gif) *(Conceptual image for 2D DoS - actual image source: tf.uni-kiel.de)*
+        ![[https://www.tf.uni-kiel.de/matwis/ag_th/lectures/esm/esmfiles/image010.gif\|2D Density of States Plot]] *(Conceptual image for 2D DoS - actual image source: tf.uni-kiel.de)*
 
 *   **(For comparison, 3D System - bulk material):**
     *   **Expression:** $g(E) \propto E^{1/2}$
     *   **Description of Plot:** The plot of $g(E)$ versus energy $E$ for a 3D system starts at zero for $E=0$ and then increases parabolically as energy increases. This shows that more states become available at higher energies.
     *   **Plot:**
-        ![3D Density of States Plot](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Density_of_states.svg/500px-Density_of_states.svg.png) *(Conceptual image for 3D free electron gas)*
+        ![[https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Density_of_states.svg/500px-Density_of_states.svg.png\|3D Density of States Plot]] *(Conceptual image for 3D free electron gas)*
 
 **Relation of DoS to Nanomaterials' Special Properties:**
 
@@ -358,7 +358,7 @@ The Kronig-Penney model simplifies the complex periodic potential experienced by
 
 1.  **Potential Profile:**
     **Description of Potential Profile:** The Kronig-Penney model approximates the periodic potential of a crystal as a series of rectangular potential wells (representing the regions where electrons are attracted to atomic nuclei, offering lower potential energy) separated by rectangular potential barriers (representing the regions between atomic nuclei, offering higher potential energy). The width of the wells and barriers, along with the height of the barriers, are adjustable parameters.
-    ![Kronig-Penney Model Potential Profile](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Kronig-Penney_potential.svg/langja-480px-Kronig-Penney_potential.svg.png)
+    ![[https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Kronig-Penney_potential.svg/langja-480px-Kronig-Penney_potential.svg.png\|Kronig-Penney Model Potential Profile]]
 
 2.  **Emergence of Band Structure / Origin of Energy Bands:**
     When Schrödinger's equation is solved for an electron in this periodic potential, it's found that not all energies are allowed. The continuous energy spectrum of a free electron breaks into discrete allowed and forbidden regions. This is because the electron wave, moving through the periodic arrangement of atoms, undergoes diffraction.
@@ -513,7 +513,7 @@ The Meissner effect is crucial because it is a **defining characteristic** of su
     *   **Normal State (Region III, above $H_{C2}(T)$):** The material completely loses its superconducting properties and reverts to its normal, resistive state.
 The upper critical field $H_{C2}$ for Type II superconductors is typically much higher than the $H_C$ for Type I materials, making them suitable for high-field applications.
 
-![Critical magnetic field behavior for Type I and Type II superconductors](https://qph.cf2.quoracdn.net/main-qimg-80dc48e7188b776a394b9f33333e680a-lq)
+![[https://qph.cf2.quoracdn.net/main-qimg-80dc48e7188b776a394b9f33333e680a-lq\|Critical magnetic field behavior for Type I and Type II superconductors]]
 
 **5. Define Cooper pairs. Explain their role in the microscopic theory of superconductivity (BCS theory).**
 
@@ -864,7 +864,7 @@ Hysteresis (from Greek for "lagging behind") refers to the phenomenon where the 
 5.  **Reverse Saturation (Point E):** As the reverse field is further increased, the material eventually saturates in the opposite direction (point E).
 6.  **Complete Loop (EFB):** Reducing the reverse field to zero and then applying a positive field again completes the loop, returning to saturation (B). The entire closed curve (BCDEFB) is the hysteresis loop.
 
-![Magnetic Hysteresis Loop](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Hysteresis_loop_soft_magnetics.svg/800px-Hysteresis_loop_soft_magnetics.svg.png)
+![[https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Hysteresis_loop_soft_magnetics.svg/800px-Hysteresis_loop_soft_magnetics.svg.png\|Magnetic Hysteresis Loop]]
 
 **Implications of Hysteresis:**
 *   **Energy Loss:** The area enclosed by the hysteresis loop represents the energy dissipated as heat in the material during one complete cycle of magnetization and demagnetization.
@@ -980,7 +980,7 @@ A solenoid is essentially a long coil of wire wound helically. When current flow
 *   **Dipole Field:** Both a solenoid and a bar magnet produce a magnetic dipole field.
 *   **Example Illustration:**
     **Description of Diagram:** This diagram shows a cylindrical solenoid with current flowing through its turns. Magnetic field lines are depicted inside and outside the solenoid. Inside, they are straight and parallel. Outside, they emerge from one end (labeled North pole), loop around, and enter the other end (labeled South pole), mirroring the classic field pattern of a bar magnet.
-    ![Solenoid magnetic field vs Bar Magnet](https://www.e-education.psu.edu/files/eme803/electromagnet-bar-magnet-comparison.gif) *(Conceptual image: solenoid with field lines and labelled poles, resembling a bar magnet)*
+    ![[https://www.e-education.psu.edu/files/eme803/electromagnet-bar-magnet-comparison.gif\|Solenoid magnetic field vs Bar Magnet]] *(Conceptual image: solenoid with field lines and labelled poles, resembling a bar magnet)*
 
 **Significance:** This striking resemblance highlights how electric currents are the fundamental source of all magnetism. It forms the basis of electromagnets, which are essential components in countless technologies, allowing for controllable magnetic fields generated solely by electrical means.
 
@@ -1192,10 +1192,10 @@ Phase transitions are classified based on the behavior of thermodynamic quantiti
 ## Problems based on CFET and QFET
 
 Refer to the [[Semester 1/Physics/Unit 3/Examples\|Examples.md]] file for worked problems based on Classical and Quantum Free Electron Theory. Key examples include:
-*   [[Semester 1/Physics/Unit 3/Examples#Example 1: Fermi Factor Calculation\|Example 1: Fermi Factor Calculation]]
-*   [[Semester 1/Physics/Unit 3/Examples#Example 3: Fermi Velocity Calculation\|Example 3: Fermi Velocity Calculation]]
-*   [[Semester 1/Physics/Unit 3/Examples#Example 4: Number of Electron States\|Example 4: Number of Electron States]]
-*   [[Semester 1/Physics/Unit 3/Examples#Example 7: Relaxation Time in a Metal\|Example 7: Relaxation Time in a Metal]]
+*   [[Semester 1/Physics/Unit 3/Examples#example-1:-fermi-factor-calculation\|Example 1: Fermi Factor Calculation]]
+*   [[Semester 1/Physics/Unit 3/Examples#example-3:-fermi-velocity-calculation\|Example 3: Fermi Velocity Calculation]]
+*   [[Semester 1/Physics/Unit 3/Examples#example-4:-number-of-electron-states\|Example 4: Number of Electron States]]
+*   [[Semester 1/Physics/Unit 3/Examples#example-7:-relaxation-time-in-a-metal\|Example 7: Relaxation Time in a Metal]]
 
 ---
 # [[Semester 1/Physics/Physics\|Back]]

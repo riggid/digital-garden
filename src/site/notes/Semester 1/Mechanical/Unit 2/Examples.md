@@ -26,7 +26,7 @@ $E = 205 \, GPa$.
 ---
 ### Example 2: Bar with Multiple Loads
 A member ABCD is subjected to point loads P1, P2, P3 and P4 as shown. Calculate P2 for equilibrium if $P1=10$ kN, $P3=40$ kN and $P4=16$ kN. Taking $E = 205 \, GPa$, determine the total elongation. Diameters: AB=25mm, BC=50mm, CD=30mm. Lengths: AB=1000mm, BC=600mm, CD=800mm.
-![](/img/user/Semester%201/Mechanical/Unit%202/Examples-1.png)
+![Examples-1.png](/img/user/Semester%201/Mechanical/Unit%202/Examples-1.png)
 
 
 **Solution:**

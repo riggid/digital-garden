@@ -39,7 +39,7 @@
 *   **Answer**: Form Tools, Swiveling Compound Rest, Offsetting Tailstock, Taper Turning Attachment. Each uses different tool/workpiece setup or motion to generate conical surface. See [[Semester 1/Mechanical/Unit 4/Core Notes#22-lathe-operations-turning-facing-taper-turning-thread-cutting-knurling-parting\|Core Notes.md]].
 
 **8. For quickly centering and clamping a cylindrical part on a lathe, what type of chuck is most efficient and why?**
-*   **Answer**: A **three-jaw (self-centering) chuck** is most efficient. All jaws move simultaneously, automatically centering round/symmetrical jobs. See [[Semester 1/Mechanical/Unit 4/Core Notes#23-work-holding-devices-chucks\|Core Notes.md]] and [[Semester 1/Mechanical/Unit 4/Examples#Example 2: Efficient Chuck for Cylindrical Part\|Examples.md]].
+*   **Answer**: A **three-jaw (self-centering) chuck** is most efficient. All jaws move simultaneously, automatically centering round/symmetrical jobs. See [[Semester 1/Mechanical/Unit 4/Core Notes#23-work-holding-devices-chucks\|Core Notes.md]] and [[Semester 1/Mechanical/Unit 4/Examples#example-2:-efficient-chuck-for-cylindrical-part\|Examples.md]].
 
 **9. Explain the calculation of machining time and determination of roughing/finishing passes for a single turning operation.**
 *   **Answer**: Machining time $t = \frac{L + L_o}{f \times N}$. Number of passes derived from total stock, finish allowance, and depth of cut. See [[Semester 1/Mechanical/Unit 4/Core Notes#24-machining-time-calculation-for-turning-operations\|Core Notes.md]].
@@ -61,7 +61,7 @@
 *   **Answer**: UCM uses non-mechanical energy (thermal, chemical, electrical) to remove material, often without direct tool contact, with no traditional chip formation. Suitable for hard materials, intricate shapes. See [[Semester 1/Mechanical/Unit 4/Core Notes#312-distinction-from-conventional-machining-and-main-characteristics\|Core Notes.md]].
 
 **14. Describe the principle of operation for Abrasive Jet Machining (AJM). Explain how material removal occurs and list its key advantages and limitations.**
-*   **Answer**: High-velocity abrasive particle jet causes tiny brittle fractures. Advantages: suitable for brittle/hard materials, intricate shapes, no direct contact, low heat. Limitations: low MRR, not for ductile materials. See [[Semester 1/Mechanical/Unit 4/Core Notes#32-abrasive-jet-machining-ajm\|Core Notes.md]] and [[Semester 1/Mechanical/Unit 4/Examples#Example 3: Non-Conventional Machining for Ceramic Holes\|Examples.md]].
+*   **Answer**: High-velocity abrasive particle jet causes tiny brittle fractures. Advantages: suitable for brittle/hard materials, intricate shapes, no direct contact, low heat. Limitations: low MRR, not for ductile materials. See [[Semester 1/Mechanical/Unit 4/Core Notes#32-abrasive-jet-machining-ajm\|Core Notes.md]] and [[Semester 1/Mechanical/Unit 4/Examples#example-3:-non-conventional-machining-for-ceramic-holes\|Examples.md]].
 
 **15. Explain the principle of operation of Electron Beam Machining (EBM). Describe the mechanism of material removal and list at least three advantages and three disadvantages.**
 *   **Answer**: Focused high-speed electron beam transfers kinetic energy to melt/vaporize material. Advantages: no burr/HAZ (controlled), fast for tough alloys, high precision. Disadvantages: high cost, vacuum needed, complex setup. See [[Semester 1/Mechanical/Unit 4/Core Notes#33-electron-beam-machining-ebm\|Core Notes.md]].

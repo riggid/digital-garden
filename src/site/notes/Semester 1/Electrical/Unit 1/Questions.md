@@ -11,7 +11,7 @@
 
 ### Obtain the equivalent resistance between the terminals A & B.
 
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-1.png)
+![Q&A-1.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-1.png)
 #### Process/Explanation
 The equivalent resistance is found by iteratively reducing the series and parallel combinations of the resistors, utilizing $\Delta$-Y or Y-$\Delta$ transformation if a bridge structure is present.
 
@@ -27,7 +27,7 @@ $$\text{Equivalent Resistance: } R_{AB} = 21.94 \, \Omega$$
 ***
 
 ### Determine the current through the $2\Omega$ resistor using Superposition Theorem.
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-2.png)
+![Q&A-2.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-2.png)
 
 #### Process/Explanation
 The Superposition Theorem states that the total current is the algebraic sum of the currents produced by each independent source acting alone.
@@ -42,7 +42,7 @@ $$\text{Total Current: } I_{\text{total}} = I' + I'' + I''' = 3\text{A} + (-2\te
 ***
 
 ### Obtain the Thevenin's Equivalent between the terminals A & B.
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-3.png)
+![Q&A-3.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-3.png)
 #### Process/Explanation
 Thevenin's theorem requires finding the open-circuit voltage ($V_{TH}$) and the Thevenin resistance ($R_{TH}$) across the specified terminals A and B.
 
@@ -106,7 +106,7 @@ A series $RLC$ circuit consumes $P=2\text{KW}$ of power when connected across $V
 ## JULY 2022 ESA (UE21EE141B - II SEM)
 
 ### Obtain the equivalent resistance between the terminals A & B.
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-4.png)
+![Q&A-4.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-4.png)
 
 #### Process/Explanation
 The equivalent resistance ($R_{AB}$) is determined by systematically reducing the circuit using series and parallel combination rules, often requiring a $\Delta$-Y (or Y-$\Delta$) transformation to resolve internal bridge structures.
@@ -148,7 +148,7 @@ $$\text{Equivalent Resistance: } R_{AB} = 29.77 \, \Omega$$
 ***
 
 ### Determine the current through the $6\Omega$ resistor using Superposition Theorem.
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-5.png)
+![Q&A-5.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-5.png)
 #### Process/Explanation
 Apply the Superposition Theorem by activating one source at a time while deactivating others (VS $\rightarrow$ short circuit, CS $\rightarrow$ open circuit).
 
@@ -163,7 +163,7 @@ $$\text{Total Current: } I_{\text{total}} = 8\text{A} + 1.67\text{A} + (-4\text{
 
 ### Thevenin's Theorem and Load Current Range
 Using Thevenin's Theorem, determine the range of current through $R_L$ as it varies from $1\Omega$ to $10\Omega$.
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-6.png)
+![Q&A-6.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-6.png)
 #### Process/Explanation
 1.  **Thevenin Resistance ($R_{TH}$):** Deactivate all independent sources (VS $\rightarrow$ short, CS $\rightarrow$ open). Calculate the equivalent resistance across $R_L$'s terminals.
 2.  **Thevenin Voltage ($V_{TH}$):** Calculate the open-circuit voltage across $R_L$'s terminals using Nodal or Mesh analysis.
@@ -206,7 +206,7 @@ $$\text{Load current range: } I_{L} \text{ varies between } 49.66 \, \text{mA} \
 ### Question 2: Find Voltage $V_{AB}$
 *Find the voltage $V_{AB}$ in the network shown.*
 
-![Question 2 Diagram](/img/user/Semester%201/Electrical/Unit%201/Attachments/l1_q2_diagram.png)
+![Attachments/l1_q2_diagram.png|Question 2 Diagram](/img/user/Semester%201/Electrical/Unit%201/Attachments/l1_q2_diagram.png)
 **Solution:**
 We apply KVL to each independent loop to find the potential at points A and B relative to the bottom common wire.
 
@@ -259,7 +259,7 @@ We apply KVL to each independent loop to find the potential at points A and B re
 
 ### Question 2: Circuit Analysis
 *For the circuit shown, find $V_1$ and $V_2$ and also the power dissipated in each of the resistors. Given $I_1=5mA$ and $I_2=3mA$.*
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-7.png)
+![Q&A-7.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-7.png)
 **Solution:**
 This problem's diagram is ambiguous. Assuming $V_1$ and $V_2$ are voltage sources, and $I_1$ and $I_2$ are the currents flowing out of them respectively, the circuit can be solved. However, a clear solution is difficult without a standard circuit layout. Using the provided answer key as a guide:
 * **$V_1$ = 9.412V**
@@ -281,7 +281,7 @@ Source transformation is a circuit analysis technique used to simplify circuits 
 
 ### Question 2: Find Current using Source Transformation
 *Find the current $i_{out}$ when $R_{out}=3k\Omega$ using source transformation.*
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-8.png)
+![Q&A-8.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-8.png)
 **Solution:**
 1.  **Transform the left source**: A 20V source in series with a $2k\Omega$ resistor becomes a current source of $I = 20V / 2k\Omega = 10mA$ (pointing up) in parallel with a $2k\Omega$ resistor.
 2.  **Transform the center source**: A 30V source in series with a $2k\Omega$ resistor becomes a current source of $I = 30V / 2k\Omega = 15mA$ (pointing down) in parallel with a $2k\Omega$ resistor.
@@ -301,7 +301,7 @@ Source transformation is a circuit analysis technique used to simplify circuits 
 
 ### Question 1: Find Resistor Values
 *In the circuit shown, current is 50A & 70A when the switch is in position 1 and 2 respectively, and 25A with the switch open. Find the value of resistors.*
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-9.png)
+![Q&A-9.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-9.png)
 
 **Solution:**
 Let the source be $V=100V$. We have three scenarios:
@@ -340,7 +340,7 @@ Now, solve for the resistors:
 
 ### Question 2: Find $V_{AB}$ with Switch
 *Find the value of Voltage $V_{AB}$, if the current through the 15Ω resistor is 3A when the switch S is (i) Closed and (ii) Open.*
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-10.png)
+![Q&A-10.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-10.png)
 **Solution:**
 The problem interpretation is challenging, but based on the provided answer key:
 * **(i) Switch S is Closed**: **$V_{AB} = 77V$**
@@ -354,7 +354,7 @@ A step-by-step derivation is difficult due to the unconventional diagram, but th
 
 ### Question 1: Source Transformation
 *Apply Source Transformation to find the current flowing through branch AB.*
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-11.png)
+![Q&A-11.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-11.png)
 **Solution:**
 1.  **Transform the left source**: 18V source in series with 3Ω resistor becomes a current source $I = 18V / 3\Omega = 6A$ (up) in parallel with a 3Ω resistor.
 2.  **Combine parallel resistors**: The new 3Ω resistor is in parallel with the existing 6Ω resistor. $R_{p1} = (3\Omega \times 6\Omega) / (3\Omega + 6\Omega) = 18/9 = 2\Omega$.
@@ -386,7 +386,7 @@ For the two networks (Delta: $R_{ab}, R_{bc}, R_{ca}$; Star: $R_a, R_b, R_c$) to
 
 ### Question 2: Delta to Star Transformation
 *Transform the given delta to equivalent star: $R_{AB} = 1\Omega, R_{BC} = 2\Omega, R_{CA} = 3\Omega$.*
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-12.png)
+![Q&A-12.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-12.png)
 **Solution:**
 Using the derived formulas:
 $$ R_A = \frac{R_{AB} \times R_{CA}}{\sum R_\Delta} = \frac{1 \times 3}{1 + 2 + 3} = \frac{3}{6} = 0.5 \Omega $$
@@ -398,7 +398,7 @@ The equivalent star resistors are **$R_A = 0.5\Omega$**, **$R_B = 0.33\Omega$**,
 
 ### Question 3: Star to Delta Transformation
 *Transform the given star to equivalent delta: $R_A = 1\Omega, R_B = 2\Omega, R_C = 3\Omega$.*
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-13.png)
+![Q&A-13.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-13.png)
 **Solution:**
 First, calculate the sum of products:
 $$ \sum R_aR_b = R_A R_B + R_B R_C + R_C R_A = (1)(2) + (2)(3) + (3)(1) = 2 + 6 + 3 = 11 $$
@@ -414,8 +414,8 @@ The equivalent delta resistors are **$R_{AB} = 3.67\Omega$**, **$R_{BC} = 11\Ome
 
 ### Question 1 & 2: Equivalent Resistance
 *Find the equivalent resistance between the terminals A and B in the given networks.*
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-14.png)
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-15.png)
+![Q&A-14.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-14.png)
+![Q&A-15.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-15.png)
 **Solution for Circuit 1 (Bridge-like)**:
 
 
@@ -453,8 +453,8 @@ This is a symmetrical Wheatstone bridge structure. Due to symmetry, the central 
 
 ### Question 1 & 2: Equivalent Resistance
 *Find the equivalent resistance between the terminals A and B in the given networks.*
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-16.png)
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-17.png)
+![Q&A-16.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-16.png)
+![Q&A-17.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-17.png)
 **Solution for Circuit 1**:
 
 This circuit can be solved by applying Delta-to-Star transformation.
@@ -487,8 +487,8 @@ This circuit contains a bridge that can be simplified.
 
 ### Question 1 & 2: Mesh Analysis
 *Solve the circuits using Mesh Analysis.*
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-18.png)
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-19.png)
+![Q&A-18.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-18.png)
+![Q&A-19.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-19.png)
 **Solution for Circuit 1 (Bridge)**:
 
 1.  **KVL for Mesh 1 ($I_1$)**:
@@ -525,8 +525,8 @@ Solving this system of equations yields the mesh currents. The current through t
 
 ### Question 1 & 2: Mesh Analysis
 *Solve the circuits using Mesh Analysis.*
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-20.png)
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-21.png)
+![Q&A-20.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-20.png)
+![Q&A-21.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-21.png)
 **Solution for Circuit 1 (2Ω Resistor)**:
 
 1.  **Mesh 1**: This is a supermesh because of the 6A current source. The current $I_1$ is directly determined:
@@ -561,7 +561,7 @@ The Superposition Theorem states that in any linear circuit with multiple indepe
 
 ### Question 2: Find Current using Superposition
 *Find the current through the 1Ω resistor in the circuit shown.*
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-22.png)
+![Q&A-22.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-22.png)
 **Solution:**
 Let $I_{1\Omega}$ be the downward current. We consider each source one by one.
 
@@ -592,8 +592,8 @@ Let $I_{1\Omega}$ be the downward current. We consider each source one by one.
 
 **Solution for Circuit 1 (7Ω Resistor)**:
 *Find the voltage across the 7Ω resistor.*
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-23.png)
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-24.png)
+![Q&A-23.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-23.png)
+![Q&A-24.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-24.png)
 
 Let $V_{7\Omega}$ be the voltage (positive on the left).
 1.  **7A Source Active** (2A source open):
@@ -648,7 +648,7 @@ Thevenin's Theorem states that any linear electrical network with two terminals 
 
 ### Question 2: Find Current using Thevenin's
 *Find the current through the 1Ω resistor using Thevenin's Theorem.*
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-25.png)
+![Q&A-25.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-25.png)
 **Solution:**
 1.  **Find $V_{th}$**: Remove the 1Ω resistor. Find the voltage across the open terminals.
     * This is a two-mesh circuit. Using mesh analysis, we can find the voltages at the nodes flanking the 1Ω resistor.
@@ -667,8 +667,8 @@ Thevenin's Theorem states that any linear electrical network with two terminals 
 
 ### Question 1 & 2: Thevenin's Theorem
 *Solve the circuits using Thevenin's Theorem.*
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-26.png)
-![](/img/user/Semester%201/Electrical/Unit%201/Q&A-27.png)
+![Q&A-26.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-26.png)
+![Q&A-27.png](/img/user/Semester%201/Electrical/Unit%201/Q&A-27.png)
 
 **Solution for Circuit 1 (10Ω Resistor)**:
 *Using Thevenin's Theorem, obtain the current through the 10Ω resistor.*

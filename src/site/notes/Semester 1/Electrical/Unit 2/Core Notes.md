@@ -33,21 +33,26 @@ Where:
     * If $\phi > 0$, the waveform **leads** the reference.
     * If $\phi < 0$, the waveform **lags** the reference.
 
-![Sinusoidal Waveform](/img/user/Semester%201/Electrical/Unit%202/Attachments/sine_wave_ac.png)
+![Attachments/sine_wave_ac.png|Sinusoidal Waveform](/img/user/Semester%201/Electrical/Unit%202/Attachments/sine_wave_ac.png)
 
 *(See Example 1 in the [[Semester 1/Electrical/Unit 2/Examples#example-1-sine-wave-properties\|Examples]] file for calculations involving frequency and time period.)*
 *(See Example 2 in the [[Semester 1/Electrical/Unit 2/Examples#example-2-instantaneous-value\|Examples]] file for calculating instantaneous values.)*
 *(See Example 3 in the [[Semester 1/Electrical/Unit 2/Examples#example-3-phase-lag-lead\|Examples]] file for understanding phase relationships.)*
 
 ---
-## Average and RMS Values
+### **Average and RMS Values**
 
 * **Average Value ($F_{avg}$)**: The average height of the waveform over one period. For a pure sinusoidal waveform, the average value over a full cycle is zero. The average over a half-cycle is $\frac{2}{\pi} \times \text{Peak Value} \approx 0.637 \times \text{Peak Value}$.
 * **Effective or Root Mean Square (RMS) Value ($F_{rms}$ or F)**: The equivalent DC value that would produce the same heating effect (power dissipation) in a resistor. It's calculated as the square root of the mean of the squared function values over one period. For a sinusoidal waveform $f(t) = F_m \sin(\omega t)$:
     $$F_{rms} = \sqrt{\frac{1}{T}\int_{0}^{T}[f(t)]^{2}dt} = \frac{F_m}{\sqrt{2}} \approx 0.707 \times F_m$$
     RMS values simplify power calculations: $P = V^2/R = I^2 R$, where V and I are RMS values.
+* **Form Factor ($K_f$)**: The ratio of RMS value to Average value. For a sine wave:
+    $$K_f = \frac{\text{RMS Value}}{\text{Average Value}} = \frac{0.707 F_m}{0.637 F_m} = 1.11$$
+* **Peak Factor (Crest Factor, $K_p$)**: The ratio of Maximum (Peak) value to RMS value. For a sine wave:
+    $$K_p = \frac{\text{Max Value}}{\text{RMS Value}} = \frac{F_m}{0.707 F_m} = 1.414$$
 
 ---
+
 ## Phasor Representation
 
 A **phasor** is a rotating vector used to represent a sinusoidal function. Its length represents the RMS value of the sinusoid, and its angle (measured from the positive real axis, usually at $t=0$) represents the phase angle. Sinusoids must have the same frequency to be represented on the same phasor diagram.
@@ -66,12 +71,13 @@ $$\bar{F} = \frac{F_m}{\sqrt{2}} \angle \phi = F_{rms} \angle \phi$$
     * Addition/Subtraction: Easier in rectangular form (add/subtract real and imaginary parts separately).
     * Multiplication/Division: Easier in polar form (multiply/divide magnitudes, add/subtract angles).
 
-![Phasor Diagram](/img/user/Semester%201/Electrical/Unit%202/Attachments/phasor_diagram_basic.png)
+![Attachments/phasor_diagram_basic.png|Phasor Diagram](/img/user/Semester%201/Electrical/Unit%202/Attachments/phasor_diagram_basic.png)
 
 *(See Example 4 in the [[Semester 1/Electrical/Unit 2/Examples#example-4-phasor-representation\|Examples]] file for converting sine waves to phasors.)*
 *(See Example 5 in the [[Semester 1/Electrical/Unit 2/Examples#example-5-phasor-addition\|Examples]] file for adding phasors.)*
 
 ---
+
 ## Response of Basic Elements (R, L, C)
 
 When a sinusoidal voltage $v(t) = V_m \sin(\omega t)$ (Phasor $\bar{V} = V \angle 0^{\circ}$) is applied:
@@ -101,6 +107,7 @@ When a sinusoidal voltage $v(t) = V_m \sin(\omega t)$ (Phasor $\bar{V} = V \angl
 *(See Example 6 in the [[Semester 1/Electrical/Unit 2/Examples#example-6-capacitor-calculations\|Examples]] file for calculations involving a capacitor.)*
 
 ---
+
 ## Series AC Circuits
 
 For elements in series, the same current $\bar{I}$ flows through them. The total voltage $\bar{V}$ is the phasor sum of individual voltages. Total impedance $\bar{Z}_T$ is the phasor sum of individual impedances. The phase angle $\phi$ is the angle of the total impedance ($\phi = \angle \bar{Z}_T = \angle \bar{V} - \angle \bar{I}$).
@@ -119,15 +126,18 @@ For elements in series, the same current $\bar{I}$ flows through them. The total
     * If $X_L > X_C$, circuit is **inductive** (current lags voltage, $\phi > 0$).
     * If $X_C > X_L$, circuit is **capacitive** (current leads voltage, $\phi < 0$).
     * If $X_L = X_C$, circuit is **resistive** (current in phase with voltage, $\phi = 0$). This is **series resonance**.
+        * **Resonant Frequency ($f_r$)**: The frequency at which $X_L = X_C$.
+          $$\omega_r L = \frac{1}{\omega_r C} \implies f_r = \frac{1}{2\pi \sqrt{LC}}$$
 
-![Series RLC Circuit](/img/user/Semester%201/Electrical/Unit%202/Attachments/rlc_series_circuit.png)
+![Attachments/rlc_series_circuit.png|Series RLC Circuit](/img/user/Semester%201/Electrical/Unit%202/Attachments/rlc_series_circuit.png)
 
-![Impedance Triangle](/img/user/Semester%201/Electrical/Unit%202/Attachments/impedance_triangle.png)
+![Attachments/impedance_triangle.png|Impedance Triangle](/img/user/Semester%201/Electrical/Unit%202/Attachments/impedance_triangle.png)
 
 *(See Example 7 in the [[Semester 1/Electrical/Unit 2/Examples#example-7-series-rl-calculations\|Examples]] file for series RL analysis.)*
 *(See Example 8 and Example 9 in the [[Semester 1/Electrical/Unit 2/Examples#example-8-series-rlc-calculations\|Examples]] file for series RLC analysis.)*
 
 ---
+
 ## Power in AC Circuits
 
 * **Instantaneous Power ($p(t)$)**: $p(t) = v(t) \times i(t)$. Varies with time.
@@ -148,7 +158,7 @@ For elements in series, the same current $\bar{I}$ flows through them. The total
     For series circuits, $pf = R_T / |Z_T|$.
 * **Power Triangle**: A right-angled triangle illustrating the relationship $S^2 = P^2 + Q^2$. $P = S \cos \phi$, $Q = S \sin \phi$. 
 
-![Power Triangle](/img/user/Semester%201/Electrical/Unit%202/Attachments/power_triangle_diagram.png)
+![Attachments/power_triangle_diagram.png|Power Triangle](/img/user/Semester%201/Electrical/Unit%202/Attachments/power_triangle_diagram.png)
 
 *(See Example 10 in the [[Semester 1/Electrical/Unit 2/Examples#example-10-power-calculations\|Examples]] file for power calculations.)*
 

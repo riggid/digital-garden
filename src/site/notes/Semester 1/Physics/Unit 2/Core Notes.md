@@ -14,7 +14,7 @@ This unit applies the Schrödinger Wave Equation (SWE) to analyze the behavior o
 
 ---
 ## 1. Potential Step
-![Potential Step Diagram](/img/user/Semester%201/Physics/Unit%202/Attachments/potential_step_diagram.jpg)
+![Attachments/potential_step_diagram.jpg|Potential Step Diagram](/img/user/Semester%201/Physics/Unit%202/Attachments/potential_step_diagram.jpg)
 A potential step describes a sudden change in potential energy $V(x)$ from $0$ to a constant value $V_0$ at a boundary (e.g., $x=0$).
 The 1D time-independent SWE is: $\frac{d^{2}\psi}{dx^{2}}+\frac{2m}{\hbar^{2}}(E-V)\psi=0$.
 
@@ -74,7 +74,7 @@ Solution: $\psi_2(x) = F e^{-\alpha x} + G e^{\alpha x}$.
 
 ---
 ## 2. Potential Barrier and Tunneling
-![Potential Barrier Tunneling](/img/user/Semester%201/Physics/Unit%202/Attachments/potential_barrier_tunneling.jpg)
+![Attachments/potential_barrier_tunneling.jpg|Potential Barrier Tunneling](/img/user/Semester%201/Physics/Unit%202/Attachments/potential_barrier_tunneling.jpg)
 A potential barrier has $V(x)=V_0$ for $0 < x < L$ (finite width $L$) and $V(x)=0$ otherwise ($x<0$ or $x>L$). We primarily consider the case where $E < V_0$.
 
 **Regions and Wave Function Nature ($E < V_0$):**
@@ -283,7 +283,7 @@ The quantum harmonic oscillator models systems where a particle (mass $m$) exper
 ### **Potential Energy Curve and Energy Spectrum**
 *   **Potential Energy Curve**: A parabolic shape centered at $x=0$, $V(x) = \frac{1}{2} m \omega^2 x^2$.
     *(Sketch: A symmetric parabola opening upwards, with the bottom at $V=0, x=0$.)
-    ![Harmonic Oscillator Potential](/img/user/Semester%201/Physics/Unit%202/Attachments/harmonic_oscillator.png)
+    ![Attachments/harmonic_oscillator.png|Harmonic Oscillator Potential](/img/user/Semester%201/Physics/Unit%202/Attachments/harmonic_oscillator.png)
 *   **Quantized Energy Levels (Eigenvalues):** Solutions to the SWE exist only for discrete energy values:
     $$E_n = \left(n+\frac{1}{2}\right) \hbar \omega \quad (n=0, 1, 2, \dots)$$
     *   $n$ is the **vibrational quantum number**.

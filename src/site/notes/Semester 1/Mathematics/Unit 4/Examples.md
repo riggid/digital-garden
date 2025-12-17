@@ -77,4 +77,4 @@ Express $J_5(x)$ in terms of $J_0(x)$ and $J_1(x)$.
     Substitute $J_4, J_3$ and simplify to get final expression in terms of $J_1, J_0$.
     Final result involves terms like $\frac{1}{x^4}, \frac{1}{x^2}$ etc.
 
-> See [[Semester 1/Mathematics/Unit 4/Questions#Bessel Functions\|Questions]] for result.
+> See [[Semester 1/Mathematics/Unit 4/Questions#bessel-functions\|Questions]] for result.

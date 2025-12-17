@@ -26,7 +26,7 @@ $$ R_{12} = B_{12} N_1 u(\nu) $$
     This is typically expressed in units of $\text{m}^2 \text{ J}^{-1} \text{ s}^{-1}$ or $\text{m}^3 \text{ s}^{-2} \text{ kg}^{-1}$. In common units, it's often given as $\text{m}^3 \text{ Hz}^{-1} \text{ J}^{-1} \text{ s}^{-1}$.
 
 **Description of Diagram (Induced Absorption):** An energy level diagram illustrating induced absorption. Two energy levels are shown: $E_1$ (lower) and $E_2$ (upper). An upward arrow from $E_1$ to $E_2$ indicates an atom absorbing a photon ($h\nu$) to transition to the excited state. $N_1$ and $N_2$ represent populations of the respective states.
-![Induced Absorption Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Absorption_Process.svg/300px-Absorption_Process.svg.png)
+![[https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Absorption_Process.svg/300px-Absorption_Process.svg.png\|Induced Absorption Diagram]]
 
 ### 1.2 Spontaneous Emission
 
@@ -46,7 +46,7 @@ $$ R_{21,sp} = A_{21} N_2 $$
     Thus, the **lifetime of a state undergoing spontaneous emission is the inverse of the Einstein A coefficient**.
 
 **Description of Diagram (Spontaneous Emission):** An energy level diagram showing spontaneous emission. An atom in the upper state $E_2$ randomly transitions to the lower state $E_1$, emitting a photon ($h\nu$). This process is independent of external fields.
-![Spontaneous Emission Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Spontaneous_Emission.svg/300px-Spontaneous_Emission.svg.png)
+![[https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Spontaneous_Emission.svg/300px-Spontaneous_Emission.svg.png\|Spontaneous Emission Diagram]]
 
 ### 1.3 Stimulated Emission
 
@@ -60,174 +60,7 @@ $$ R_{21,st} = B_{21} N_2 u(\nu) $$
     $$ [B_{21}] = \frac{[R_{21,st}]}{[N_2][u(\nu)]} = \frac{[Time]^{-1}}{[Mass][Length]^{-1}[Time]^{-2}[Frequency]^{-1}} = \frac{[Length][Time]}{[Mass][Frequency]^{-1}} = \frac{[Length]}{[Mass]} $$
 
 **Description of Diagram (Stimulated Emission):** An energy level diagram showing stimulated emission. An atom in the upper state $E_2$ interacts with an incoming photon ($h\nu$). This interaction stimulates the atom to emit a second photon ($h\nu$), identical to the first, as it transitions to $E_1$.
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="svg2" xmlns:svg="http://www.w3.org/2000/svg"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="600px" height="330px"
-	 viewBox="0 0 600 330" enable-background="new 0 0 600 330" xml:space="preserve">
-<g id="g6647" transform="translate(161.1988,-194.8634)">
-	<path id="path2190" fill="none" stroke="#000000" stroke-width="2.9996" d="M49.389,293.963h126.93 M49.389,438.32h126.93"/>
-	<g id="g6641">
-		
-			<radialGradient id="path2222_1_" cx="654.0668" cy="148.9117" r="55.6873" gradientTransform="matrix(-0.1828 -0.1889 -0.2387 0.2309 276.515 387.9459)" gradientUnits="userSpaceOnUse">
-			<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.2371"/>
-			<stop  offset="1" style="stop-color:#20B01D;stop-opacity:0.2887"/>
-		</radialGradient>
-		<path id="path2222" fill="url(#path2222_1_)" d="M96.552,295.442c-1.52-10.093,5.439-19.519,15.532-21.038
-			s19.518,5.439,21.038,15.533c1.52,10.093-5.439,19.518-15.532,21.037c-9.936,1.496-19.225-5.188-20.964-15.084"/>
-		
-			<radialGradient id="path2224_1_" cx="654.0668" cy="148.9117" r="55.6871" gradientTransform="matrix(-0.1828 -0.1889 -0.2387 0.2309 276.515 413.7233)" gradientUnits="userSpaceOnUse">
-			<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.5464"/>
-			<stop  offset="1" style="stop-color:#20B01D;stop-opacity:0.567"/>
-		</radialGradient>
-		<path id="path2224" fill="url(#path2224_1_)" d="M96.552,321.22c-1.52-10.093,5.439-19.518,15.532-21.037
-			c10.093-1.52,19.518,5.438,21.038,15.532s-5.439,19.518-15.532,21.038c-9.936,1.496-19.225-5.188-20.964-15.084"/>
-		
-			<radialGradient id="path2206_1_" cx="654.0668" cy="148.9117" r="55.687" gradientTransform="matrix(-0.1828 -0.1889 -0.2387 0.2309 276.515 438.0289)" gradientUnits="userSpaceOnUse">
-			<stop  offset="0" style="stop-color:#FAFAFA;stop-opacity:0.8041"/>
-			<stop  offset="1" style="stop-color:#20B01D;stop-opacity:0.8247"/>
-		</radialGradient>
-		<path id="path2206" fill="url(#path2206_1_)" d="M96.552,345.525c-1.52-10.093,5.439-19.518,15.532-21.038
-			s19.518,5.439,21.038,15.532s-5.439,19.519-15.532,21.038c-9.936,1.496-19.225-5.188-20.964-15.084"/>
-		
-			<radialGradient id="path1306_1_" cx="654.0668" cy="148.9113" r="55.687" gradientTransform="matrix(-0.1828 -0.1889 -0.2387 0.2309 276.515 463.8063)" gradientUnits="userSpaceOnUse">
-			<stop  offset="0" style="stop-color:#FFFFFF"/>
-			<stop  offset="1" style="stop-color:#20B01D"/>
-		</radialGradient>
-		<path id="path1306" fill="url(#path1306_1_)" d="M96.552,371.303c-1.52-10.094,5.439-19.518,15.532-21.038
-			s19.518,5.439,21.038,15.532c1.52,10.094-5.439,19.519-15.532,21.038c-9.936,1.495-19.225-5.188-20.964-15.085"/>
-	</g>
-</g>
-<g id="g2401" transform="translate(-55.67228,48.17793)">
-	<path id="path3994" fill="none" stroke="#FA0202" d="M354.686,92.855c3.06-3.01,8.871-4.114,12.063-7.108
-		c3.602-3.397,4.318-8.717,7.788-12.13c3.06-3.01,8.871-4.114,11.864-7.045c3.402-3.334,4.119-8.653,7.588-12.067
-		c3.061-3.01,8.872-4.114,12.063-7.108c3.602-3.397,4.318-8.716,7.788-12.13c3.06-3.01,8.872-4.114,11.94-7.169
-		c3.479-3.459,4.195-8.778,7.665-12.191c3.06-3.01,8.872-4.114,12.063-7.108c3.602-3.397,4.318-8.717,7.788-12.13
-		c3.06-3.01,8.871-4.114,11.931-7.124"/>
-	<path id="path5757" fill="#FA0202" d="M477.219-21.441l-16.487,8.309l7.819,7.378L477.219-21.441z"/>
-</g>
-<g id="g6655" transform="translate(208.2981,-194.8634)">
-	<path id="path6639" fill="none" stroke="#000000" stroke-width="2.9996" d="M194.465,293.963h126.931 M194.465,438.32h126.931"/>
-	
-		<radialGradient id="path2194_1_" cx="606.9695" cy="148.9122" r="55.6872" gradientTransform="matrix(0.1828 0.1889 0.2387 -0.2309 102.2798 350.6851)" gradientUnits="userSpaceOnUse">
-		<stop  offset="0" style="stop-color:#FFFFFF"/>
-		<stop  offset="1" style="stop-color:#20B01D"/>
-	</radialGradient>
-	<path id="path2194" fill="url(#path2194_1_)" d="M273.635,434.293c1.52,10.094-5.439,19.519-15.532,21.038
-		c-10.094,1.52-19.519-5.438-21.038-15.532s5.439-19.518,15.532-21.037c9.936-1.496,19.226,5.188,20.965,15.084"/>
-</g>
-<path id="flowRoot6661" d="M560.572,114.004h-20.757V82.499h20.757v3.724h-16.567v8.633h16.567v3.724h-16.567v11.701h16.567V114.004
-	 M587.739,114.004h-21.327v-4.422c1.48-1.27,2.962-2.539,4.443-3.809c1.495-1.27,2.885-2.532,4.168-3.787
-	c2.708-2.624,4.563-4.705,5.564-6.242c1.002-1.552,1.502-3.223,1.502-5.015c0-1.636-0.543-2.913-1.629-3.83
-	c-1.072-0.931-2.574-1.396-4.507-1.396c-1.283,0-2.673,0.226-4.168,0.677c-1.495,0.452-2.955,1.143-4.38,2.074h-0.212v-4.443
-	c1.002-0.494,2.335-0.945,3.999-1.354c1.679-0.409,3.301-0.614,4.867-0.614c3.229,0,5.762,0.783,7.596,2.349
-	c1.834,1.552,2.75,3.661,2.75,6.326c0,1.199-0.154,2.321-0.465,3.364c-0.297,1.03-0.741,2.01-1.333,2.941
-	c-0.551,0.875-1.199,1.735-1.946,2.581c-0.734,0.847-1.63,1.785-2.688,2.814c-1.51,1.481-3.068,2.919-4.676,4.316
-	c-1.608,1.382-3.11,2.666-4.507,3.851h16.947V114.004"/>
-<path id="flowRoot6669" d="M560.572,256.647h-20.757v-31.505h20.757v3.724h-16.567v8.633h16.567v3.724h-16.567v11.701h16.567
-	V256.647 M585.941,256.647h-17.054v-3.216h6.559v-21.117h-6.559v-2.877c0.889,0,1.841-0.07,2.856-0.211
-	c1.016-0.156,1.784-0.375,2.306-0.656c0.649-0.354,1.157-0.797,1.523-1.334c0.381-0.549,0.6-1.283,0.656-2.199h3.279v28.395h6.433
-	V256.647"/>
-<path id="flowRoot6715" d="M428.653,35.481l-3.842,13.275c1.659-2.497,2.953-4.156,3.883-4.977s1.818-1.23,2.666-1.23
-	c0.438,0,0.802,0.15,1.094,0.451s0.438,0.702,0.438,1.203c0,0.602-0.128,1.331-0.383,2.188l-1.668,5.729
-	c-0.21,0.693-0.314,1.076-0.314,1.148c0,0.128,0.036,0.232,0.109,0.314c0.082,0.082,0.173,0.123,0.273,0.123
-	c0.118,0,0.255-0.059,0.41-0.178c0.52-0.401,1.034-0.957,1.545-1.668l0.424,0.26c-0.31,0.483-0.743,1.017-1.299,1.6
-	c-0.547,0.574-1.021,0.976-1.422,1.203c-0.392,0.219-0.743,0.328-1.053,0.328c-0.337,0-0.615-0.109-0.834-0.328
-	c-0.21-0.209-0.314-0.483-0.314-0.82c0-0.401,0.159-1.148,0.479-2.242l1.572-5.469c0.2-0.684,0.301-1.221,0.301-1.613
-	c0-0.182-0.06-0.328-0.178-0.438c-0.109-0.109-0.255-0.164-0.438-0.164c-0.265,0-0.565,0.101-0.902,0.301
-	c-0.62,0.383-1.335,1.094-2.146,2.133c-0.219,0.283-0.948,1.422-2.188,3.418c-0.383,0.638-0.697,1.335-0.943,2.092l-0.875,2.803
-	h-2.051l4.498-15.641l0.479-1.695c0-0.237-0.101-0.446-0.301-0.629c-0.191-0.182-0.429-0.273-0.711-0.273
-	c-0.164,0-0.415,0.027-0.752,0.082l-0.287,0.041v-0.533L428.653,35.481 M435.038,43.397l3.951-0.848
-	c0.282,0.675,0.511,1.363,0.684,2.064c0.246,1.03,0.446,2.251,0.602,3.664c0.073,0.711,0.173,2.215,0.301,4.512
-	c1.14-1.258,1.818-2.037,2.037-2.338c1.203-1.631,1.896-2.588,2.078-2.871c0.301-0.483,0.511-0.907,0.629-1.271
-	c0.101-0.273,0.15-0.533,0.15-0.779c0-0.237-0.214-0.51-0.643-0.82c-0.419-0.31-0.629-0.656-0.629-1.039
-	c0-0.292,0.114-0.551,0.342-0.779c0.237-0.228,0.515-0.342,0.834-0.342c0.383,0,0.72,0.16,1.012,0.479
-	c0.292,0.31,0.438,0.697,0.438,1.162s-0.073,0.912-0.219,1.34c-0.237,0.693-0.679,1.541-1.326,2.543
-	c-0.647,0.994-1.69,2.329-3.131,4.006c-0.183,0.21-1.194,1.267-3.035,3.172h-0.506c-0.219-5.77-0.675-9.37-1.367-10.801
-	c-0.228-0.465-0.606-0.697-1.135-0.697c-0.228,0-0.552,0.041-0.971,0.123L435.038,43.397"/>
-<g id="g1346" transform="translate(-35.38441,-194.8634)">
-	<path id="path1348" fill="none" stroke="#000000" stroke-width="2.9996" d="M49.389,293.963h126.93 M49.389,438.32h126.93"/>
-	<g id="g1350">
-		
-			<radialGradient id="path1358_1_" cx="850.651" cy="148.9122" r="55.6871" gradientTransform="matrix(0.1828 0.1889 0.2387 -0.2309 -82.7669 160.3055)" gradientUnits="userSpaceOnUse">
-			<stop  offset="0" style="stop-color:#FFFFFF"/>
-			<stop  offset="1" style="stop-color:#20B01D"/>
-		</radialGradient>
-		<path id="path1358" fill="url(#path1358_1_)" d="M133.122,289.937c1.52,10.093-5.439,19.518-15.532,21.038
-			s-19.518-5.439-21.038-15.532s5.439-19.518,15.532-21.038c9.936-1.496,19.226,5.188,20.965,15.084"/>
-	</g>
-</g>
-<g id="g2308">
-	<path id="text1395" d="M62.126,308.911l11.923-31.046h4.426l12.706,31.046h-4.68l-3.621-9.403H69.898l-3.409,9.403H62.126
-		 M71.084,296.162h10.525l-3.24-8.598c-0.988-2.611-1.723-4.758-2.203-6.438c-0.396,1.99-0.953,3.967-1.673,5.93L71.084,296.162"/>
-	<path id="path1403" fill="none" stroke="#000000" stroke-width="3" stroke-linejoin="round" d="M99.943,293.324
-		c0,13.166-10.673,23.839-23.84,23.839c-13.166,0-23.839-10.673-23.839-23.839s10.673-23.84,23.839-23.84
-		C89.27,269.484,99.943,280.158,99.943,293.324L99.943,293.324z"/>
-</g>
-<g id="g2313">
-	<path id="text2285" d="M263.418,308.911v-31.046h11.647c2.372,0,4.271,0.318,5.696,0.953c1.44,0.621,2.563,1.588,3.367,2.901
-		c0.819,1.299,1.229,2.661,1.229,4.087c0,1.327-0.36,2.576-1.08,3.748c-0.72,1.172-1.807,2.118-3.261,2.838
-		c1.877,0.551,3.318,1.49,4.32,2.816c1.017,1.328,1.525,2.895,1.525,4.701c0,1.455-0.311,2.811-0.932,4.066
-		c-0.607,1.242-1.362,2.203-2.266,2.881c-0.903,0.678-2.04,1.192-3.41,1.546c-1.355,0.339-3.021,0.508-4.998,0.508H263.418
-		 M267.526,290.91h6.713c1.821,0,3.127-0.119,3.918-0.359c1.044-0.311,1.828-0.826,2.351-1.547c0.537-0.719,0.805-1.623,0.805-2.71
-		c0-1.03-0.247-1.935-0.741-2.711c-0.494-0.79-1.2-1.327-2.118-1.609c-0.917-0.296-2.492-0.444-4.723-0.444h-6.205V290.91
-		 M267.526,305.248h7.729c1.327,0,2.259-0.05,2.795-0.148c0.946-0.17,1.736-0.452,2.372-0.848c0.636-0.395,1.158-0.967,1.567-1.715
-		c0.409-0.763,0.614-1.639,0.614-2.627c0-1.156-0.297-2.159-0.89-3.006c-0.593-0.861-1.419-1.462-2.478-1.801
-		c-1.045-0.354-2.556-0.529-4.532-0.529h-7.179V305.248"/>
-	<path id="path2289" fill="none" stroke="#000000" stroke-width="3" stroke-linejoin="round" d="M297.994,293.324
-		c0,13.166-10.673,23.839-23.839,23.839c-13.167,0-23.84-10.673-23.84-23.839s10.673-23.84,23.84-23.84
-		C287.321,269.484,297.994,280.158,297.994,293.324L297.994,293.324z"/>
-</g>
-<g id="g2318">
-	<path id="text2293" d="M484.438,298.025l4.109,1.039c-0.861,3.373-2.415,5.95-4.659,7.729c-2.231,1.766-4.963,2.647-8.196,2.647
-		c-3.346,0-6.07-0.678-8.174-2.033c-2.09-1.369-3.685-3.346-4.786-5.929c-1.087-2.584-1.631-5.358-1.631-8.323
-		c0-3.233,0.614-6.05,1.843-8.45c1.242-2.414,3-4.242,5.272-5.484c2.287-1.256,4.801-1.885,7.539-1.885
-		c3.106,0,5.719,0.791,7.836,2.372c2.118,1.581,3.593,3.805,4.426,6.671l-4.045,0.953c-0.72-2.26-1.765-3.904-3.134-4.935
-		s-3.092-1.546-5.167-1.546c-2.387,0-4.384,0.572-5.993,1.715c-1.596,1.145-2.718,2.683-3.367,4.617
-		c-0.649,1.92-0.975,3.903-0.975,5.951c0,2.64,0.382,4.947,1.144,6.924c0.776,1.963,1.977,3.432,3.601,4.405
-		c1.623,0.974,3.381,1.462,5.272,1.462c2.302,0,4.25-0.664,5.846-1.991C482.793,302.607,483.873,300.639,484.438,298.025"/>
-	<path id="path2297" fill="none" stroke="#000000" stroke-width="3" stroke-linejoin="round" d="M497.88,293.324
-		c0,13.166-10.674,23.839-23.84,23.839s-23.84-10.673-23.84-23.839s10.674-23.84,23.84-23.84S497.88,280.158,497.88,293.324
-		L497.88,293.324z"/>
-</g>
-<g id="g2412">
-	<path id="path2386" fill="#FA0202" d="M550.5,42.886l-18.359,1.954l4.711,9.663L550.5,42.886z"/>
-	<path id="path2384" fill="none" stroke="#FA0202" stroke-width="1" d="M535.4,48.932c-3.925,1.736-9.753,0.717-13.678,2.454
-		c-4.451,1.969-6.999,6.692-11.568,8.6c-4.042,1.675-9.87,0.656-13.795,2.392c-4.451,1.969-6.999,6.692-11.476,8.7
-		c-3.949,1.775-9.777,0.757-13.702,2.493c-4.451,1.969-6.999,6.692-11.568,8.6c-4.042,1.675-9.87,0.656-13.795,2.392
-		c-4.451,1.969-6.999,6.692-11.36,8.611c-3.834,1.686-9.662,0.667-13.587,2.403c-4.451,1.969-6.999,6.692-11.568,8.6
-		c-4.042,1.675-9.87,0.656-13.795,2.392c-4.451,1.969-6.999,6.692-11.475,8.7c-3.95,1.775-9.777,0.757-13.703,2.493
-		c-4.451,1.969-6.999,6.692-11.568,8.6c-4.042,1.675-9.869,0.656-13.795,2.392c-4.451,1.969-6.999,6.692-11.445,8.703
-		c-3.922,1.778-9.749,0.76-13.674,2.496c-4.451,1.969-7,6.692-11.568,8.6c-4.043,1.675-9.87,0.656-13.795,2.392
-		c-4.451,1.969-7,6.692-11.475,8.701c-3.95,1.775-9.777,0.756-13.702,2.492c-4.451,1.969-7,6.692-11.568,8.6
-		c-4.043,1.675-9.871,0.656-13.795,2.393c-4.451,1.969-6.999,6.691-11.36,8.61c-3.834,1.687-9.662,0.667-13.587,2.403
-		c-4.451,1.969-7,6.692-11.568,8.6c-4.042,1.675-9.87,0.656-13.795,2.393c-4.451,1.969-6.999,6.691-11.475,8.7
-		c-3.95,1.774-9.777,0.757-13.702,2.492c-4.451,1.969-7,6.692-11.568,8.601c-4.042,1.674-9.87,0.655-13.795,2.392
-		c-4.451,1.969-7,6.692-11.468,8.587c-3.942,1.662-9.77,0.644-13.694,2.379c-4.451,1.969-7,6.693-11.568,8.601
-		c-4.042,1.675-9.87,0.655-13.795,2.392c-4.451,1.969-6.999,6.692-11.475,8.701c-3.95,1.775-9.777,0.756-13.702,2.492
-		c-4.451,1.969-7,6.692-11.568,8.6c-4.042,1.675-9.87,0.656-13.795,2.393c-4.451,1.969-7,6.691-11.36,8.61
-		c-3.834,1.687-9.662,0.667-13.587,2.403"/>
-</g>
-<path id="path2416" d="M512.78,19.357l-3.842,13.275c1.658-2.498,2.953-4.156,3.883-4.977s1.818-1.23,2.666-1.23
-	c0.438,0,0.802,0.15,1.094,0.451c0.291,0.301,0.438,0.702,0.438,1.203c0,0.602-0.128,1.331-0.383,2.188l-1.668,5.729
-	c-0.21,0.692-0.314,1.075-0.314,1.148c0,0.127,0.036,0.232,0.109,0.314c0.082,0.082,0.173,0.123,0.273,0.123
-	c0.118,0,0.255-0.06,0.41-0.178c0.52-0.401,1.034-0.957,1.545-1.668l0.424,0.26c-0.311,0.483-0.743,1.016-1.299,1.6
-	c-0.547,0.574-1.021,0.975-1.422,1.203c-0.393,0.219-0.743,0.328-1.053,0.328c-0.338,0-0.615-0.109-0.834-0.328
-	c-0.21-0.21-0.314-0.483-0.314-0.82c0-0.401,0.159-1.148,0.479-2.242l1.572-5.469c0.2-0.684,0.301-1.222,0.301-1.613
-	c0-0.183-0.06-0.328-0.178-0.438c-0.109-0.109-0.256-0.164-0.438-0.164c-0.265,0-0.565,0.1-0.902,0.301
-	c-0.62,0.383-1.336,1.094-2.146,2.133c-0.219,0.282-0.948,1.422-2.188,3.418c-0.383,0.638-0.697,1.335-0.943,2.092l-0.875,2.803
-	h-2.051l4.498-15.641l0.479-1.695c0-0.237-0.101-0.447-0.301-0.629c-0.191-0.183-0.429-0.273-0.711-0.273
-	c-0.164,0-0.415,0.027-0.752,0.082l-0.287,0.041V20.15L512.78,19.357 M519.165,27.273l3.951-0.848
-	c0.282,0.674,0.51,1.362,0.684,2.064c0.246,1.03,0.446,2.251,0.602,3.664c0.072,0.711,0.173,2.215,0.301,4.512
-	c1.139-1.258,1.818-2.037,2.037-2.338c1.203-1.632,1.896-2.589,2.078-2.871c0.301-0.483,0.51-0.907,0.629-1.271
-	c0.1-0.273,0.15-0.533,0.15-0.779c0-0.237-0.215-0.511-0.643-0.82c-0.42-0.31-0.629-0.656-0.629-1.039
-	c0-0.292,0.113-0.552,0.342-0.779c0.236-0.228,0.515-0.342,0.834-0.342c0.383,0,0.72,0.159,1.012,0.479
-	c0.291,0.31,0.438,0.697,0.438,1.162s-0.073,0.911-0.219,1.34c-0.237,0.692-0.68,1.54-1.326,2.543
-	c-0.647,0.993-1.691,2.329-3.131,4.006c-0.183,0.209-1.194,1.267-3.035,3.172h-0.506c-0.219-5.77-0.675-9.37-1.367-10.801
-	c-0.229-0.465-0.606-0.697-1.135-0.697c-0.229,0-0.552,0.041-0.971,0.123L519.165,27.273"/>
-</svg>
-
+<?xml version="1.0" encoding="utf-8"?><!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="svg2" x="0px" y="0px" width="Stimulated Emission Diagram" height="330px" viewBox="0 0 600 330" enable-background="new 0 0 600 330" xml:space="preserve"><g id="g6647" transform="translate(161.1988,-194.8634)"><path id="path2190" fill="none" stroke="#000000" stroke-width="2.9996" d="M49.389,293.963h126.93 M49.389,438.32h126.93"/><g id="g6641"><radialGradient id="path2222_1_" cx="654.0668" cy="148.9117" r="55.6873" gradientTransform="matrix(-0.1828 -0.1889 -0.2387 0.2309 276.515 387.9459)" gradientUnits="userSpaceOnUse"><stop offset="0" style="stop-color:#FFFFFF;stop-opacity:0.2371"/><stop offset="1" style="stop-color:#20B01D;stop-opacity:0.2887"/></radialGradient><path id="path2222" fill="url(#path2222_1_)" d="M96.552,295.442c-1.52-10.093,5.439-19.519,15.532-21.038    s19.518,5.439,21.038,15.533c1.52,10.093-5.439,19.518-15.532,21.037c-9.936,1.496-19.225-5.188-20.964-15.084"/><radialGradient id="path2224_1_" cx="654.0668" cy="148.9117" r="55.6871" gradientTransform="matrix(-0.1828 -0.1889 -0.2387 0.2309 276.515 413.7233)" gradientUnits="userSpaceOnUse"><stop offset="0" style="stop-color:#FFFFFF;stop-opacity:0.5464"/><stop offset="1" style="stop-color:#20B01D;stop-opacity:0.567"/></radialGradient><path id="path2224" fill="url(#path2224_1_)" d="M96.552,321.22c-1.52-10.093,5.439-19.518,15.532-21.037    c10.093-1.52,19.518,5.438,21.038,15.532s-5.439,19.518-15.532,21.038c-9.936,1.496-19.225-5.188-20.964-15.084"/><radialGradient id="path2206_1_" cx="654.0668" cy="148.9117" r="55.687" gradientTransform="matrix(-0.1828 -0.1889 -0.2387 0.2309 276.515 438.0289)" gradientUnits="userSpaceOnUse"><stop offset="0" style="stop-color:#FAFAFA;stop-opacity:0.8041"/><stop offset="1" style="stop-color:#20B01D;stop-opacity:0.8247"/></radialGradient><path id="path2206" fill="url(#path2206_1_)" d="M96.552,345.525c-1.52-10.093,5.439-19.518,15.532-21.038    s19.518,5.439,21.038,15.532s-5.439,19.519-15.532,21.038c-9.936,1.496-19.225-5.188-20.964-15.084"/><radialGradient id="path1306_1_" cx="654.0668" cy="148.9113" r="55.687" gradientTransform="matrix(-0.1828 -0.1889 -0.2387 0.2309 276.515 463.8063)" gradientUnits="userSpaceOnUse"><stop offset="0" style="stop-color:#FFFFFF"/><stop offset="1" style="stop-color:#20B01D"/></radialGradient><path id="path1306" fill="url(#path1306_1_)" d="M96.552,371.303c-1.52-10.094,5.439-19.518,15.532-21.038    s19.518,5.439,21.038,15.532c1.52,10.094-5.439,19.519-15.532,21.038c-9.936,1.495-19.225-5.188-20.964-15.085"/></g></g><g id="g2401" transform="translate(-55.67228,48.17793)"><path id="path3994" fill="none" stroke="#FA0202" d="M354.686,92.855c3.06-3.01,8.871-4.114,12.063-7.108   c3.602-3.397,4.318-8.717,7.788-12.13c3.06-3.01,8.871-4.114,11.864-7.045c3.402-3.334,4.119-8.653,7.588-12.067   c3.061-3.01,8.872-4.114,12.063-7.108c3.602-3.397,4.318-8.716,7.788-12.13c3.06-3.01,8.872-4.114,11.94-7.169   c3.479-3.459,4.195-8.778,7.665-12.191c3.06-3.01,8.872-4.114,12.063-7.108c3.602-3.397,4.318-8.717,7.788-12.13   c3.06-3.01,8.871-4.114,11.931-7.124"/><path id="path5757" fill="#FA0202" d="M477.219-21.441l-16.487,8.309l7.819,7.378L477.219-21.441z"/></g><g id="g6655" transform="translate(208.2981,-194.8634)"><path id="path6639" fill="none" stroke="#000000" stroke-width="2.9996" d="M194.465,293.963h126.931 M194.465,438.32h126.931"/><radialGradient id="path2194_1_" cx="606.9695" cy="148.9122" r="55.6872" gradientTransform="matrix(0.1828 0.1889 0.2387 -0.2309 102.2798 350.6851)" gradientUnits="userSpaceOnUse"><stop offset="0" style="stop-color:#FFFFFF"/><stop offset="1" style="stop-color:#20B01D"/></radialGradient><path id="path2194" fill="url(#path2194_1_)" d="M273.635,434.293c1.52,10.094-5.439,19.519-15.532,21.038   c-10.094,1.52-19.519-5.438-21.038-15.532s5.439-19.518,15.532-21.037c9.936-1.496,19.226,5.188,20.965,15.084"/></g><path id="flowRoot6661" d="M560.572,114.004h-20.757V82.499h20.757v3.724h-16.567v8.633h16.567v3.724h-16.567v11.701h16.567V114.004   M587.739,114.004h-21.327v-4.422c1.48-1.27,2.962-2.539,4.443-3.809c1.495-1.27,2.885-2.532,4.168-3.787  c2.708-2.624,4.563-4.705,5.564-6.242c1.002-1.552,1.502-3.223,1.502-5.015c0-1.636-0.543-2.913-1.629-3.83  c-1.072-0.931-2.574-1.396-4.507-1.396c-1.283,0-2.673,0.226-4.168,0.677c-1.495,0.452-2.955,1.143-4.38,2.074h-0.212v-4.443  c1.002-0.494,2.335-0.945,3.999-1.354c1.679-0.409,3.301-0.614,4.867-0.614c3.229,0,5.762,0.783,7.596,2.349  c1.834,1.552,2.75,3.661,2.75,6.326c0,1.199-0.154,2.321-0.465,3.364c-0.297,1.03-0.741,2.01-1.333,2.941  c-0.551,0.875-1.199,1.735-1.946,2.581c-0.734,0.847-1.63,1.785-2.688,2.814c-1.51,1.481-3.068,2.919-4.676,4.316  c-1.608,1.382-3.11,2.666-4.507,3.851h16.947V114.004"/><path id="flowRoot6669" d="M560.572,256.647h-20.757v-31.505h20.757v3.724h-16.567v8.633h16.567v3.724h-16.567v11.701h16.567  V256.647 M585.941,256.647h-17.054v-3.216h6.559v-21.117h-6.559v-2.877c0.889,0,1.841-0.07,2.856-0.211  c1.016-0.156,1.784-0.375,2.306-0.656c0.649-0.354,1.157-0.797,1.523-1.334c0.381-0.549,0.6-1.283,0.656-2.199h3.279v28.395h6.433  V256.647"/><path id="flowRoot6715" d="M428.653,35.481l-3.842,13.275c1.659-2.497,2.953-4.156,3.883-4.977s1.818-1.23,2.666-1.23  c0.438,0,0.802,0.15,1.094,0.451s0.438,0.702,0.438,1.203c0,0.602-0.128,1.331-0.383,2.188l-1.668,5.729  c-0.21,0.693-0.314,1.076-0.314,1.148c0,0.128,0.036,0.232,0.109,0.314c0.082,0.082,0.173,0.123,0.273,0.123  c0.118,0,0.255-0.059,0.41-0.178c0.52-0.401,1.034-0.957,1.545-1.668l0.424,0.26c-0.31,0.483-0.743,1.017-1.299,1.6  c-0.547,0.574-1.021,0.976-1.422,1.203c-0.392,0.219-0.743,0.328-1.053,0.328c-0.337,0-0.615-0.109-0.834-0.328  c-0.21-0.209-0.314-0.483-0.314-0.82c0-0.401,0.159-1.148,0.479-2.242l1.572-5.469c0.2-0.684,0.301-1.221,0.301-1.613  c0-0.182-0.06-0.328-0.178-0.438c-0.109-0.109-0.255-0.164-0.438-0.164c-0.265,0-0.565,0.101-0.902,0.301  c-0.62,0.383-1.335,1.094-2.146,2.133c-0.219,0.283-0.948,1.422-2.188,3.418c-0.383,0.638-0.697,1.335-0.943,2.092l-0.875,2.803  h-2.051l4.498-15.641l0.479-1.695c0-0.237-0.101-0.446-0.301-0.629c-0.191-0.182-0.429-0.273-0.711-0.273  c-0.164,0-0.415,0.027-0.752,0.082l-0.287,0.041v-0.533L428.653,35.481 M435.038,43.397l3.951-0.848  c0.282,0.675,0.511,1.363,0.684,2.064c0.246,1.03,0.446,2.251,0.602,3.664c0.073,0.711,0.173,2.215,0.301,4.512  c1.14-1.258,1.818-2.037,2.037-2.338c1.203-1.631,1.896-2.588,2.078-2.871c0.301-0.483,0.511-0.907,0.629-1.271  c0.101-0.273,0.15-0.533,0.15-0.779c0-0.237-0.214-0.51-0.643-0.82c-0.419-0.31-0.629-0.656-0.629-1.039  c0-0.292,0.114-0.551,0.342-0.779c0.237-0.228,0.515-0.342,0.834-0.342c0.383,0,0.72,0.16,1.012,0.479  c0.292,0.31,0.438,0.697,0.438,1.162s-0.073,0.912-0.219,1.34c-0.237,0.693-0.679,1.541-1.326,2.543  c-0.647,0.994-1.69,2.329-3.131,4.006c-0.183,0.21-1.194,1.267-3.035,3.172h-0.506c-0.219-5.77-0.675-9.37-1.367-10.801  c-0.228-0.465-0.606-0.697-1.135-0.697c-0.228,0-0.552,0.041-0.971,0.123L435.038,43.397"/><g id="g1346" transform="translate(-35.38441,-194.8634)"><path id="path1348" fill="none" stroke="#000000" stroke-width="2.9996" d="M49.389,293.963h126.93 M49.389,438.32h126.93"/><g id="g1350"><radialGradient id="path1358_1_" cx="850.651" cy="148.9122" r="55.6871" gradientTransform="matrix(0.1828 0.1889 0.2387 -0.2309 -82.7669 160.3055)" gradientUnits="userSpaceOnUse"><stop offset="0" style="stop-color:#FFFFFF"/><stop offset="1" style="stop-color:#20B01D"/></radialGradient><path id="path1358" fill="url(#path1358_1_)" d="M133.122,289.937c1.52,10.093-5.439,19.518-15.532,21.038    s-19.518-5.439-21.038-15.532s5.439-19.518,15.532-21.038c9.936-1.496,19.226,5.188,20.965,15.084"/></g></g><g id="g2308"><path id="text1395" d="M62.126,308.911l11.923-31.046h4.426l12.706,31.046h-4.68l-3.621-9.403H69.898l-3.409,9.403H62.126    M71.084,296.162h10.525l-3.24-8.598c-0.988-2.611-1.723-4.758-2.203-6.438c-0.396,1.99-0.953,3.967-1.673,5.93L71.084,296.162"/><path id="path1403" fill="none" stroke="#000000" stroke-width="3" stroke-linejoin="round" d="M99.943,293.324   c0,13.166-10.673,23.839-23.84,23.839c-13.166,0-23.839-10.673-23.839-23.839s10.673-23.84,23.839-23.84   C89.27,269.484,99.943,280.158,99.943,293.324L99.943,293.324z"/></g><g id="g2313"><path id="text2285" d="M263.418,308.911v-31.046h11.647c2.372,0,4.271,0.318,5.696,0.953c1.44,0.621,2.563,1.588,3.367,2.901   c0.819,1.299,1.229,2.661,1.229,4.087c0,1.327-0.36,2.576-1.08,3.748c-0.72,1.172-1.807,2.118-3.261,2.838   c1.877,0.551,3.318,1.49,4.32,2.816c1.017,1.328,1.525,2.895,1.525,4.701c0,1.455-0.311,2.811-0.932,4.066   c-0.607,1.242-1.362,2.203-2.266,2.881c-0.903,0.678-2.04,1.192-3.41,1.546c-1.355,0.339-3.021,0.508-4.998,0.508H263.418    M267.526,290.91h6.713c1.821,0,3.127-0.119,3.918-0.359c1.044-0.311,1.828-0.826,2.351-1.547c0.537-0.719,0.805-1.623,0.805-2.71   c0-1.03-0.247-1.935-0.741-2.711c-0.494-0.79-1.2-1.327-2.118-1.609c-0.917-0.296-2.492-0.444-4.723-0.444h-6.205V290.91    M267.526,305.248h7.729c1.327,0,2.259-0.05,2.795-0.148c0.946-0.17,1.736-0.452,2.372-0.848c0.636-0.395,1.158-0.967,1.567-1.715   c0.409-0.763,0.614-1.639,0.614-2.627c0-1.156-0.297-2.159-0.89-3.006c-0.593-0.861-1.419-1.462-2.478-1.801   c-1.045-0.354-2.556-0.529-4.532-0.529h-7.179V305.248"/><path id="path2289" fill="none" stroke="#000000" stroke-width="3" stroke-linejoin="round" d="M297.994,293.324   c0,13.166-10.673,23.839-23.839,23.839c-13.167,0-23.84-10.673-23.84-23.839s10.673-23.84,23.84-23.84   C287.321,269.484,297.994,280.158,297.994,293.324L297.994,293.324z"/></g><g id="g2318"><path id="text2293" d="M484.438,298.025l4.109,1.039c-0.861,3.373-2.415,5.95-4.659,7.729c-2.231,1.766-4.963,2.647-8.196,2.647   c-3.346,0-6.07-0.678-8.174-2.033c-2.09-1.369-3.685-3.346-4.786-5.929c-1.087-2.584-1.631-5.358-1.631-8.323   c0-3.233,0.614-6.05,1.843-8.45c1.242-2.414,3-4.242,5.272-5.484c2.287-1.256,4.801-1.885,7.539-1.885   c3.106,0,5.719,0.791,7.836,2.372c2.118,1.581,3.593,3.805,4.426,6.671l-4.045,0.953c-0.72-2.26-1.765-3.904-3.134-4.935   s-3.092-1.546-5.167-1.546c-2.387,0-4.384,0.572-5.993,1.715c-1.596,1.145-2.718,2.683-3.367,4.617   c-0.649,1.92-0.975,3.903-0.975,5.951c0,2.64,0.382,4.947,1.144,6.924c0.776,1.963,1.977,3.432,3.601,4.405   c1.623,0.974,3.381,1.462,5.272,1.462c2.302,0,4.25-0.664,5.846-1.991C482.793,302.607,483.873,300.639,484.438,298.025"/><path id="path2297" fill="none" stroke="#000000" stroke-width="3" stroke-linejoin="round" d="M497.88,293.324   c0,13.166-10.674,23.839-23.84,23.839s-23.84-10.673-23.84-23.839s10.674-23.84,23.84-23.84S497.88,280.158,497.88,293.324   L497.88,293.324z"/></g><g id="g2412"><path id="path2386" fill="#FA0202" d="M550.5,42.886l-18.359,1.954l4.711,9.663L550.5,42.886z"/><path id="path2384" fill="none" stroke="#FA0202" stroke-width="1" d="M535.4,48.932c-3.925,1.736-9.753,0.717-13.678,2.454   c-4.451,1.969-6.999,6.692-11.568,8.6c-4.042,1.675-9.87,0.656-13.795,2.392c-4.451,1.969-6.999,6.692-11.476,8.7   c-3.949,1.775-9.777,0.757-13.702,2.493c-4.451,1.969-6.999,6.692-11.568,8.6c-4.042,1.675-9.87,0.656-13.795,2.392   c-4.451,1.969-6.999,6.692-11.36,8.611c-3.834,1.686-9.662,0.667-13.587,2.403c-4.451,1.969-6.999,6.692-11.568,8.6   c-4.042,1.675-9.87,0.656-13.795,2.392c-4.451,1.969-6.999,6.692-11.475,8.7c-3.95,1.775-9.777,0.757-13.703,2.493   c-4.451,1.969-6.999,6.692-11.568,8.6c-4.042,1.675-9.869,0.656-13.795,2.392c-4.451,1.969-6.999,6.692-11.445,8.703   c-3.922,1.778-9.749,0.76-13.674,2.496c-4.451,1.969-7,6.692-11.568,8.6c-4.043,1.675-9.87,0.656-13.795,2.392   c-4.451,1.969-7,6.692-11.475,8.701c-3.95,1.775-9.777,0.756-13.702,2.492c-4.451,1.969-7,6.692-11.568,8.6   c-4.043,1.675-9.871,0.656-13.795,2.393c-4.451,1.969-6.999,6.691-11.36,8.61c-3.834,1.687-9.662,0.667-13.587,2.403   c-4.451,1.969-7,6.692-11.568,8.6c-4.042,1.675-9.87,0.656-13.795,2.393c-4.451,1.969-6.999,6.691-11.475,8.7   c-3.95,1.774-9.777,0.757-13.702,2.492c-4.451,1.969-7,6.692-11.568,8.601c-4.042,1.674-9.87,0.655-13.795,2.392   c-4.451,1.969-7,6.692-11.468,8.587c-3.942,1.662-9.77,0.644-13.694,2.379c-4.451,1.969-7,6.693-11.568,8.601   c-4.042,1.675-9.87,0.655-13.795,2.392c-4.451,1.969-6.999,6.692-11.475,8.701c-3.95,1.775-9.777,0.756-13.702,2.492   c-4.451,1.969-7,6.692-11.568,8.6c-4.042,1.675-9.87,0.656-13.795,2.393c-4.451,1.969-7,6.691-11.36,8.61   c-3.834,1.687-9.662,0.667-13.587,2.403"/></g><path id="path2416" d="M512.78,19.357l-3.842,13.275c1.658-2.498,2.953-4.156,3.883-4.977s1.818-1.23,2.666-1.23  c0.438,0,0.802,0.15,1.094,0.451c0.291,0.301,0.438,0.702,0.438,1.203c0,0.602-0.128,1.331-0.383,2.188l-1.668,5.729  c-0.21,0.692-0.314,1.075-0.314,1.148c0,0.127,0.036,0.232,0.109,0.314c0.082,0.082,0.173,0.123,0.273,0.123  c0.118,0,0.255-0.06,0.41-0.178c0.52-0.401,1.034-0.957,1.545-1.668l0.424,0.26c-0.311,0.483-0.743,1.016-1.299,1.6  c-0.547,0.574-1.021,0.975-1.422,1.203c-0.393,0.219-0.743,0.328-1.053,0.328c-0.338,0-0.615-0.109-0.834-0.328  c-0.21-0.21-0.314-0.483-0.314-0.82c0-0.401,0.159-1.148,0.479-2.242l1.572-5.469c0.2-0.684,0.301-1.222,0.301-1.613  c0-0.183-0.06-0.328-0.178-0.438c-0.109-0.109-0.256-0.164-0.438-0.164c-0.265,0-0.565,0.1-0.902,0.301  c-0.62,0.383-1.336,1.094-2.146,2.133c-0.219,0.282-0.948,1.422-2.188,3.418c-0.383,0.638-0.697,1.335-0.943,2.092l-0.875,2.803  h-2.051l4.498-15.641l0.479-1.695c0-0.237-0.101-0.447-0.301-0.629c-0.191-0.183-0.429-0.273-0.711-0.273  c-0.164,0-0.415,0.027-0.752,0.082l-0.287,0.041V20.15L512.78,19.357 M519.165,27.273l3.951-0.848  c0.282,0.674,0.51,1.362,0.684,2.064c0.246,1.03,0.446,2.251,0.602,3.664c0.072,0.711,0.173,2.215,0.301,4.512  c1.139-1.258,1.818-2.037,2.037-2.338c1.203-1.632,1.896-2.589,2.078-2.871c0.301-0.483,0.51-0.907,0.629-1.271  c0.1-0.273,0.15-0.533,0.15-0.779c0-0.237-0.215-0.511-0.643-0.82c-0.42-0.31-0.629-0.656-0.629-1.039  c0-0.292,0.113-0.552,0.342-0.779c0.236-0.228,0.515-0.342,0.834-0.342c0.383,0,0.72,0.159,1.012,0.479  c0.291,0.31,0.438,0.697,0.438,1.162s-0.073,0.911-0.219,1.34c-0.237,0.692-0.68,1.54-1.326,2.543  c-0.647,0.993-1.691,2.329-3.131,4.006c-0.183,0.209-1.194,1.267-3.035,3.172h-0.506c-0.219-5.77-0.675-9.37-1.367-10.801  c-0.229-0.465-0.606-0.697-1.135-0.697c-0.229,0-0.552,0.041-0.971,0.123L519.165,27.273"/></svg>
 
 ### 1.4 Einstein's Relations and Energy Density
 
@@ -257,7 +90,7 @@ Or, using $B_{12}=B_{21}$:
 $$ u(\nu) = \frac{A_{21}}{B_{12}} \frac{1}{e^{h\nu/k_B T} - 1} $$
 This expression, identical to Planck's distribution when using the derived relations, underscores the necessity of stimulated emission for achieving thermal equilibrium in light-matter interaction.
 
-> See also: [[Semester 1/Physics/Unit 4/Examples#Example 1: Population of Higher Energy State\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 2: Emission Wavelength and A/B Ratio\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 3: Wavelength and Energy Density of Radiation\|Examples]]
+> See also: [[Semester 1/Physics/Unit 4/Examples#example-1:-population-of-higher-energy-state\|Examples]], [[Semester 1/Physics/Unit 4/Examples#example-2:-emission-wavelength-and-a/b-ratio\|Examples]], [[Semester 1/Physics/Unit 4/Examples#example-3:-wavelength-and-energy-density-of-radiation\|Examples]]
 
 ## 2. Conditions for Laser Action
 
@@ -297,7 +130,7 @@ At thermal equilibrium, the ratio of populations $N_2/N_1 = e^{-(E_2-E_1)/k_B T}
 *   **Drawbacks**: Three-level systems require very high pump power because the lower laser level is the heavily populated ground state. This often leads to **pulsed operation** rather than continuous wave (CW) due to the difficulty in maintaining inversion. The ruby laser is a classic example.
 
 **Description of Diagram (Three-Level Laser System):** An energy level diagram showing three states $E_1$ (ground), $E_2$ (metastable upper laser level), and $E_3$ (pump level). An upward arrow indicates pumping from $E_1$ to $E_3$. A wavy arrow shows fast non-radiative decay from $E_3$ to $E_2$. A downward arrow marks the laser transition from $E_2$ to $E_1$.
-![Three-Level Laser System Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Three_level_laser.svg/330px-Three_level_laser.svg.png)
+![[https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Three_level_laser.svg/330px-Three_level_laser.svg.png\|Three-Level Laser System Diagram]]
 
 ### 2.4 Four-Level Systems
 
@@ -317,7 +150,7 @@ At thermal equilibrium, the ratio of populations $N_2/N_1 = e^{-(E_2-E_1)/k_B T}
 *   **Advantages**: Low pump power requirement, high efficiency, and suitability for CW operation. Examples include He-Ne and Nd:YAG lasers.
 
 **Description of Diagram (Four-Level Laser System):** An energy level diagram showing four states: $E_0$ (ground), $E_1$ (lower laser level, fast decay), $E_2$ (metastable upper laser level), and $E_3$ (pump level, fast decay). An upward arrow indicates pumping from $E_0$ to $E_3$. Wavy arrows show fast non-radiative decays from $E_3$ to $E_2$ and from $E_1$ to $E_0$. A downward arrow marks the laser transition from $E_2$ to $E_1$.
-![Four-Level Laser System Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Four_level_laser.svg/330px-Four_level_laser.svg.png)
+![[https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Four_level_laser.svg/330px-Four_level_laser.svg.png\|Four-Level Laser System Diagram]]
 
 ### 2.5 Difference between Three-Level and Four-Level Lasers:
 
@@ -368,7 +201,7 @@ The **resonant cavity** provides positive feedback for the light within the acti
 *   **Role in Sustained Lasing**: It ensures that stimulated emission in the desired wavelength is amplified to achieve a sustainable laser action of sufficient intensity.
 
 **Description of Diagram (Basic Laser Construction):** A schematic showing an active medium placed between a highly reflective mirror and a partially reflective output coupler. An energy pump source is shown exciting the active medium. Arrows indicate light bouncing back and forth within the cavity, with a laser output beam emanating from the output coupler.
-![Basic Laser Construction Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Construction_of_a_laser.svg/600px-Construction_of_a_laser.svg.png)
+![[https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Construction_of_a_laser.svg/600px-Construction_of_a_laser.svg.png\|Basic Laser Construction Diagram]]
 
 ## 4. Round Trip Gain in a Laser Medium
 
@@ -422,481 +255,9 @@ This equation states that the threshold gain coefficient must be sufficient to o
 *   If $R_1 R_2 e^{2(g-\alpha)L} > 1$, oscillations can **build up**, and the laser is said to be above threshold.
 
 **Description of Diagram (Round Trip Gain):** A linear cavity with two mirrors $R_1$ and $R_2$, separated by active medium of length $L$. Arrows show an initial intensity $I_0$, which becomes $I_0e^{(g-\alpha)L}$ after one pass, then $R_2 I_0e^{(g-\alpha)L}$ after reflection, and $R_1 R_2 I_0e^{2(g-\alpha)L}$ after a full round trip.
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://web.resource.org/cc/"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="841.88975pt"
-   height="595.27559pt"
-   id="svg2"
-   sodipodi:version="0.32"
-   inkscape:version="0.42"
-   sodipodi:docbase="/home/mz"
-   sodipodi:docname="laser.svg">
-  <defs
-     id="defs4">
-    <linearGradient
-       id="linearGradient2275">
-      <stop
-         id="stop2277"
-         offset="0"
-         style="stop-color:#ff00ff;stop-opacity:0;" />
-      <stop
-         style="stop-color:#b400b2;stop-opacity:0.0000000;"
-         offset="0.44999999"
-         id="stop2279" />
-      <stop
-         id="stop2281"
-         offset="0.46000001"
-         style="stop-color:#ff91ff;stop-opacity:1;" />
-      <stop
-         style="stop-color:#ff91ff;stop-opacity:1;"
-         offset="0.54000002"
-         id="stop2283" />
-      <stop
-         id="stop2285"
-         offset="0.55000001"
-         style="stop-color:#b400b4;stop-opacity:0.0000000;" />
-      <stop
-         id="stop2287"
-         offset="1"
-         style="stop-color:#ff00ff;stop-opacity:0;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient2245">
-      <stop
-         id="stop2247"
-         offset="0"
-         style="stop-color:#ff00ff;stop-opacity:0;" />
-      <stop
-         style="stop-color:#b400b2;stop-opacity:1;"
-         offset="0.44999999"
-         id="stop2249" />
-      <stop
-         id="stop2255"
-         offset="0.55000001"
-         style="stop-color:#b400b4;stop-opacity:1;" />
-      <stop
-         id="stop2257"
-         offset="1"
-         style="stop-color:#ff00ff;stop-opacity:0;" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient4178">
-      <stop
-         style="stop-color:#ff00ff;stop-opacity:0;"
-         offset="0"
-         id="stop4180" />
-      <stop
-         id="stop4206"
-         offset="0.44999999"
-         style="stop-color:#b400b2;stop-opacity:1;" />
-      <stop
-         style="stop-color:#ff91ff;stop-opacity:1;"
-         offset="0.46000001"
-         id="stop5965" />
-      <stop
-         id="stop5967"
-         offset="0.54000002"
-         style="stop-color:#ff91ff;stop-opacity:1;" />
-      <stop
-         style="stop-color:#b400b4;stop-opacity:1;"
-         offset="0.55000001"
-         id="stop4208" />
-      <stop
-         style="stop-color:#ff00ff;stop-opacity:0;"
-         offset="1"
-         id="stop4182" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4178"
-       id="linearGradient4142"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.116668,3.226307e-33,5.311773e-17,2.059947,576.8987,-1539.202)"
-       x1="-491.03735"
-       y1="555.88062"
-       x2="-131.31023"
-       y2="555.88062" />
-    <linearGradient
-       id="linearGradient2037">
-      <stop
-         style="stop-color:#cccccc;stop-opacity:1.0000000;"
-         offset="0.0000000"
-         id="stop2039" />
-      <stop
-         id="stop2045"
-         offset="0.50000000"
-         style="stop-color:#ffffff;stop-opacity:1.0000000;" />
-      <stop
-         style="stop-color:#e8e8e8;stop-opacity:1.0000000;"
-         offset="1.0000000"
-         id="stop2041" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2037"
-       id="linearGradient2055"
-       x1="185.83984"
-       y1="294.35437"
-       x2="150.67657"
-       y2="367.08463"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2037"
-       id="linearGradient2061"
-       gradientUnits="userSpaceOnUse"
-       x1="185.83984"
-       y1="294.35437"
-       x2="150.67657"
-       y2="367.08463" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2245"
-       id="linearGradient2243"
-       x1="378.81174"
-       y1="857.59399"
-       x2="378.81174"
-       y2="1089.1565"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.212300,0.000000,0.000000,0.964763,55.40205,-634.8529)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2275"
-       id="linearGradient2273"
-       x1="388.78046"
-       y1="1102.9688"
-       x2="388.78040"
-       y2="873.68799"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.787611,0.000000,0.000000,1.000000,190.7292,-677.8736)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2275"
-       id="linearGradient2291"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(6.637168e-2,0.000000,0.000000,1.000000,990.8521,-677.8736)"
-       x1="388.78046"
-       y1="1102.9688"
-       x2="388.78040"
-       y2="873.68799" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2037"
-       id="linearGradient2302"
-       gradientUnits="userSpaceOnUse"
-       x1="185.83984"
-       y1="294.35437"
-       x2="150.67657"
-       y2="367.08463" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2245"
-       id="linearGradient2304"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.212300,0.000000,0.000000,0.964763,55.40205,-634.8529)"
-       x1="378.81174"
-       y1="857.59399"
-       x2="378.81174"
-       y2="1089.1565" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2275"
-       id="linearGradient2306"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.787611,0.000000,0.000000,1.000000,190.7292,-677.8736)"
-       x1="388.78046"
-       y1="1102.9688"
-       x2="388.78040"
-       y2="873.68799" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2037"
-       id="linearGradient2308"
-       gradientUnits="userSpaceOnUse"
-       x1="185.83984"
-       y1="294.35437"
-       x2="150.67657"
-       y2="367.08463" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2275"
-       id="linearGradient2310"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(6.637168e-2,0.000000,0.000000,1.000000,990.8521,-677.8736)"
-       x1="388.78046"
-       y1="1102.9688"
-       x2="388.78040"
-       y2="873.68799" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2275"
-       id="linearGradient2315"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.119120,0.000000,0.000000,1.000000,981.8091,-630.8611)"
-       x1="388.78046"
-       y1="1102.9688"
-       x2="388.78040"
-       y2="873.68799" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2275"
-       id="linearGradient2320"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.787611,0.000000,0.000000,1.000000,183.2527,-632.0990)"
-       x1="388.78046"
-       y1="1102.9688"
-       x2="388.78040"
-       y2="873.68799" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2245"
-       id="linearGradient2323"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.212300,0.000000,0.000000,0.964763,47.92550,-582.8478)"
-       x1="378.81174"
-       y1="857.59399"
-       x2="378.81174"
-       y2="1089.1565" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2037"
-       id="linearGradient2327"
-       gradientUnits="userSpaceOnUse"
-       x1="185.83984"
-       y1="294.35437"
-       x2="150.67657"
-       y2="367.08463" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient2245"
-       id="linearGradient2346"
-       x1="500.97327"
-       y1="851.21875"
-       x2="497.17227"
-       y2="619.65625"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.197626,0.000000,0.000000,1.000000,-34.33213,-381.2767)" />
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.71695798"
-     inkscape:cx="471.13888"
-     inkscape:cy="268.33160"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     inkscape:window-width="1016"
-     inkscape:window-height="1165"
-     inkscape:window-x="0"
-     inkscape:window-y="0" />
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Calque 1"
-     inkscape:groupmode="layer"
-     id="layer1">
-    <path
-       sodipodi:type="arc"
-       style="opacity:1.0000000;fill:url(#linearGradient2302);fill-opacity:1.0000000;stroke:#000000;stroke-width:1.6880000;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
-       id="path2047"
-       sodipodi:cx="176.63060"
-       sodipodi:cy="318.10303"
-       sodipodi:rx="25.232944"
-       sodipodi:ry="201.86356"
-       d="M 201.86354 318.10303 A 25.232944 201.86356 0 1 1  151.39766,318.10303 A 25.232944 201.86356 0 1 1  201.86354 318.10303 z"
-       transform="matrix(2.246376,0.000000,0.000000,1.000000,-324.2892,38.12641)" />
-    <path
-       sodipodi:type="arc"
-       style="opacity:1.0000000;fill:#ff9999;fill-opacity:1.0000000;stroke:#000000;stroke-width:1.6880000;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
-       id="path2065"
-       sodipodi:cx="227.09650"
-       sodipodi:cy="153.34674"
-       sodipodi:rx="25.232944"
-       sodipodi:ry="102.41607"
-       d="M 252.32944 153.34674 A 25.232944 102.41607 0 1 1  201.86355,153.34674 A 25.232944 102.41607 0 1 1  252.32944 153.34674 z"
-       transform="matrix(1.335351,0.000000,0.000000,1.129483,659.2725,183.0269)" />
-    <path
-       style="opacity:1.0000000;fill:url(#linearGradient2346);fill-opacity:1.0000000;stroke:none;stroke-width:1.6880000;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
-       d="M 87.601225,238.37960 L 87.601225,238.50460 C 68.881834,238.50458 53.693421,290.30702 53.693421,354.16085 C 53.693425,418.01465 68.881846,469.84836 87.601225,469.84835 L 87.601225,469.94210 L 967.51996,469.94210 L 967.51996,469.81710 C 967.46921,469.81783 967.42103,469.84835 967.37025,469.84835 C 966.94239,469.84835 966.52181,469.68328 966.09778,469.62960 C 984.29622,467.59959 998.92021,416.72838 998.92021,354.16085 C 998.92021,291.76651 984.37553,240.98662 966.24748,238.69210 C 966.62161,238.65038 966.99317,238.50460 967.37025,238.50460 C 967.42106,238.50457 967.46918,238.53509 967.51996,238.53585 L 967.51996,238.37960 L 87.601225,238.37960 z "
-       id="path2329" />
-    <rect
-       style="opacity:1.0000000;fill:url(#linearGradient2320);fill-opacity:1.0000000;stroke:none;stroke-width:1.6880000;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
-       id="rect2265"
-       width="887.21692"
-       height="229.28079"
-       x="77.257660"
-       y="241.58904" />
-    <path
-       style="opacity:1.0000000;fill:#ff9999;fill-opacity:0.33435580;stroke:#000000;stroke-width:1.8413585;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
-       d="M 88.369099,240.44819 L 88.369099,240.57319 C 69.769550,240.57320 54.678394,292.37561 54.678394,356.22944 C 54.678394,420.08327 69.769560,471.91695 88.369099,471.91694 L 88.369099,472.01069 L 962.65400,472.01069 L 962.65400,471.88569 C 962.60360,471.88645 962.55570,471.91694 962.50525,471.91694 C 943.90573,471.91693 928.81455,420.08326 928.81455,356.22944 C 928.81452,292.37565 943.90571,240.57319 962.50525,240.57319 C 962.55570,240.57319 962.60360,240.60368 962.65400,240.60444 L 962.65400,240.44819 L 88.369099,240.44819 z "
-       id="path2193" />
-    <g
-       id="g2396"
-       transform="translate(104.3667,10.26558)">
-      <path
-         sodipodi:nodetypes="ccc"
-         id="path2384"
-         d="M 672.21409,162.09099 C 672.29907,161.96880 757.36857,162.09099 757.36857,162.09099 L 860.11520,193.03878"
-         style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" />
-      <path
-         sodipodi:nodetypes="cccc"
-         id="path2386"
-         d="M 852.97898,186.97106 L 864.70062,194.01695 L 851.02968,193.63436 L 852.97898,186.97106 z "
-         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.0000000" />
-    </g>
-    <path
-       sodipodi:type="arc"
-       style="opacity:0.65191740;fill:url(#linearGradient2327);fill-opacity:1.0000000;stroke:#000000;stroke-width:1.6880000;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
-       id="path2059"
-       sodipodi:cx="176.63060"
-       sodipodi:cy="318.10303"
-       sodipodi:rx="25.232944"
-       sodipodi:ry="201.86356"
-       d="M 201.86354 318.10303 A 25.232944 201.86356 0 1 1  151.39766,318.10303 A 25.232944 201.86356 0 1 1  201.86354 318.10303 z"
-       transform="matrix(2.246376,0.000000,0.000000,1.000000,576.7508,38.12641)" />
-    <rect
-       style="opacity:1.0000000;fill:url(#linearGradient2315);fill-opacity:1.0000000;stroke:none;stroke-width:1.6880000;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000"
-       id="rect2289"
-       width="134.18517"
-       height="229.28079"
-       x="965.77795"
-       y="242.82695" />
-    <path
-       style="fill:#fffb04;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.75888300px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
-       d="M 567.63559,39.223245 C 567.53627,39.310152 497.65842,119.52173 497.65842,119.52173 L 539.26647,119.52173 L 482.42890,188.63397 L 457.84233,188.63397 L 452.26782,227.32441 L 516.47184,188.63397 L 491.88527,188.63397 L 578.98324,108.17408 L 524.13627,108.17408 L 622.93987,39.223245 L 568.47570,39.223245"
-       id="path2312"
-       sodipodi:nodetypes="cccccccccccc" />
-    <text
-       xml:space="preserve"
-       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans"
-       x="481.54749"
-       y="547.2666"
-       id="text2348"
-       sodipodi:linespacing="125.00000%"><tspan
-         sodipodi:role="line"
-         id="tspan2350"
-         x="481.54749"
-         y="547.26660"
-         style="font-size:48.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125.00000%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans">1</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans"
-       x="697.0921"
-       y="68.03405"
-       id="text2352"
-       sodipodi:linespacing="125.00000%"><tspan
-         sodipodi:role="line"
-         id="tspan2354"
-         x="697.09210"
-         y="68.034050"
-         style="font-size:48.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125.00000%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans">2</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:48.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans"
-       x="194.94547"
-       y="142.99434"
-       id="text2356"
-       sodipodi:linespacing="125.00000%"><tspan
-         sodipodi:role="line"
-         id="tspan2358"
-         x="194.94547"
-         y="142.99434">3</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:48.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans"
-       x="806.26892"
-       y="168.3429"
-       id="text2360"
-       sodipodi:linespacing="125.00000%"><tspan
-         sodipodi:role="line"
-         id="tspan2362"
-         x="806.26892"
-         y="168.34290">4</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans"
-       x="959.91132"
-       y="649.7099"
-       id="text2364"
-       sodipodi:linespacing="125.00000%"><tspan
-         sodipodi:role="line"
-         x="959.91132"
-         y="649.70990"
-         style="font-size:48.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125.00000%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans"
-         id="tspan2368">5</tspan></text>
-    <g
-       id="g2388">
-      <path
-         sodipodi:nodetypes="ccc"
-         id="path2372"
-         d="M 752.38862,73.146609 C 752.30364,73.024415 667.23414,73.146609 667.23414,73.146609 L 564.48751,104.09439"
-         style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" />
-      <path
-         sodipodi:nodetypes="cccc"
-         id="path2374"
-         d="M 571.62373,98.026669 L 559.90209,105.07256 L 573.57303,104.68997 L 571.62373,98.026669 z "
-         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.0000000" />
-    </g>
-    <path
-       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
-       d="M 537.41308,560.73757 C 537.32810,560.61538 452.25860,560.73757 452.25860,560.73757 L 347.60214,442.71834"
-       id="path2376"
-       sodipodi:nodetypes="ccc" />
-    <path
-       style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.0000000"
-       d="M 354.89292,444.52319 L 341.92051,436.26503 L 348.39636,448.81194 L 354.89292,444.52319 z "
-       id="path2378"
-       sodipodi:nodetypes="cccc" />
-    <g
-       id="g2392">
-      <path
-         sodipodi:nodetypes="ccc"
-         id="path2380"
-         d="M 263.66436,151.82542 C 263.57938,151.70322 178.50988,151.82542 178.50988,151.82542 L 75.763249,182.77320"
-         style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" />
-      <path
-         sodipodi:nodetypes="cccc"
-         id="path2382"
-         d="M 82.899469,176.70548 L 71.177829,183.75137 L 84.848769,183.36878 L 82.899469,176.70548 z "
-         style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.0000000" />
-    </g>
-    <path
-       style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"
-       d="M 933.98631,663.39334 C 934.07131,663.27115 1019.1408,663.39334 1019.1408,663.39334 L 1044.8956,370.97544"
-       id="path2400"
-       sodipodi:nodetypes="ccc" />
-    <path
-       style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.0000000"
-       d="M 1040.8241,379.90210 L 1045.5315,367.06151 L 1047.7356,380.55900 L 1040.8241,379.90210 z "
-       id="path2402"
-       sodipodi:nodetypes="cccc" />
-  </g>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Created with Inkscape (http://www.inkscape.org/) --><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="Round Trip Gain Diagram" height="595.27559pt" id="svg2" sodipodi:version="0.32" inkscape:version="0.42" sodipodi:docbase="/home/mz" sodipodi:docname="laser.svg">  <defs id="defs4">    <linearGradient id="linearGradient2275">      <stop id="stop2277" offset="0" style="stop-color:#ff00ff;stop-opacity:0;"/>      <stop style="stop-color:#b400b2;stop-opacity:0.0000000;" offset="0.44999999" id="stop2279"/>      <stop id="stop2281" offset="0.46000001" style="stop-color:#ff91ff;stop-opacity:1;"/>      <stop style="stop-color:#ff91ff;stop-opacity:1;" offset="0.54000002" id="stop2283"/>      <stop id="stop2285" offset="0.55000001" style="stop-color:#b400b4;stop-opacity:0.0000000;"/>      <stop id="stop2287" offset="1" style="stop-color:#ff00ff;stop-opacity:0;"/>    </linearGradient>    <linearGradient id="linearGradient2245">      <stop id="stop2247" offset="0" style="stop-color:#ff00ff;stop-opacity:0;"/>      <stop style="stop-color:#b400b2;stop-opacity:1;" offset="0.44999999" id="stop2249"/>      <stop id="stop2255" offset="0.55000001" style="stop-color:#b400b4;stop-opacity:1;"/>      <stop id="stop2257" offset="1" style="stop-color:#ff00ff;stop-opacity:0;"/>    </linearGradient>    <linearGradient id="linearGradient4178">      <stop style="stop-color:#ff00ff;stop-opacity:0;" offset="0" id="stop4180"/>      <stop id="stop4206" offset="0.44999999" style="stop-color:#b400b2;stop-opacity:1;"/>      <stop style="stop-color:#ff91ff;stop-opacity:1;" offset="0.46000001" id="stop5965"/>      <stop id="stop5967" offset="0.54000002" style="stop-color:#ff91ff;stop-opacity:1;"/>      <stop style="stop-color:#b400b4;stop-opacity:1;" offset="0.55000001" id="stop4208"/>      <stop style="stop-color:#ff00ff;stop-opacity:0;" offset="1" id="stop4182"/>    </linearGradient>    <linearGradient inkscape:collect="always" xlink:href="#linearGradient4178" id="linearGradient4142" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.116668,3.226307e-33,5.311773e-17,2.059947,576.8987,-1539.202)" x1="-491.03735" y1="555.88062" x2="-131.31023" y2="555.88062"/>    <linearGradient id="linearGradient2037">      <stop style="stop-color:#cccccc;stop-opacity:1.0000000;" offset="0.0000000" id="stop2039"/>      <stop id="stop2045" offset="0.50000000" style="stop-color:#ffffff;stop-opacity:1.0000000;"/>      <stop style="stop-color:#e8e8e8;stop-opacity:1.0000000;" offset="1.0000000" id="stop2041"/>    </linearGradient>    <linearGradient inkscape:collect="always" xlink:href="#linearGradient2037" id="linearGradient2055" x1="185.83984" y1="294.35437" x2="150.67657" y2="367.08463" gradientUnits="userSpaceOnUse"/>    <linearGradient inkscape:collect="always" xlink:href="#linearGradient2037" id="linearGradient2061" gradientUnits="userSpaceOnUse" x1="185.83984" y1="294.35437" x2="150.67657" y2="367.08463"/>    <linearGradient inkscape:collect="always" xlink:href="#linearGradient2245" id="linearGradient2243" x1="378.81174" y1="857.59399" x2="378.81174" y2="1089.1565" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.212300,0.000000,0.000000,0.964763,55.40205,-634.8529)"/>    <linearGradient inkscape:collect="always" xlink:href="#linearGradient2275" id="linearGradient2273" x1="388.78046" y1="1102.9688" x2="388.78040" y2="873.68799" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.787611,0.000000,0.000000,1.000000,190.7292,-677.8736)"/>    <linearGradient inkscape:collect="always" xlink:href="#linearGradient2275" id="linearGradient2291" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.637168e-2,0.000000,0.000000,1.000000,990.8521,-677.8736)" x1="388.78046" y1="1102.9688" x2="388.78040" y2="873.68799"/>    <linearGradient inkscape:collect="always" xlink:href="#linearGradient2037" id="linearGradient2302" gradientUnits="userSpaceOnUse" x1="185.83984" y1="294.35437" x2="150.67657" y2="367.08463"/>    <linearGradient inkscape:collect="always" xlink:href="#linearGradient2245" id="linearGradient2304" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.212300,0.000000,0.000000,0.964763,55.40205,-634.8529)" x1="378.81174" y1="857.59399" x2="378.81174" y2="1089.1565"/>    <linearGradient inkscape:collect="always" xlink:href="#linearGradient2275" id="linearGradient2306" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.787611,0.000000,0.000000,1.000000,190.7292,-677.8736)" x1="388.78046" y1="1102.9688" x2="388.78040" y2="873.68799"/>    <linearGradient inkscape:collect="always" xlink:href="#linearGradient2037" id="linearGradient2308" gradientUnits="userSpaceOnUse" x1="185.83984" y1="294.35437" x2="150.67657" y2="367.08463"/>    <linearGradient inkscape:collect="always" xlink:href="#linearGradient2275" id="linearGradient2310" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.637168e-2,0.000000,0.000000,1.000000,990.8521,-677.8736)" x1="388.78046" y1="1102.9688" x2="388.78040" y2="873.68799"/>    <linearGradient inkscape:collect="always" xlink:href="#linearGradient2275" id="linearGradient2315" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.119120,0.000000,0.000000,1.000000,981.8091,-630.8611)" x1="388.78046" y1="1102.9688" x2="388.78040" y2="873.68799"/>    <linearGradient inkscape:collect="always" xlink:href="#linearGradient2275" id="linearGradient2320" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.787611,0.000000,0.000000,1.000000,183.2527,-632.0990)" x1="388.78046" y1="1102.9688" x2="388.78040" y2="873.68799"/>    <linearGradient inkscape:collect="always" xlink:href="#linearGradient2245" id="linearGradient2323" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.212300,0.000000,0.000000,0.964763,47.92550,-582.8478)" x1="378.81174" y1="857.59399" x2="378.81174" y2="1089.1565"/>    <linearGradient inkscape:collect="always" xlink:href="#linearGradient2037" id="linearGradient2327" gradientUnits="userSpaceOnUse" x1="185.83984" y1="294.35437" x2="150.67657" y2="367.08463"/>    <linearGradient inkscape:collect="always" xlink:href="#linearGradient2245" id="linearGradient2346" x1="500.97327" y1="851.21875" x2="497.17227" y2="619.65625" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.197626,0.000000,0.000000,1.000000,-34.33213,-381.2767)"/>  </defs>  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="0.71695798" inkscape:cx="471.13888" inkscape:cy="268.33160" inkscape:document-units="px" inkscape:current-layer="layer1" inkscape:window-width="1016" inkscape:window-height="1165" inkscape:window-x="0" inkscape:window-y="0"/>  <metadata id="metadata7">    <rdf:RDF>      <cc:Work rdf:about="">        <dc:format>image/svg+xml</dc:format>        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>      </cc:Work>    </rdf:RDF>  </metadata>  <g inkscape:label="Calque 1" inkscape:groupmode="layer" id="layer1">    <path sodipodi:type="arc" style="opacity:1.0000000;fill:url(#linearGradient2302);fill-opacity:1.0000000;stroke:#000000;stroke-width:1.6880000;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" id="path2047" sodipodi:cx="176.63060" sodipodi:cy="318.10303" sodipodi:rx="25.232944" sodipodi:ry="201.86356" d="M 201.86354 318.10303 A 25.232944 201.86356 0 1 1  151.39766,318.10303 A 25.232944 201.86356 0 1 1  201.86354 318.10303 z" transform="matrix(2.246376,0.000000,0.000000,1.000000,-324.2892,38.12641)"/>    <path sodipodi:type="arc" style="opacity:1.0000000;fill:#ff9999;fill-opacity:1.0000000;stroke:#000000;stroke-width:1.6880000;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" id="path2065" sodipodi:cx="227.09650" sodipodi:cy="153.34674" sodipodi:rx="25.232944" sodipodi:ry="102.41607" d="M 252.32944 153.34674 A 25.232944 102.41607 0 1 1  201.86355,153.34674 A 25.232944 102.41607 0 1 1  252.32944 153.34674 z" transform="matrix(1.335351,0.000000,0.000000,1.129483,659.2725,183.0269)"/>    <path style="opacity:1.0000000;fill:url(#linearGradient2346);fill-opacity:1.0000000;stroke:none;stroke-width:1.6880000;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" d="M 87.601225,238.37960 L 87.601225,238.50460 C 68.881834,238.50458 53.693421,290.30702 53.693421,354.16085 C 53.693425,418.01465 68.881846,469.84836 87.601225,469.84835 L 87.601225,469.94210 L 967.51996,469.94210 L 967.51996,469.81710 C 967.46921,469.81783 967.42103,469.84835 967.37025,469.84835 C 966.94239,469.84835 966.52181,469.68328 966.09778,469.62960 C 984.29622,467.59959 998.92021,416.72838 998.92021,354.16085 C 998.92021,291.76651 984.37553,240.98662 966.24748,238.69210 C 966.62161,238.65038 966.99317,238.50460 967.37025,238.50460 C 967.42106,238.50457 967.46918,238.53509 967.51996,238.53585 L 967.51996,238.37960 L 87.601225,238.37960 z " id="path2329"/>    <rect style="opacity:1.0000000;fill:url(#linearGradient2320);fill-opacity:1.0000000;stroke:none;stroke-width:1.6880000;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" id="rect2265" width="887.21692" height="229.28079" x="77.257660" y="241.58904"/>    <path style="opacity:1.0000000;fill:#ff9999;fill-opacity:0.33435580;stroke:#000000;stroke-width:1.8413585;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" d="M 88.369099,240.44819 L 88.369099,240.57319 C 69.769550,240.57320 54.678394,292.37561 54.678394,356.22944 C 54.678394,420.08327 69.769560,471.91695 88.369099,471.91694 L 88.369099,472.01069 L 962.65400,472.01069 L 962.65400,471.88569 C 962.60360,471.88645 962.55570,471.91694 962.50525,471.91694 C 943.90573,471.91693 928.81455,420.08326 928.81455,356.22944 C 928.81452,292.37565 943.90571,240.57319 962.50525,240.57319 C 962.55570,240.57319 962.60360,240.60368 962.65400,240.60444 L 962.65400,240.44819 L 88.369099,240.44819 z " id="path2193"/>    <g id="g2396" transform="translate(104.3667,10.26558)">      <path sodipodi:nodetypes="ccc" id="path2384" d="M 672.21409,162.09099 C 672.29907,161.96880 757.36857,162.09099 757.36857,162.09099 L 860.11520,193.03878" style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"/>      <path sodipodi:nodetypes="cccc" id="path2386" d="M 852.97898,186.97106 L 864.70062,194.01695 L 851.02968,193.63436 L 852.97898,186.97106 z " style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.0000000"/>    </g>    <path sodipodi:type="arc" style="opacity:0.65191740;fill:url(#linearGradient2327);fill-opacity:1.0000000;stroke:#000000;stroke-width:1.6880000;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" id="path2059" sodipodi:cx="176.63060" sodipodi:cy="318.10303" sodipodi:rx="25.232944" sodipodi:ry="201.86356" d="M 201.86354 318.10303 A 25.232944 201.86356 0 1 1  151.39766,318.10303 A 25.232944 201.86356 0 1 1  201.86354 318.10303 z" transform="matrix(2.246376,0.000000,0.000000,1.000000,576.7508,38.12641)"/>    <rect style="opacity:1.0000000;fill:url(#linearGradient2315);fill-opacity:1.0000000;stroke:none;stroke-width:1.6880000;stroke-linejoin:round;stroke-miterlimit:4.0000000;stroke-dasharray:none;stroke-opacity:1.0000000" id="rect2289" width="134.18517" height="229.28079" x="965.77795" y="242.82695"/>    <path style="fill:#fffb04;fill-opacity:1.0000000;fill-rule:evenodd;stroke:#000000;stroke-width:0.75888300px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" d="M 567.63559,39.223245 C 567.53627,39.310152 497.65842,119.52173 497.65842,119.52173 L 539.26647,119.52173 L 482.42890,188.63397 L 457.84233,188.63397 L 452.26782,227.32441 L 516.47184,188.63397 L 491.88527,188.63397 L 578.98324,108.17408 L 524.13627,108.17408 L 622.93987,39.223245 L 568.47570,39.223245" id="path2312" sodipodi:nodetypes="cccccccccccc"/>    <text xml:space="preserve" style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans" x="481.54749" y="547.2666" id="text2348" sodipodi:linespacing="125.00000%"><tspan sodipodi:role="line" id="tspan2350" x="481.54749" y="547.26660" style="font-size:48.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125.00000%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans">1</tspan></text>    <text xml:space="preserve" style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans" x="697.0921" y="68.03405" id="text2352" sodipodi:linespacing="125.00000%"><tspan sodipodi:role="line" id="tspan2354" x="697.09210" y="68.034050" style="font-size:48.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125.00000%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans">2</tspan></text>    <text xml:space="preserve" style="font-size:48.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans" x="194.94547" y="142.99434" id="text2356" sodipodi:linespacing="125.00000%"><tspan sodipodi:role="line" id="tspan2358" x="194.94547" y="142.99434">3</tspan></text>    <text xml:space="preserve" style="font-size:48.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans" x="806.26892" y="168.3429" id="text2360" sodipodi:linespacing="125.00000%"><tspan sodipodi:role="line" id="tspan2362" x="806.26892" y="168.34290">4</tspan></text>    <text xml:space="preserve" style="font-size:12.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125.00000%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1.0000000;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000;font-family:Bitstream Vera Sans" x="959.91132" y="649.7099" id="text2364" sodipodi:linespacing="125.00000%"><tspan sodipodi:role="line" x="959.91132" y="649.70990" style="font-size:48.000000px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125.00000%;writing-mode:lr-tb;text-anchor:start;font-family:Bitstream Vera Sans" id="tspan2368">5</tspan></text>    <g id="g2388">      <path sodipodi:nodetypes="ccc" id="path2372" d="M 752.38862,73.146609 C 752.30364,73.024415 667.23414,73.146609 667.23414,73.146609 L 564.48751,104.09439" style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"/>      <path sodipodi:nodetypes="cccc" id="path2374" d="M 571.62373,98.026669 L 559.90209,105.07256 L 573.57303,104.68997 L 571.62373,98.026669 z " style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.0000000"/>    </g>    <path style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" d="M 537.41308,560.73757 C 537.32810,560.61538 452.25860,560.73757 452.25860,560.73757 L 347.60214,442.71834" id="path2376" sodipodi:nodetypes="ccc"/>    <path style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.0000000" d="M 354.89292,444.52319 L 341.92051,436.26503 L 348.39636,448.81194 L 354.89292,444.52319 z " id="path2378" sodipodi:nodetypes="cccc"/>    <g id="g2392">      <path sodipodi:nodetypes="ccc" id="path2380" d="M 263.66436,151.82542 C 263.57938,151.70322 178.50988,151.82542 178.50988,151.82542 L 75.763249,182.77320" style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000"/>      <path sodipodi:nodetypes="cccc" id="path2382" d="M 82.899469,176.70548 L 71.177829,183.75137 L 84.848769,183.36878 L 82.899469,176.70548 z " style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.0000000"/>    </g>    <path style="fill:none;fill-opacity:0.75000000;fill-rule:evenodd;stroke:#000000;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1.0000000" d="M 933.98631,663.39334 C 934.07131,663.27115 1019.1408,663.39334 1019.1408,663.39334 L 1044.8956,370.97544" id="path2400" sodipodi:nodetypes="ccc"/>    <path style="fill:#000000;fill-opacity:1.0000000;fill-rule:evenodd;stroke:none;stroke-width:1.0000000px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.0000000" d="M 1040.8241,379.90210 L 1045.5315,367.06151 L 1047.7356,380.55900 L 1040.8241,379.90210 z " id="path2402" sodipodi:nodetypes="cccc"/>  </g></svg>
 
-
-> See also: [[Semester 1/Physics/Unit 4/Examples#Example 12: Threshold Gain Factor for He-Ne Laser\|Examples]]
+> See also: [[Semester 1/Physics/Unit 4/Examples#example-12:-threshold-gain-factor-for-he-ne-laser\|Examples]]
 
 ### 4.2 Cavity Design Considerations for a Laser
 
@@ -959,7 +320,7 @@ Laser light exhibits several distinctive properties that make it invaluable acro
     *   **Significance**: Essential for processes involving interference over significant path differences, such as interferometry, fiber optics, and holography. Ordinary light sources have coherence lengths of a few millimeters to tens of centimeters, while lasers can have coherence lengths of meters to many kilometers.
 
     **Description of Diagram (Temporal Coherence):** A plot showing a wave with varying phase coherence. Initially, phases are well-defined for some oscillations, but after a coherence time, the phase becomes uncorrelated and changes randomly. A coherence length ($L_c$) is marked as the distance over which the phase remains relatively predictable.
-    ![Temporal Coherence Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Temporal_coherence.svg/400px-Temporal_coherence.svg.png)
+    ![[https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Temporal_coherence.svg/400px-Temporal_coherence.svg.png\|Temporal Coherence Diagram]]
 
 2.  **Spatial Coherence**:
     *   **Definition**: Refers to the correlation between the phases of the light wave at different points transverse to the direction of propagation (across the wavefront) at a given instant. A highly spatially coherent source behaves as if the light originates from a single, infinitely small point source.
@@ -967,9 +328,9 @@ Laser light exhibits several distinctive properties that make it invaluable acro
     *   **Significance**: Enables the laser beam to be focused to a very small spot (diffraction limit) and to maintain a narrow, collimated beam over long distances (high directionality). It's crucial for applications requiring tight focusing, such as laser cutting, welding, and optical data storage.
 
 **Description of Diagram (Spatial Coherence):** A diagram showing two points on a wavefront. In spatially coherent light, the phase difference between these two points remains constant over time. In incoherent light, this phase difference fluctuates randomly.
-![Spatial Coherence Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Spatial_coherence.svg/400px-Spatial_coherence.svg.png)
+![[https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Spatial_coherence.svg/400px-Spatial_coherence.svg.png\|Spatial Coherence Diagram]]
 
-> See also: [[Semester 1/Physics/Unit 4/Examples#Example 8: Degree of Non-Monochromaticity\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 9: Coherence Length of a Laser Beam\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 10: Einstein Coefficients and Coherence Length\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 11: He-Ne Laser Coherence\|Examples]]
+> See also: [[Semester 1/Physics/Unit 4/Examples#example-8:-degree-of-non-monochromaticity\|Examples]], [[Semester 1/Physics/Unit 4/Examples#example-9:-coherence-length-of-a-laser-beam\|Examples]], [[Semester 1/Physics/Unit 4/Examples#example-10:-einstein-coefficients-and-coherence-length\|Examples]], [[Semester 1/Physics/Unit 4/Examples#example-11:-he-ne-laser-coherence\|Examples]]
 
 ### 5.3 Directionality (Low Divergence)
 
@@ -1009,9 +370,9 @@ The optical resonant cavity acts as a filter, supporting only specific frequenci
 *   **Laser Oscillation**: A laser can oscillate simultaneously on all longitudinal modes that fall within the bandwidth of the gain curve and whose gain exceeds the cavity losses. If the gain curve is sufficiently narrow or elements are added to select a single mode, the laser can operate in a single longitudinal mode, resulting in even higher monochromaticity.
 
 **Description of Diagram (Gain Curve and Cavity Modes):** A plot showing a broad, bell-shaped curve representing the laser gain as a function of optical frequency. Superimposed are sharp, equally spaced vertical lines representing the longitudinal modes of the resonant cavity. Only the modes under the gain curve and above the threshold gain oscillate.
-![Gain Curve and Cavity Modes Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Laser_modes.svg/600px-Laser_modes.svg.png)
+![[https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Laser_modes.svg/600px-Laser_modes.svg.png\|Gain Curve and Cavity Modes Diagram]]
 
-> See also: [[Semester 1/Physics/Unit 4/Examples#Example 13: Number of Modes and Frequency Separation in a Resonant Cavity\|Examples]]
+> See also: [[Semester 1/Physics/Unit 4/Examples#example-13:-number-of-modes-and-frequency-separation-in-a-resonant-cavity\|Examples]]
 
 ## 6. Types of LASERs: Atomic Gas Laser - He-Ne Laser
 
@@ -1031,7 +392,7 @@ The **Helium-Neon (He-Ne) laser** is a continuous-wave (CW) gas laser known for 
 #### 6.1.3 Energy Levels and Laser Action (Four-Level System)
 
 **Description of Diagram (He-Ne Laser Energy Levels):** A detailed energy level diagram for He and Ne atoms. On the left, He ground state and two metastable excited states ($2^1S$ at 20.61 eV and $2^3S$ at 19.82 eV). On the right, Ne ground state, a lower laser level ($3p_4$ state around 18.70 eV), and several upper laser levels ($2s_2$ state around 20.66 eV, $3s_2$ state). Arrows show electron impact excitation of He, resonant energy transfer from He to Ne, lasing transitions (e.g., 632.8 nm from $3s_2$ to $2p_4$), and fast decay of lower laser levels.
-![He-Ne Laser Energy Levels](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HeNe_laser_diagram.svg/600px-HeNe_laser_diagram.svg.png)
+![[https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HeNe_laser_diagram.svg/600px-HeNe_laser_diagram.svg.png\|He-Ne Laser Energy Levels]]
 
 1.  **Excitation of Helium**: Electrons in the discharge collide with ground state He atoms, exciting them to two specific metastable states:
     *   **$2^3S$ state (19.82 eV)**: The first excited triplet state of Helium.
@@ -1107,12 +468,12 @@ A linear CO2 molecule consists of a central carbon atom bonded to two oxygen ato
 The vibrational states are designated $(v_1, v_2, v_3)$, where $v_1, v_2, v_3$ are the vibrational quantum numbers for symmetric stretch, bending, and asymmetric stretch, respectively. For example, (000) is the ground state, (100) is the first symmetric stretch excited state, (010) is the first bending excited state, and (001) is the first asymmetric stretch excited state.
 
 **Description of Diagram (CO2 Vibrational Modes):** Illustrations showing the three distinct vibrational modes of a linear CO2 molecule: Symmetric Stretch (oxygen atoms move in and out together), Asymmetric Stretch (oxygen atoms move in opposite directions, carbon moves), and Bending (atoms move perpendicular to the axis). Arrows indicate atomic motion.
-![CO2 Vibrational Modes](https://www.chegg.com/homework-help/definitions/vibrational-modes-of-carbon-dioxide-molecule-64)
+![[https://www.chegg.com/homework-help/definitions/vibrational-modes-of-carbon-dioxide-molecule-64\|CO2 Vibrational Modes]]
 
 #### 7.1.4 Energy Levels and Laser Action (Four-Level System)
 
 **Description of Diagram (CO2 Laser Energy Levels & Vibrational Modes):** An energy level diagram showing the interplay between N2 and CO2 vibrational states. N2 ground state and first vibrational state ($N_2^*$) are shown. CO2 energy levels include (000) ground, (010) bending, (100) symmetric stretch, (020), and (001) asymmetric stretch. Arrows indicate: (1) Pumping from N2 ground to $N_2^*$. (2) Resonant energy transfer from $N_2^*$ to CO2(001) (upper laser level). (3) Stimulated emission from CO2(001) to CO2(100) (10.6 µm) and CO2(001) to CO2(020) (9.6 µm). (4) Fast non-radiative decay from CO2(100) and CO2(020) to CO2(010), then to CO2(000).
-![CO2 Laser Energy Levels](https://www.tf.uni-kiel.de/matwis/amat/semicond/lectures/lasers/laser_types/co2_laser_principle.gif)
+![[https://www.tf.uni-kiel.de/matwis/amat/semicond/lectures/lasers/laser_types/co2_laser_principle.gif\|CO2 Laser Energy Levels]]
 
 1.  **Excitation of Nitrogen ($N_2 \rightarrow N_2^*$)**: Electrons from the electrical discharge primarily excite N2 molecules to their first vibrational state ($N_2^*$). This state is metastable and has a long lifetime.
 
@@ -1170,7 +531,7 @@ The **E-k diagram is crucial for understanding light emission (and absorption)**
 **Description of Diagram (Direct vs. Indirect Band Gap E-k Diagram):** Two E-k diagrams are shown side-by-side.
 Part A (Direct Band Gap): The minimum of the conduction band and the maximum of the valence band are aligned vertically (at the same k-value, typically $\Gamma$ point). A vertical arrow shows direct radiative recombination (electron to hole, emitting photon, $h\nu \approx E_g$).
 Part B (Indirect Band Gap): The minimum of the conduction band and the maximum of the valence band are at different k-values. A diagonal arrow shows an electron transition requiring a change in momentum, typically involving a phonon for recombination.
-![Direct vs Indirect Band Gap](https://qph.cf2.quoracdn.net/main-qimg-22b6833fe0328848d61741753443a992-lq)
+![[https://qph.cf2.quoracdn.net/main-qimg-22b6833fe0328848d61741753443a992-lq\|Direct vs Indirect Band Gap]]
 
 ### 8.2 Concept of LED using Direct Band Gap Semiconductors
 
@@ -1188,7 +549,7 @@ A **Light-Emitting Diode (LED)** is a semiconductor device that utilizes the pri
 4.  **Incoherent Light**: While LEDs emit light efficiently, it is **spontaneous emission**, which is generally incoherent and non-directional.
 
 **Description of Diagram (LED Energy Band Diagram with Forward Bias):** An energy band diagram showing a p-n junction under forward bias. Conduction and valence bands are shown for n-type and p-type regions. Under forward bias, the bands are tilted, and the depletion region narrows. Arrows depict electrons injecting from n-side into p-side, holes from p-side into n-side, and then recombining at the junction, emitting photons ($h\nu$).
-![LED Energy Band Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/LED_Banddiagramm.png/600px-LED_Banddiagramm.png)
+![[https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/LED_Banddiagramm.png/600px-LED_Banddiagramm.png\|LED Energy Band Diagram]]
 
 ### 8.3 Semiconductor Laser (Diode Laser)
 
@@ -1201,9 +562,9 @@ A **semiconductor laser** (or **diode laser**) is essentially an LED designed to
 5.  **Stimulated Emission**: Once population inversion is established, photons generated by spontaneous emission are reflected back and forth within the cavity. When these photons interact with other excited electron-hole pairs, they trigger **stimulated emission**, producing identical photons and leading to light amplification and laser action.
 
 **Description of Diagram (Semiconductor Laser Energy Band Diagram under Lasing Condition):** A simplified energy band diagram for a p-n junction displaying distinct quasi-Fermi levels for electrons ($E_{F_e}$) and holes ($E_{F_h}$) under strong forward bias. The splitting $E_{F_e} - E_{F_h} > E_g$ signifies population inversion. An arrow depicts stimulated emission ($h\nu \approx E_g$) via electron-hole recombination.
-![Semiconductor Laser Band Diagram](https://qph.cf2.quoracdn.net/main-qimg-e069542a73fd0fb5fb057406a441399f-lq)
+![[https://qph.cf2.quoracdn.net/main-qimg-e069542a73fd0fb5fb057406a441399f-lq\|Semiconductor Laser Band Diagram]]
 
-> See also: [[Semester 1/Physics/Unit 4/Examples#Example 4: Wavelength of Laser Emitted from Semiconductor\|Examples]]
+> See also: [[Semester 1/Physics/Unit 4/Examples#example-4:-wavelength-of-laser-emitted-from-semiconductor\|Examples]]
 
 ### 8.4 Homo-junction Laser and Hetero-junction Laser
 
@@ -1246,7 +607,7 @@ Part (a): Cross-section showing n-AlGaAs, p-GaAs (active layer), and p-AlGaAs la
 Part (b): Band diagram under forward bias, illustrating the conduction band and valence band edges forming quantum wells in the active GaAs layer, confining electrons and holes. Split quasi-Fermi levels are shown.
 Part (c): Refractive index profile, showing the higher refractive index of GaAs compared to AlGaAs, creating an optical waveguide.
 Part (d): Photon density profile, showing peak confinement within the GaAs active region.
-![Double Heterostructure Laser](https://upload.wikimedia.org/wikipedia/commons/e/e4/Structure_of_heterojunction_laser.png)
+![[https://upload.wikimedia.org/wikipedia/commons/e/e4/Structure_of_heterojunction_laser.png\|Double Heterostructure Laser]]
 
 #### 8.4.3 Why Creating White LEDs took a long time in the making?
 
@@ -1332,7 +693,7 @@ $$ E_{transmitted} \propto (\text{zero-order beam}) + E_O |E_R|^2 + E_R^2 E_O^* 
 **Description of Diagram (Hologram Recording and Reconstruction):** A two-part diagram.
 Part 1 (Recording): A laser beam is split into a reference beam (directly to holographic plate) and an object beam (illuminates object then to plate). The two beams interfere on the plate.
 Part 2 (Reconstruction): A reconstruction beam (often the same as the reference beam) illuminates the developed hologram, generating an undiffracted beam and two diffracted beams that form a virtual 3D image and a real 3D image.
-![Holography Scheme](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Holography_Scheme.png/600px-Holography_Scheme.png)
+![[https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Holography_Scheme.png/600px-Holography_Scheme.png\|Holography Scheme]]
 
 ### 9.2 Off-Axis Holographic Recording Method
 
@@ -1441,7 +802,7 @@ Since $E = E_0 / \epsilon_r$,
 $$ P = \epsilon_0 (\epsilon_r - 1) \frac{E_0}{\epsilon_r} $$
 This expression relates the polarization to the external field.
 
-> See also: [[Semester 1/Physics/Unit 4/Examples#Example 14: Induced Surface Charge and Electric Fields\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 15: Dielectric Properties with Charge Density\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 16: Electronic Polarizability Calculation\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 18: Polarization and Electric Field in a Capacitor\|Examples]]
+> See also: [[Semester 1/Physics/Unit 4/Examples#example-14:-induced-surface-charge-and-electric-fields\|Examples]], [[Semester 1/Physics/Unit 4/Examples#example-15:-dielectric-properties-with-charge-density\|Examples]], [[Semester 1/Physics/Unit 4/Examples#example-16:-electronic-polarizability-calculation\|Examples]], [[Semester 1/Physics/Unit 4/Examples#example-18:-polarization-and-electric-field-in-a-capacitor\|Examples]]
 
 #### 10.1.4 Susceptibility Tensor
 
@@ -1470,7 +831,7 @@ Where:
 **Description of Diagram (Electric Fields in Dielectric):** Two diagrams illustrating fields.
 Part 1: A dielectric slab between capacitor plates. $E_{ext}$ is the external field. $E_p$ is the depolarizing field caused by surface polarization charges within the dielectric, opposing $E_{ext}$.
 Part 2: An imaginary spherical cavity within a polarized dielectric. $E_{loc}$ is shown at the center, resulting from $E_{ext}$, $E_{dep}$, $E_{cav}$, and $E_{int}$. The Lorentz force/field is often represented as $E_L$.
-![Electric Fields in Dielectric](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Dipole_polarisation_of_a_dielectric_material.svg/600px-Dipole_polarisation_of_a_dielectric_material.svg.png)
+![[https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Dipole_polarisation_of_a_dielectric_material.svg/600px-Dipole_polarisation_of_a_dielectric_material.svg.png\|Electric Fields in Dielectric]]
 
 #### 10.2.2 Lorentz Field ($\mathbf{E}_L$)
 
@@ -1508,7 +869,7 @@ The Lorentz field is fundamental in connecting the macroscopic dielectric proper
     $$ \frac{\epsilon_r - 1}{\epsilon_r + 2} = \frac{N \alpha}{3\epsilon_0} $$
 This is the **Clausius-Mossotti relation**, valid for materials with cubic symmetry and where electronic and ionic polarization mechanisms are dominant. It links macroscopic dielectric constant ($\epsilon_r$) to microscopic polarizability ($\alpha$) and number density ($N$).
 
-> See also: [[Semester 1/Physics/Unit 4/Examples#Example 17: Polarizability of Kr Atom\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 19: Electronic Polarizability of Sulphur\|Examples]], [[Semester 1/Physics/Unit 4/Examples#Example 20: Total Polarizability of CO2\|Examples]]
+> See also: [[Semester 1/Physics/Unit 4/Examples#example-17:-polarizability-of-kr-atom\|Examples]], [[Semester 1/Physics/Unit 4/Examples#example-19:-electronic-polarizability-of-sulphur\|Examples]], [[Semester 1/Physics/Unit 4/Examples#example-20:-total-polarizability-of-co2\|Examples]]
 
 ### 10.3 Frequency Dependence of Dielectric Constant
 
@@ -1521,7 +882,7 @@ The dielectric constant ($\epsilon_r$) of a material is not fixed but depends on
 *   **Beyond Optical Frequencies ($\approx 10^{16}$ Hz and higher)**: As the frequency increases further (UV, X-rays), even electronic polarization cannot keep up. The material essentially behaves as vacuum, with $\epsilon_r$ approaching 1.
 
 **Description of Diagram (Frequency Dependence of Dielectric Constant):** A plot showing the real part of the dielectric constant ($\epsilon'$) and imaginary part ($\epsilon''$) as a function of $\log(\text{frequency})$. Plateaus and drop-offs are observed at frequencies corresponding to the relaxation times of each polarization mechanism (space charge, orientational, ionic, electronic), illustrating their sequential loss of contribution as frequency increases. Resonant peaks might be shown for ionic and electronic parts.
-![Dielectric Constant vs Frequency](https://www.tf.uni-kiel.de/matwis/amat/semicond/lectures/dielectric/dielectric_dispersion.gif)
+![[https://www.tf.uni-kiel.de/matwis/amat/semicond/lectures/dielectric/dielectric_dispersion.gif\|Dielectric Constant vs Frequency]]
 
 ### 10.4 Microwave Oven Operation: How it Works
 
@@ -1677,7 +1038,7 @@ Many of the interesting dielectric properties discussed above are intrinsically 
     - **Below** : Transforms from orthorhombic to **rhombohedral symmetry**. The  ion shifts along a body diagonal, giving another ferroelectric phase.
 
 **Description of Diagram (BaTiO3 Phase Transitions and Properties):** A graph showing relative permittivity () as a function of temperature. It displays a sharp peak at the Curie temperature, where the material transitions from a high-symmetry (cubic, paraelectric) phase to lower-symmetry (tetragonal, orthorhombic, rhombohedral) ferroelectric phases upon cooling. Spontaneous polarization arises in the ferroelectric phases.  
-![BaTiO3 Phase Transitions](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Pyroelectric-Ferroelectric_Titanate_Diagram.png/600px-Pyroelectric-Ferroelectric_Titanate_Diagram.png)
+![[https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Pyroelectric-Ferroelectric_Titanate_Diagram.png/600px-Pyroelectric-Ferroelectric_Titanate_Diagram.png\|BaTiO3 Phase Transitions]]
 
 ### 12.3 Hysteresis (P-E Loop)
 
@@ -1697,7 +1058,7 @@ The most distinctive characteristic of ferroelectric materials is the **hystere
     - **Coercive Field ()**: The magnitude of the (opposing) electric field required to reduce the polarization to zero. It indicates the "switching energy" or "hardness" of the ferroelectric.
 
 **Description of Diagram (Ferroelectric Hysteresis Loop):** A graph with Electric Field (E) on the x-axis and Polarization (P) on the y-axis, showing a typical S-shaped hysteresis loop. Points for saturation polarization (), remnant polarization (), and coercive field () are clearly marked, with arrows indicating the path of the curve.  
-![Ferroelectric Hysteresis Loop](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ferroelectric_hysteresis.svg/600px-Ferroelectric_hysteresis.svg.png)
+![[https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ferroelectric_hysteresis.svg/600px-Ferroelectric_hysteresis.svg.png\|Ferroelectric Hysteresis Loop]]
 
 ### 12.4 Application as Memory Materials
 
@@ -1758,7 +1119,7 @@ Here:
 4. This oscillating polarization at  acts as a source term for new electromagnetic waves within the crystal, generating light at the second harmonic frequency.
 
 **Description of Diagram (SHG Energy Levels):** A simplified energy diagram showing two input photons of energy  (frequency ) exciting an atom or molecule in a non-linear material, resulting in the emission of one photon of energy  (frequency ). This is not a direct energy level transition for a single atom but a coherent interaction with the material's electrons.  
-![SHG Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Second_harmonic_generation.svg/400px-Second_harmonic_generation.svg.png)
+![[https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Second_harmonic_generation.svg/400px-Second_harmonic_generation.svg.png\|SHG Diagram]]
 
 #### 13.2.2 Phase Matching
 
@@ -1830,7 +1191,7 @@ A typical optical tweezers setup involves:
     - **Microrheology**: Measuring the viscoelastic properties of soft materials by observing trapped particles.
 
 **Description of Diagram (Optical Tweezers Principle):** A diagram showing a highly focused laser beam (converging rays) impinging on a small dielectric sphere (particle). Rays are shown being refracted by the particle. The change in momentum of the light rays, due to refraction, results in a net gradient force pushing the particle towards the high-intensity focal point of the beam, counteracting the scattering force.  
-![Optical Tweezers Principle](https://upload.wikimedia.org/wikipedia/commons/e/e9/Optical_Tweezer_Principle_%28English%29.jpg)
+![[https://upload.wikimedia.org/wikipedia/commons/e/e9/Optical_Tweezer_Principle_(English).jpg\|Optical Tweezers Principle]]
 
 ### 14.2 Laser Cooling
 
@@ -1869,4 +1230,4 @@ A typical laser cooling setup (MOT) involves:
 - **Atom Interferometry**: Using cooled atoms to create highly sensitive sensors for gravity, rotation, and other forces.
 
 **Description of Diagram (Doppler Cooling Principle):** A diagram showing an atom moving towards a red-detuned laser beam (frequency ). Due to the Doppler effect, the atom "sees" the laser light as blue-shifted (), bringing it closer to resonance (). This increases the absorption probability, and the momentum transfer from the absorbed photon slows the atom. Spontaneous emission occurs in random directions, with average zero momentum change.  
-![Doppler Cooling Principle](https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Doppler_Cooling.svg/500px-Doppler_Cooling.svg.png)
+![[https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Doppler_Cooling.svg/500px-Doppler_Cooling.svg.png\|Doppler Cooling Principle]]

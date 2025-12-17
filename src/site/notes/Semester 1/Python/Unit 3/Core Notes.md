@@ -5,7 +5,7 @@
 # [[Semester 1/Python/Python\|Back]]
 ***
 [[Semester 1/Python/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 3/Examples\|Examples]] | [[Semester 1/Python/Unit 3/Questions\|Questions]]
-
+***
 # Unit 3: Advanced Functions, Testing, Debugging, and GUI
 
 ## 1. Advanced Functions

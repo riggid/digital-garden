@@ -230,7 +230,7 @@ Mechanics of materials (also known as strength of materials) is a fundamental br
 ## Stress-Strain Diagram
 
 The stress-strain diagram is a fundamental plot, typically obtained from a tensile test on a Universal Testing Machine (UTM), that illustrates the relationship between engineering stress and engineering strain for a material. It provides crucial insights into a material's mechanical properties.
-![](/img/user/Semester%201/Mechanical/Unit%202/Core%20Notes-2.png)
+![Core Notes-2.png](/img/user/Semester%201/Mechanical/Unit%202/Core%20Notes-2.png)
 ### Stress-Strain Diagram for Mild Steel (A Ductile Material)
 
 1.  **O-A (Linear Elastic Region)**:
