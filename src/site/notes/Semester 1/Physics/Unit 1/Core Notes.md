@@ -48,7 +48,7 @@ For a plane electromagnetic wave:
 *   They are mutually **perpendicular** to each other.
 *   They are both perpendicular to the direction of wave propagation. The direction of propagation is given by the cross product $\vec{S} \propto \vec{E} \times \vec{B}$.
 
-![EM Wave Propagation](/img/user/Semester%201/Physics/Unit%201/Attachments/em_wave_propagation.png)
+![EM Wave Propagation](/img/user/Semester%201/Physics/Unit%201/Attachments/em_wave_propagation.jpg)
 
 > See also: [Questions](Semester%201/Physics/Unit%201/Questions.md#Discuss%20the%20phase%20correlation%20and%20direction%20of%20the%20E%20and%20B%20fields%20of%20an%20EM%20Wave.)
 > For a numerical problem, see: [Examples](Semester%201/Physics/Unit%201/Examples.md#Example%201:%20EM%20Wave%20Properties)
@@ -91,7 +91,7 @@ An idealized object that absorbs all incident electromagnetic radiation and emit
 2.  **Wien's Displacement Law**: As blackbody temperature increases, the peak intensity shifts to shorter wavelengths (higher frequencies).
 3.  **Stefan-Boltzmann Law**: Total energy radiated (area under the curve) increases dramatically ($\propto T^4$) with temperature.
 
-![Blackbody Radiation Spectrum](/img/user/Semester%201/Physics/Unit%201/Attachments/blackbody_spectrum_curves.png)
+![Blackbody Radiation Spectrum](/img/user/Semester%201/Physics/Unit%201/Attachments/blackbody_spectrum_curves.jpg)
 
 -   **Classical Failure (Ultraviolet Catastrophe)**: The classical Rayleigh-Jeans law ($\rho(\nu)d\nu = \frac{8\pi \nu^2}{c^3}kT d\nu$) incorrectly predicted infinite energy at high frequencies.
 -   **Planck's Solution (Quantum Hypothesis)**: Max Planck resolved this by postulating that energy is quantized ($E = nh\nu$). His formula:
@@ -136,7 +136,7 @@ This derivation is crucial for the classical Rayleigh-Jeans law. It involves cou
 -   **Classical Failure**: Predicted energy of emitted electrons depends on intensity, and emission should have time delay.
 -   **Einstein's Explanation (1905)**: Light consists of photons ($E = h\nu$). $KE_{max} = h\nu - \phi$ (Work Function). This explained instantaneous, frequency-dependent emission.
 
-![Photoelectric Effect](/img/user/Semester%201/Physics/Unit%201/Attachments/photoelectric_effect_schematic.png)
+![Photoelectric Effect](/img/user/Semester%201/Physics/Unit%201/Attachments/photoelectric_effect_schematic.jpg)
 
 ---
 
@@ -151,7 +151,7 @@ Scattering of X-rays (or gamma rays) by electrons results in a decrease in energ
     *   Minimum shift ($\Delta\lambda = 0$) at $\theta = 0^\circ$.
     *   Maximum shift ($\Delta\lambda = 2\lambda_C$) at $\theta = 180^\circ$.
 
-![Compton Scattering](/img/user/Semester%201/Physics/Unit%201/Attachments/compton_scattering_diagram.png)
+![Compton Scattering](/img/user/Semester%201/Physics/Unit%201/Attachments/compton_scattering_diagram.jpg)
 
 > See also: [Questions](Semester%201/Physics/Unit%201/Questions.md#How%20does%20classical%20theory%20fail%20to%20explain%20the%20results%20of%20Compton's%20experiment%3F), [Examples](Semester%201/Physics/Unit%201/Examples.md#Example%203:%20Compton%20Scattering%20Calculation)
 
@@ -327,7 +327,7 @@ The Heisenberg Uncertainty Principle provides a fundamental quantum mechanical a
     This allows them to represent distinct, measurable outcomes.
 -   **Bloch Sphere**: A single qubit's state can be visualized as a point on the surface of a unit sphere (the Bloch sphere). $|0\rangle$ is at the North Pole, $|1\rangle$ at the South Pole. Any superposition $\alpha|0\rangle + \beta|1\rangle$ (after some phase factor elimination) maps to a unique point on the sphere, where the angles define $\alpha$ and $\beta$.
 
-![Bloch Sphere](/img/user/Semester%201/Physics/Unit%201/Attachments/bloch_sphere_qubit.png)
+![Bloch Sphere](/img/user/Semester%201/Physics/Unit%201/Attachments/bloch_sphere_qubit.jpg)
 
 ### **Inner and Outer Products of Qubits**
 These are operations on state vectors that are fundamental in quantum mechanics.

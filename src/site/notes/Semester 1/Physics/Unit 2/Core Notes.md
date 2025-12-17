@@ -15,7 +15,7 @@ This unit applies the Schrödinger Wave Equation (SWE) to analyze the behavior o
 
 ---
 ## 1. Potential Step
-![Potential Step Diagram](/img/user/Semester%201/Physics/Unit%202/Attachments/potential_step_diagram.png)
+![Potential Step Diagram](/img/user/Semester%201/Physics/Unit%202/Attachments/potential_step_diagram.jpg)
 A potential step describes a sudden change in potential energy $V(x)$ from $0$ to a constant value $V_0$ at a boundary (e.g., $x=0$).
 The 1D time-independent SWE is: $\frac{d^{2}\psi}{dx^{2}}+\frac{2m}{\hbar^{2}}(E-V)\psi=0$.
 
@@ -75,7 +75,7 @@ Solution: $\psi_2(x) = F e^{-\alpha x} + G e^{\alpha x}$.
 
 ---
 ## 2. Potential Barrier and Tunneling
-![Potential Barrier Tunneling](/img/user/Semester%201/Physics/Unit%202/Attachments/potential_barrier_tunneling.png)
+![Potential Barrier Tunneling](/img/user/Semester%201/Physics/Unit%202/Attachments/potential_barrier_tunneling.jpg)
 A potential barrier has $V(x)=V_0$ for $0 < x < L$ (finite width $L$) and $V(x)=0$ otherwise ($x<0$ or $x>L$). We primarily consider the case where $E < V_0$.
 
 **Regions and Wave Function Nature ($E < V_0$):**

@@ -72,7 +72,12 @@ $$ J_p(x) = \sum_{m=0}^{\infty} \frac{(-1)^m}{m! \Gamma(m+p+1)} \left( \frac{x}{
     $$ J_{-n}(x) = (-1)^n J_n(x) $$
     In this case, a second linearly independent solution $Y_n(x)$ (Bessel function of the second kind or Neumann function) is needed: $y(x) = c_1 J_n(x) + c_2 Y_n(x)$.
 
-### 2.3 Recurrence Relations
+### 2.3 Generating Function and Jacobi Series
+*   **Generating Function**: The generating function for the Bessel function $J_n(x)$ is given by $e^{\frac{x}{2}(t - \frac{1}{t})} = \sum_{n=-\infty}^{\infty} J_n(x) t^n$.
+    *   This formula allows deriving various properties and recurrence relations.
+*   **Jacobi Series**: An expansion involving Bessel functions, often used in wave propagation and signal processing.
+
+### 2.4 Recurrence Relations
 These identities are useful for computing values and derivatives of Bessel functions.
 1.  $\frac{d}{dx} [x^p J_p(x)] = x^p J_{p-1}(x)$
 2.  $\frac{d}{dx} [x^{-p} J_p(x)] = -x^{-p} J_{p+1}(x)$
