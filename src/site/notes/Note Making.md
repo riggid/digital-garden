@@ -18,6 +18,10 @@ Within each `Unit X/` folder, the following three Markdown (`.md`) files are man
 
 Consistent and clear navigation must be implemented in every generated Markdown file.
 
+### 2.3 Publishing Permissions:
+*   **Permission Required**: New notes must not be marked for publishing (i.e., do not add `dg-publish: true`) until explicitly permitted by the user.
+*   **Workflow**: First generate the notes. Then, ask the user if they should be published. Only upon confirmation, add the frontmatter property.
+
 ### 2.1 Back to Subject Index:
 Every Markdown file (`Core Notes.md`, `Examples.md`, `Questions.md`) must begin with a link pointing back to the main subject index file.
 *   **Format**: `# [Back](../../[Subject Name].md)`
