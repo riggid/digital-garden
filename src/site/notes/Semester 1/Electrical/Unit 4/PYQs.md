@@ -2,12 +2,13 @@
 {"dg-publish":true,"permalink":"/semester-1/electrical/unit-4/py-qs/"}
 ---
 
+
 # Previous Year Questions (PYQs)
 
-> **Unit 4** | Electrical
-
-
----
+# [[Semester 1/Electrical/Electrical\|Back]]
+***
+[[Semester 1/Electrical/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Electrical/Unit 4/Questions\|Questions]] | [[Semester 1/Electrical/Unit 4/PYQs\|PYQs]] | [[Semester 1/Electrical/Unit 4/MCQs\|MCQs]]
+***
 
 ## 📚 PYQ Resource Links
 
@@ -23,10 +24,6 @@ University-provided study materials, slides, notes, and PYQs:
 
 **[📁 First Year PES Resources](https://drive.google.com/drive/folders/1DIjOOU8QzWAkfEKE4fK0ZD6DIcchXYLM)**
 
----
-
 > **Tip**: Browse through these folders to find papers and materials specific to this unit. ESA papers are organized by year and subject.
-
----
 
 *Last updated: December 2025*
