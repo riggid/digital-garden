@@ -1,5 +1,5 @@
-/* --- Catppuccin Mocha Palette Force --- */
-:root, body {
+/* --- Catppuccin Mocha Palette & Dashboard Styles --- */
+:root {
     --ctp-rosewater: #f5e0dc;
     --ctp-flamingo: #f2cdcd;
     --ctp-pink: #f5c2e7;
@@ -27,27 +27,30 @@
     --ctp-mantle: #181825;
     --ctp-crust: #11111b;
 }
+
 /* Main Container */
 #dashboard-grid {
-    display: grid !important;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
-    gap: 24px !important;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
     margin-top: 20px;
     padding: 10px;
 }
+
 /* Card Styling */
 .semester-card {
-    background: var(--ctp-surface0) !important;
-    border: 1px solid var(--ctp-surface1) !important;
-    border-radius: 16px !important;
+    background: var(--ctp-surface0);
+    border: 1px solid var(--ctp-surface1);
+    border-radius: 16px;
     padding: 24px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4) !important; /* Increased darkness for visibility */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     flex-direction: column;
     position: relative;
     overflow: hidden;
 }
+
 /* Subtle gradient top border */
 .semester-card::before {
     content: '';
@@ -60,31 +63,36 @@
     opacity: 0;
     transition: opacity 0.3s ease;
 }
+
 .semester-card:hover {
-    transform: translateY(-4px) !important;
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5), 0 0 15px rgba(203, 166, 247, 0.2) !important;
-    border-color: var(--ctp-mauve) !important;
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2), 0 0 15px rgba(203, 166, 247, 0.1);
+    border-color: var(--ctp-mauve);
 }
+
 .semester-card:hover::before {
-    opacity: 1 !important;
+    opacity: 1;
 }
+
 /* Title Styling */
 .semester-title {
     margin: 0 0 20px 0 !important;
     padding-bottom: 12px;
-    border-bottom: 2px solid var(--ctp-surface1) !important;
+    border-bottom: 2px solid var(--ctp-surface1);
     font-size: 1.3em;
     font-weight: 700;
-    color: var(--ctp-mauve) !important;
+    color: var(--ctp-mauve);
     display: flex;
     align-items: center;
     gap: 12px;
     letter-spacing: -0.01em;
 }
+
 .title-icon {
     font-size: 1.1em;
     filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
 }
+
 /* Button Container */
 .subject-button-container {
     display: flex;
@@ -92,28 +100,30 @@
     gap: 10px;
     flex-grow: 1;
 }
+
 /* Button Styling */
 a.subject-button {
     display: flex !important;
     align-items: center;
-    padding: 14px 18px !important;
-    background: var(--ctp-base) !important;
-    border: 1px solid var(--ctp-surface1) !important;
-    border-radius: 10px !important;
+    padding: 14px 18px;
+    background: var(--ctp-base);
+    border: 1px solid var(--ctp-surface1);
+    border-radius: 10px;
     color: var(--ctp-text) !important;
     text-decoration: none !important;
     font-size: 0.95em;
     font-weight: 500;
     transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-    margin-bottom: 8px; /* Added spacing */
 }
+
 a.subject-button:hover {
-    background: var(--ctp-mauve) !important;
+    background: var(--ctp-mauve);
     color: var(--ctp-base) !important;
-    border-color: var(--ctp-mauve) !important;
-    padding-left: 24px !important;
-    box-shadow: 0 4px 12px rgba(203, 166, 247, 0.3) !important;
+    border-color: var(--ctp-mauve);
+    padding-left: 24px;
+    box-shadow: 0 4px 12px rgba(203, 166, 247, 0.3);
 }
+
 .button-icon {
     margin-right: 12px;
     color: var(--ctp-blue);
@@ -121,7 +131,171 @@ a.subject-button:hover {
     transition: all 0.2s ease;
     display: inline-block;
 }
+
 a.subject-button:hover .button-icon {
-    color: var(--ctp-base) !important;
+    color: var(--ctp-base);
+    /* Contrast against mauve bg */
     transform: scale(1.2) rotate(5deg);
+}
+
+/* ================================================== */
+/* MCQ Interactive Styling - Catppuccin Mocha Theme  */
+/* ================================================== */
+
+/* MCQ Options Styling */
+h3+ul li,
+h3+p+ul li {
+    position: relative;
+    padding: 0.75rem 1rem;
+    padding-left: 2.5rem;
+    margin: 0.6rem 0;
+    background: var(--ctp-surface0);
+    border: 2px solid var(--ctp-surface1);
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    list-style: none;
+}
+
+h3+ul li:hover,
+h3+p+ul li:hover {
+    background: var(--ctp-surface1);
+    border-color: var(--ctp-mauve);
+    transform: translateX(5px);
+    box-shadow: 0 2px 8px rgba(203, 166, 247, 0.2);
+}
+
+h3+ul li::before,
+h3+p+ul li::before {
+    content: '';
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    border: 2px solid var(--ctp-overlay0);
+    border-radius: 50%;
+    background: transparent;
+    transition: all 0.2s ease;
+}
+
+h3+ul li:hover::before,
+h3+p+ul li:hover::before {
+    border-color: var(--ctp-mauve);
+    background: var(--ctp-mauve);
+    box-shadow: 0 0 8px rgba(203, 166, 247, 0.4);
+}
+
+/* Details/Summary - Check Answer Button */
+details summary {
+    cursor: pointer;
+    padding: 0.875rem 1.5rem;
+    background: linear-gradient(135deg, var(--ctp-mauve), var(--ctp-blue));
+    color: var(--ctp-crust);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    list-style: none;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 4px 12px rgba(203, 166, 247, 0.3);
+    border: 2px solid transparent;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details summary::marker {
+    display: none;
+}
+
+details summary::before {
+    content: '▶';
+    font-size: 0.8rem;
+    margin-right: 0.2rem;
+}
+
+details summary:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 6px 20px rgba(203, 166, 247, 0.5);
+    background: linear-gradient(135deg, var(--ctp-blue), var(--ctp-sapphire));
+    border-color: var(--ctp-lavender);
+}
+
+details summary:active {
+    transform: translateY(0) scale(0.98);
+}
+
+/* When details is open */
+details[open] summary {
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, var(--ctp-green), var(--ctp-teal));
+    box-shadow: 0 4px 16px rgba(166, 227, 161, 0.4);
+}
+
+details[open] summary::before {
+    content: '▼';
+}
+
+details[open] summary:hover {
+    background: linear-gradient(135deg, var(--ctp-teal), var(--ctp-green));
+}
+
+/* Answer Content Styling */
+details>blockquote {
+    background: linear-gradient(135deg,
+            rgba(166, 227, 161, 0.12),
+            rgba(148, 226, 213, 0.08));
+    border-left: 4px solid var(--ctp-green);
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.25rem;
+    margin: 0.5rem 0 0 0;
+    animation: fadeSlideIn 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* CRITICAL: Hide content when details is closed */
+details:not([open])>blockquote,
+details:not([open])>p,
+details:not([open])>* :not(summary) {
+    display: none !important;
+}
+
+details>blockquote strong {
+    color: var(--ctp-green);
+    font-weight: 700;
+}
+
+details>blockquote em {
+    color: var(--ctp-subtext0);
+}
+
+/* Animation for answer reveal */
+@keyframes fadeSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Question Headers in MCQs */
+.markdown-preview-view h3 {
+    color: var(--ctp-lavender);
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Horizontal rules between questions */
+.markdown-preview-view hr {
+    border-color: var(--ctp-surface1);
+    margin: 2rem 0;
 }
