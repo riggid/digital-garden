@@ -24,6 +24,15 @@ University-provided study materials, slides, notes, and PYQs:
 
 **[📁 First Year PES Resources](https://drive.google.com/drive/folders/1DIjOOU8QzWAkfEKE4fK0ZD6DIcchXYLM)**
 
-> **Tip**: Browse through these folders to find papers and materials specific to this unit. ESA papers are organized by year and subject.
+## 📝 Selected Previous Year Questions
+
+### Problems & Conceptual Questions
+1. **Compton Effect**: Write an expression for the Compton shift. Estimate the wavelength of incident light if the scattered light is detected at 0.15 nm at an angle of $135^\circ$.
+2. **Quantum Mechanics Concepts**: Explain the following fundamental concepts:
+   - **Normalization** of a wave function.
+   - **Probability Density** ($\Psi^*\Psi$).
+   - **Expectation Value** of an observable.
+
+> **Note**: For more questions, refer to the [ESA PYQs Drive Folder](https://drive.google.com/drive/folders/11U56PJ-VZ_5zaJ1fVrV6h3kzN4rnNX7E?usp=drive_link).
 
 *Last updated: December 2025*
