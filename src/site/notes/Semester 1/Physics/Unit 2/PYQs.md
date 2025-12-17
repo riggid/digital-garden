@@ -33,6 +33,12 @@ University-provided study materials, slides, notes, and PYQs:
    - **Probability Density** ($\Psi^*\Psi$).
    - **Expectation Value** of an observable.
 
+### Long Answer Questions
+1. **Heisenberg's Uncertainty Principle**: State Heisenberg's Uncertainty Principle. Using this principle, show that an electron cannot exist inside the nucleus.
+2. **Particle in a Box**: Set up the Schrödinger wave equation for a particle in a one-dimensional infinite potential well. Solve it to derive the expressions for energy eigenvalues and eigenfunctions.
+3. **Phase and Group Velocity**: Define Phase Velocity and Group Velocity. Derive the relation between them for a non-relativistic free particle.
+4. **Physical Significance**: Discuss the physical significance of the wave function $\Psi$ and its interpretation.
+
 > **Note**: For more questions, refer to the [ESA PYQs Drive Folder](https://drive.google.com/drive/folders/11U56PJ-VZ_5zaJ1fVrV6h3kzN4rnNX7E?usp=drive_link).
 
 *Last updated: December 2025*

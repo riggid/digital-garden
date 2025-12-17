@@ -26,15 +26,17 @@ University-provided study materials, slides, notes, and PYQs:
 
 ## 📝 Selected Previous Year Questions
 
-### IC Engines & Energy Systems
-1. **IC Engine Testing**: During a trial on a single-cylinder 4-stroke gas engine, the following observations were made:
-   - RPM = ...
-   - Load on brake = ...
-   - MEP = ...
-   - Gas consumption = ...
-   Calculate the Indicated Power (IP), Brake Power (BP), and Mechanical Efficiency.
-2. **Engine Cycles**: Explain the working of a 4-stroke petrol engine with the help of a theoretical PV diagram.
-3. **Energy Sources**: Discuss the principle and working of a Wind Energy Conversion System (WECS) with a neat sketch.
+### 1. Machining and Machine Tools
+1. **Lathe Operations**: With a neat block diagram, explain the construction and working of a Lathe machine. List and briefly explain any four operations performed on it (e.g., Turning, Facing, Taper Turning).
+2. **Milling**: Differentiate between Up Milling (Conventional) and Down Milling (Climb) processes.
+3. **Non-Conventional Machining**: Explain the working principle of Abrasive Jet Machining (AJM) with a neat sketch. List its advantages and applications.
+4. **Electron Beam Machining**: Explain the principle and working of Electron Beam Machining (EBM). What are its advantages and limitations?
+
+### 2. Heat Treatment and Control Systems
+1. **Heat Treatment**: Define Heat Treatment. Explain the Annealing and Normalizing processes. How do they differ in terms of cooling correlation and final properties?
+2. **Hardening**: Explain the process of Hardening (Quenching) and Tempering. Why is tempering performed after hardening?
+3. **Control Systems**: Differentiate between Open Loop and Closed Loop control systems with suitable examples (e.g., room heater or traffic light).
+4. **NC and CNC**: Briefly explain the difference between NC and CNC machines.
 
 > **Note**: For more questions, refer to the [ESA PYQs Drive Folder](https://drive.google.com/drive/folders/11U56PJ-VZ_5zaJ1fVrV6h3kzN4rnNX7E?usp=drive_link).
 

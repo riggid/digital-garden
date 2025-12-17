@@ -1191,7 +1191,7 @@ A typical optical tweezers setup involves:
     - **Microrheology**: Measuring the viscoelastic properties of soft materials by observing trapped particles.
 
 **Description of Diagram (Optical Tweezers Principle):** A diagram showing a highly focused laser beam (converging rays) impinging on a small dielectric sphere (particle). Rays are shown being refracted by the particle. The change in momentum of the light rays, due to refraction, results in a net gradient force pushing the particle towards the high-intensity focal point of the beam, counteracting the scattering force.  
-![Attachments/optical_tweezers.jpg|Optical Tweezers Principle](/img/user/Semester%201/Physics/Unit%204/Attachments/optical_tweezers.jpg)
+
 
 ### 14.2 Laser Cooling
 
