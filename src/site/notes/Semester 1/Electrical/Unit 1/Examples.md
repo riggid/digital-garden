@@ -5,6 +5,8 @@
 
 # [[Semester 1/Electrical/Electrical\|Back]]
 ***
+[[Semester 1/Electrical/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Electrical/Unit 1/Examples\|Examples]] | [[Semester 1/Electrical/Unit 1/Questions\|Questions]]
+***
 ## Example 1: Basic KVL
 
 # DC Circuits Examples
