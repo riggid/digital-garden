@@ -4,7 +4,8 @@
 
 # [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
----
+[[Semester 1/Mathematics/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 1/Examples\|Examples]] | [[Semester 1/Mathematics/Unit 1/Questions\|Questions]]
+***
 # Unit - 1: Partial Differential Equations: Q & A
 ***
 ## 1. Find all the first-order partial derivatives of the following function:

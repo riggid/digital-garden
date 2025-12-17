@@ -8,9 +8,10 @@
 
 # Unit 4 Examples: Special Functions
 
-## Example 1: Evaluation using Beta-Gamma Relation
-**Problem:** Evaluate $\int_0^{\pi/2} \sin^4 x \cos^5 x \, dx$ using Beta functions.
-**Solution:**
+### Example 1: Evaluation using Beta-Gamma Relation
+Evaluate $\int_0^{\pi/2} \sin^4 x \cos^5 x \, dx$ using Beta functions.
+
+#### Solution
 1.  Recall the formula:
     $$ \int_0^{\pi/2} \sin^p \theta \cos^q \theta \, d\theta = \frac{1}{2} \beta\left( \frac{p+1}{2}, \frac{q+1}{2} \right) $$
 2.  Here $p=4, q=5$.
@@ -28,9 +29,10 @@
 
 ***
 
-## Example 2: Gamma Function Integral
-**Problem:** Evaluate $\int_0^{\infty} x^4 e^{-x} \, dx$.
-**Solution:**
+### Example 2: Gamma Function Integral
+Evaluate $\int_0^{\infty} x^4 e^{-x} \, dx$.
+
+#### Solution
 1.  By definition, $\Gamma(n) = \int_0^{\infty} x^{n-1} e^{-x} \, dx$.
 2.  Compare $x^4$ with $x^{n-1} \implies n-1 = 4 \implies n = 5$.
 3.  The integral is $\Gamma(5)$.
@@ -39,9 +41,10 @@
 
 ***
 
-## Example 3: Prove $J_{1/2}(x)$ Identity
-**Problem:** Prove that $J_{1/2}(x) = \sqrt{\frac{2}{\pi x}} \sin x$.
-**Solution:**
+### Example 3: Prove $J_{1/2}(x)$ Identity
+Prove that $J_{1/2}(x) = \sqrt{\frac{2}{\pi x}} \sin x$.
+
+#### Solution
 1.  Start with the series expansion for $J_p(x)$:
     $$ J_p(x) = \sum_{m=0}^{\infty} \frac{(-1)^m}{m! \Gamma(m+p+1)} \left( \frac{x}{2} \right)^{2m+p} $$
 2.  Set $p = 1/2$.
@@ -60,9 +63,10 @@
 
 ***
 
-## Example 4: Recurrence Relations
-**Problem:** Express $J_5(x)$ in terms of $J_0(x)$ and $J_1(x)$.
-**Solution:**
+### Example 4: Recurrence Relations
+Express $J_5(x)$ in terms of $J_0(x)$ and $J_1(x)$.
+
+#### Solution
 1.  Use the recurrence relation: $J_{n+1}(x) = \frac{2n}{x} J_n(x) - J_{n-1}(x)$.
 2.  **For n=1**: $J_2 = \frac{2}{x}J_1 - J_0$.
 3.  **For n=2**: $J_3 = \frac{4}{x}J_2 - J_1$.
@@ -74,4 +78,3 @@
     Final result involves terms like $\frac{1}{x^4}, \frac{1}{x^2}$ etc.
 
 > See [[Semester 1/Mathematics/Unit 4/Questions#Bessel Functions\|Questions]] for result.
-

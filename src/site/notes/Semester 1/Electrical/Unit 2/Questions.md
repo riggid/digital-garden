@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/semester-1/electrical/unit-2/questions/"}
 ---
 
-
 # [[Semester 1/Electrical/Electrical\|Back]]
 ***
 [[Semester 1/Electrical/Unit 2/Core Notes\|Core Notes]] | [[Semester 1/Electrical/Unit 2/Examples\|Examples]] | [[Semester 1/Electrical/Unit 2/Questions\|Questions]]

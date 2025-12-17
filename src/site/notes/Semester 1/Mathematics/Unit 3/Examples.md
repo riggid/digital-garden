@@ -8,9 +8,10 @@
 
 # Unit 3 Examples: Partial Differential Equations
 
-## Example 1: Formation by Eliminating Constants
-**Problem:** Form the partial differential equation by eliminating arbitrary constants $a$ and $b$ from $z = (x+a)(y+b)$.
-**Solution:**
+### Example 1: Formation by Eliminating Constants
+Form the partial differential equation by eliminating arbitrary constants $a$ and $b$ from $z = (x+a)(y+b)$.
+
+#### Solution
 1.  Given:
     $$ z = (x+a)(y+b) \quad \dots(1) $$
 2.  Differentiate partially w.r.t $x$:
@@ -24,9 +25,10 @@
 
 ***
 
-## Example 2: Formation by Eliminating Arbitrary Functions
-**Problem:** Form the PDE from $z = f(x^2 - y^2)$.
-**Solution:**
+### Example 2: Formation by Eliminating Arbitrary Functions
+Form the PDE from $z = f(x^2 - y^2)$.
+
+#### Solution
 1.  Given $z = f(u)$ where $u = x^2 - y^2$.
 2.  Differentiate w.r.t $x$:
     $$ p = \frac{\partial z}{\partial x} = f'(u) \cdot \frac{\partial u}{\partial x} = f'(x^2 - y^2) \cdot (2x) $$
@@ -42,9 +44,10 @@
 
 ***
 
-## Example 3: Lagrange's Method - Grouping
-**Problem:** Solve $xp + yq = 3z$.
-**Solution:**
+### Example 3: Lagrange's Method - Grouping
+Solve $xp + yq = 3z$.
+
+#### Solution
 1.  Identify $P=x, Q=y, R=3z$.
 2.  Auxiliary Equations:
     $$ \frac{dx}{x} = \frac{dy}{y} = \frac{dz}{3z} $$
@@ -61,9 +64,10 @@
 
 ***
 
-## Example 4: Lagrange's Method - Multipliers
-**Problem:** Solve $x(y-z)p + y(z-x)q = z(x-y)$.
-**Solution:**
+### Example 4: Lagrange's Method - Multipliers
+Solve $x(y-z)p + y(z-x)q = z(x-y)$.
+
+#### Solution
 1.  Auxiliary Equations:
     $$ \frac{dx}{x(y-z)} = \frac{dy}{y(z-x)} = \frac{dz}{z(x-y)} $$
 2.  Choose multipliers $1, 1, 1$.
@@ -80,9 +84,10 @@
 
 ***
 
-## Example 5: Higher Order PDE Solution
-**Problem:** Solve $(D^2 - D D' - 2D'^2)z = (y-1)e^x$.
-**Solution:**
+### Example 5: Higher Order PDE Solution
+Solve $(D^2 - D D' - 2D'^2)z = (y-1)e^x$.
+
+#### Solution
 1.  **Complementary Function (C.F.)**:
     Auxiliary Equation: Put $m$ for $D$ and $1$ for $D'$.
     $$ m^2 - m - 2 = 0 $$
@@ -111,9 +116,10 @@
 
 ***
 
-## Example 6: Separation of Variables - Heat Eq
-**Problem:** Solve $3u_x + 2u_y = 0$ with $u(x, 0) = 4e^{-x}$ using separation of variables.
-**Solution:**
+### Example 6: Separation of Variables - Heat Eq
+Solve $3u_x + 2u_y = 0$ with $u(x, 0) = 4e^{-x}$ using separation of variables.
+
+#### Solution
 1.  Assume $u(x, y) = X(x)Y(y)$.
 2.  PDE becomes $3X'Y + 2XY' = 0$.
 3.  Divide by $XY$: $3\frac{X'}{X} + 2\frac{Y'}{Y} = 0 \implies \frac{X'}{X} = -\frac{2}{3}\frac{Y'}{Y} = k$.

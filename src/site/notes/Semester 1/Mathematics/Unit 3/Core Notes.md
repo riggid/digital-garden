@@ -44,9 +44,9 @@ Consider a relation $f(x, y, z, a, b) = 0$ involving two arbitrary constants $a$
 1.  Differentiate the given relation partially with respect to $x$ to get an equation involving $p$.
 2.  Differentiate the given relation partially with respect to $y$ to get an equation involving $q$.
 3.  Eliminate the constants $a$ and $b$ using the original equation and the two derived equations.
- Since there are two constants to be eliminated from three equations, we typically get a first-order PDE.
+Since there are two constants to be eliminated from three equations, we typically get a first-order PDE.
 
-> See also: [[Semester 1/Mathematics/Unit 3/Examples#Example 1: Formation by Eliminating Constants\|Examples]]
+*See [[Semester 1/Mathematics/Unit 3/Examples#Example 1: Formation by Eliminating Constants\|Example 1]] for a detailed walkthrough.*
 
 ### 2.2 Elimination of Arbitrary Functions
 Consider a relation $z = f(u)$ where $u$ is a known function of $x, y$ (e.g., $u = x^2 + y^2$), or a more general implicit form $\phi(u, v) = 0$ where $u, v$ are functions of $x, y, z$.
@@ -68,7 +68,7 @@ $$ P p + Q q = R $$
 where
 $$ P = \frac{\partial(u, v)}{\partial(y, z)}, \quad Q = \frac{\partial(u, v)}{\partial(z, x)}, \quad R = \frac{\partial(u, v)}{\partial(x, y)} $$
 
-> See also: [[Semester 1/Mathematics/Unit 3/Examples#Example 2: Formation by Eliminating Arbitrary Functions\|Examples]]
+*See [[Semester 1/Mathematics/Unit 3/Examples#Example 2: Formation by Eliminating Arbitrary Functions\|Example 2]] and [[Semester 1/Mathematics/Unit 3/Questions#1. Form the PDE from $z = y^2 + 2f(1/x + \log y)$.\|Q&A Q1]].*
 
 ***
 
@@ -87,7 +87,7 @@ To find $u$ and $v$:
 1.  **Method of Grouping**: Take any two fractions where variables can be separated easily (e.g., $dx/x = dy/y$) and integrate.
 2.  **Method of Multipliers**: Choose multipliers $(l, m, n)$ such that $lP + mQ + nR = 0$ or is an exact differential. If the denominator becomes zero, then the numerator $l dx + m dy + n dz = 0$, which can be integrated.
 
-> See also: [[Semester 1/Mathematics/Unit 3/Examples#Example 3: Lagrange's Method - Grouping\|Examples]]
+*See [[Semester 1/Mathematics/Unit 3/Examples#Example 3: Lagrange's Method - Grouping\|Example 3]] and [[Semester 1/Mathematics/Unit 3/Questions#6. Solve $2yzp + zxq = 3xy$.\|Q&A Q6]].*
 
 ***
 
@@ -109,7 +109,7 @@ Specifically, if the operator can be factorized into $(D - m_1 D')(D - m_2 D')..
     $$ \text{C.F.} = \phi_1(y + m_1 x) + \phi_2(y + m_2 x) + \dots $$
 2.  **Repeated Roots ($m_1 = m_2 = m$)**:
     $$ \text{C.F.} = \phi_1(y + mx) + x \phi_2(y + mx) $$
-    (If repeated 3 times, add $x^2 \phi_3$, etc.)
+    (If repeated 3 times, add $x^2 \phi_3, etc.)
 
 *Note: If a factor is just $D$, it corresponds to $m \to \infty$ or just strict integration. Usually, we handle factors like $(aD + bD')$. The solution for $(aD + bD')z=0$ is $\phi(bx - ay)$.*
 Standard notation: Factors usually extracted as $(D - mD')$. If root is $m$, factor is $(D-mD')$, solution $\phi(y+mx)$.
@@ -140,7 +140,7 @@ Resolve into partial fractions or apply successively:
 $$ \frac{1}{D - mD'} f(x, y) = \int f(x, c - mx) dx $$
 where $y$ is replaced by $c - mx$ for integration, and after integration $c$ is replaced back by $y + mx$.
 
-> See also: [[Semester 1/Mathematics/Unit 3/Examples#Example 5: Higher Order PDE Solution\|Examples]]
+*See [[Semester 1/Mathematics/Unit 3/Examples#Example 5: Higher Order PDE Solution\|Example 5]] and [[Semester 1/Mathematics/Unit 3/Questions#13. Solve $(D^2 + DD' - 2D'^2)z = 5e^{x+2y}$.\|Q&A Q13]].*
 
 ***
 
@@ -169,4 +169,4 @@ Three cases for $k$:
 
 This form ($k < 0$) is the only physically realistic solution for transient heat conduction (decaying over time). Examples involve applying boundary conditions (e.g., $u(0, t)=0, u(L, t)=0$) to find $p$ and initial conditions to find coefficients using Fourier series.
 
-> See also: [[Semester 1/Mathematics/Unit 3/Examples#Example 6: Separation of Variables - Heat Eq\|Examples]]
+*See [[Semester 1/Mathematics/Unit 3/Examples#Example 6: Separation of Variables - Heat Eq\|Example 6]] and [[Semester 1/Mathematics/Unit 3/Questions#10. Solve $x^2 \frac{\partial u}{\partial x} + y^2 \frac{\partial u}{\partial y} = 0$.\|Q&A Q10]].*

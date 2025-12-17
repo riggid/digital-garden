@@ -2,8 +2,7 @@
 {"dg-publish":true,"permalink":"/semester-1/python/unit-2/core-notes/"}
 ---
 
-
-# [[../../Python\|Back]]
+# [[Semester 1/Python/Python\|Back]]
 ***
 [[Semester 1/Python/Unit 2/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 2/Examples\|Examples]] | [[Semester 1/Python/Unit 2/Questions\|Questions]]
 
