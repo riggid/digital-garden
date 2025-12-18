@@ -50,12 +50,9 @@
 5. A dictionary is accessed by a **key** rather than an index.
 6. The **strip** string function returns a copy with leading/trailing whitespace removed.
 7. When a file is opened, a **file object** is created.
----
-dg-publish: true
----
-# [[Semester 1/Python/Python\|Back]]
+
 ***
-[[Semester 1/Python/Unit 2/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 2/Questions\|Questions]] | [[Semester 1/Python/Unit 2/pyqs\|PYQs]] | [[Semester 1/Python/Unit 2/mcqs\|MCQs]]
+
 
 # Unit 2: Essential Examples & Programs
 

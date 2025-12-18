@@ -127,14 +127,10 @@
 *   **Answer**: 1) Substitution in hazardous environments. 2) Consistency and repeatability. 3) Reprogrammability and flexibility. 4) Computer Integrated Manufacturing (CIM). See [[Semester 1/Mechanical/Unit 4/Core Notes#631-reasons-for-commercial-and-technological-importance-of-industrial-robots\|Core Notes.md]].
 
 ---
-# [[Semester 1/Mechanical/Mechanical\|Back]]---
-dg-publish: true
----
-
 # [[Semester 1/Mechanical/Mechanical\|Back]]
+
 ***
-[[Semester 1/Mechanical/Unit 4/Core Notes\|Core Notes]] | [[Examples\|Examples]] | [[Semester 1/Mechanical/Unit 4/Questions\|Questions]]
-***
+
 # Unit 4: Worked Examples
 
 ### Example 1: Machining Time Calculation for a Turning Operation

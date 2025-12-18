@@ -60,12 +60,9 @@
 6. The floor division of two integers yields a result of **integer** type.
 7. To check if two objects reference the same memory address, the **is** operator is used.
 8. To print text without a newline, the **end** argument is used.
----
-dg-publish: true
----
-# [[Semester 1/Python/Python\|Back]]
+
 ***
-[[Semester 1/Python/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 1/Questions\|Questions]] | [[Semester 1/Python/Unit 1/pyqs\|PYQs]] | [[Semester 1/Python/Unit 1/mcqs\|MCQs]]
+
 
 # Unit 1: Essential Examples & Programs
 

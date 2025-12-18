@@ -10,9 +10,7 @@
 
 *No MCQ content available yet. This file is ready for future additions.*
 
----
-dg-publish: true
----
+***
 # Previous Year Questions (PYQs)
 
 > **Unit 1** | Mechanical Engineering

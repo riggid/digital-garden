@@ -52,13 +52,9 @@
     *   **Answer**: Earth Electrode (Plate/Pipe), Earthing Lead, and Earth Continuity Conductor. See [[Semester 1/Electrical/Unit 3/Core Notes#25-earthing-grounding\|Core Notes]].
 
 > See also: [[Examples\|Examples]] for numerical problems on Power Calculation and Tariff.
----
-dg-publish: true
----
-# [[Semester 1/Electrical/Electrical\|Back]]
+
 ***
-[[Semester 1/Electrical/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Electrical/Unit 3/Questions\|Questions]] | [[Semester 1/Electrical/Unit 3/pyqs\|PYQs]] | [[Semester 1/Electrical/Unit 3/mcqs\|MCQs]]
-***
+
 
 # Unit 3 Examples: Three Phase Systems
 

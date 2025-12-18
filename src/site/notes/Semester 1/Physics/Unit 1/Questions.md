@@ -689,14 +689,10 @@ Additional practice questions for Unit 1 (EM Waves, Quantum Concepts).
 7. What is step potential in quantum mechanics?
 8. What are the similarities and differences between the reflection of light from an air-glass boundary and the reflection of an electron from a potential step?
 
-# [[Semester 1/Physics/Physics\|Back]]---
-dg-publish: true
----
-
 # [[Semester 1/Physics/Physics\|Back]]
+
 ***
-[[Semester 1/Physics/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 1/Questions\|Questions]] | [[Semester 1/Physics/Unit 1/pyqs\|PYQs]] | [[Semester 1/Physics/Unit 1/mcqs\|MCQs]]
-***
+
 # Unit 1: Worked Examples
 
 ### Example 1: EM Wave Properties

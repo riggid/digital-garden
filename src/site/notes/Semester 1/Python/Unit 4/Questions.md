@@ -179,12 +179,9 @@ nums = [12, 24, 35, 70, 88, 120, 155]
 div5_7 = [x for x in nums if x % 5 == 0 and x % 7 == 0]
 print(div5_7) # [35, 70]
 ```
----
-dg-publish: true
----
-# [[Semester 1/Python/Python\|Back]]
+
 ***
-[[Semester 1/Python/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 4/Questions\|Questions]] | [[Semester 1/Python/Unit 4/pyqs\|PYQs]] | [[Semester 1/Python/Unit 4/mcqs\|MCQs]]
+
 
 # Unit 4: Examples (OOPs & Advanced)
 

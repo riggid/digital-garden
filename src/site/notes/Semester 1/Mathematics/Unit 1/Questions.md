@@ -588,13 +588,10 @@ $$f_{max}=\frac{a^{m+n+p}m^{m}n^{n}p^{p}}{(m+n+p)^{m+n+p}}$$
     Total Cost $C = 14400 \times 0.1 = 1440$ Rupees.
 5.  **Approximate Error in Cost ($\delta C$):**
     $$\delta C = 0.03 \times C = 0.03 \times 1440 = 43.20 \text{ Rupees}$$
-    The approximate error in cost is **$43.20$ Rupees**.---
-dg-publish: true
----
-# [[Semester 1/Mathematics/Mathematics\|Back]]
+    The approximate error in cost is **$43.20$ Rupees**.
+
 ***
-[[Semester 1/Mathematics/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 1/Questions\|Questions]] | [[Semester 1/Mathematics/Unit 1/pyqs\|PYQs]] | [[Semester 1/Mathematics/Unit 1/mcqs\|MCQs]]
-***
+
 # Questions and Examples from Unit 1
 
 ### Example 1: Non-existent Limits
