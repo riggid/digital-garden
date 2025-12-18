@@ -4,7 +4,7 @@
 
 # [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
-[[Semester 1/Mathematics/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 1/Questions\|Questions]] | [[Semester 1/Mathematics/Unit 1/PYQs\|PYQs]] | [[Semester 1/Mathematics/Unit 1/MCQs\|MCQs]]
+[[Semester 1/Mathematics/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 1/Questions\|Questions]] | [[Semester 1/Mathematics/Unit 1/pyqs\|PYQs]] | [[Semester 1/Mathematics/Unit 1/mcqs\|MCQs]]
 ***
 # Unit 1: Partial Differentiation
 

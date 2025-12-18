@@ -4,7 +4,7 @@
 
 # [[Semester 1/Physics/Physics\|Back]]
 ***
-[[Semester 1/Physics/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 3/Questions\|Questions]] | [[Semester 1/Physics/Unit 3/PYQs\|PYQs]] | [[Semester 1/Physics/Unit 3/MCQs\|MCQs]]
+[[Semester 1/Physics/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 3/Questions\|Questions]] | [[Semester 1/Physics/Unit 3/pyqs\|PYQs]] | [[Semester 1/Physics/Unit 3/mcqs\|MCQs]]
 ***
 # Unit 3: Quantum Mechanical Treatment of Electron Transport and Magnetic Materials
 

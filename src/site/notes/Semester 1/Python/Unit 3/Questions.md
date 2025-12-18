@@ -4,7 +4,7 @@
 
 # [[Semester 1/Python/Python\|Back]]
 ***
-[[Semester 1/Python/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 3/Questions\|Questions]] | [[Semester 1/Python/Unit 3/PYQs\|PYQs]] | [[Semester 1/Python/Unit 3/MCQs\|MCQs]]
+[[Semester 1/Python/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 3/Questions\|Questions]] | [[Semester 1/Python/Unit 3/pyqs\|PYQs]] | [[Semester 1/Python/Unit 3/mcqs\|MCQs]]
 
 # Unit 3: Question Bank (SOLVED)
 
@@ -155,7 +155,7 @@ dg-publish: true
 ---
 # [[Semester 1/Python/Python\|Back]]
 ***
-[[Semester 1/Python/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 3/Questions\|Questions]] | [[Semester 1/Python/Unit 3/PYQs\|PYQs]] | [[Semester 1/Python/Unit 3/MCQs\|MCQs]]
+[[Semester 1/Python/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 3/Questions\|Questions]] | [[Semester 1/Python/Unit 3/pyqs\|PYQs]] | [[Semester 1/Python/Unit 3/mcqs\|MCQs]]
 
 # Unit 3: Examples (Recursion & Files & GUI)
 

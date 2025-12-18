@@ -4,7 +4,7 @@
 
 # [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
-[[Semester 1/Mathematics/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 4/Questions\|Questions]] | [[Semester 1/Mathematics/Unit 4/PYQs\|PYQs]] | [[Semester 1/Mathematics/Unit 4/MCQs\|MCQs]]
+[[Semester 1/Mathematics/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 4/Questions\|Questions]] | [[Semester 1/Mathematics/Unit 4/pyqs\|PYQs]] | [[Semester 1/Mathematics/Unit 4/mcqs\|MCQs]]
 
 # Unit 4 Questions: Special Functions
 
@@ -274,7 +274,7 @@ dg-publish: true
 ---
 # [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
-[[Semester 1/Mathematics/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 4/Questions\|Questions]] | [[Semester 1/Mathematics/Unit 4/PYQs\|PYQs]] | [[Semester 1/Mathematics/Unit 4/MCQs\|MCQs]]
+[[Semester 1/Mathematics/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 4/Questions\|Questions]] | [[Semester 1/Mathematics/Unit 4/pyqs\|PYQs]] | [[Semester 1/Mathematics/Unit 4/mcqs\|MCQs]]
 
 # Unit 4 Examples: Special Functions
 

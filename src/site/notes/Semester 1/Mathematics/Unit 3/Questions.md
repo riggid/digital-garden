@@ -4,7 +4,7 @@
 
 # [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
-[[Semester 1/Mathematics/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 3/Questions\|Questions]] | [[Semester 1/Mathematics/Unit 3/PYQs\|PYQs]] | [[Semester 1/Mathematics/Unit 3/MCQs\|MCQs]]
+[[Semester 1/Mathematics/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 3/Questions\|Questions]] | [[Semester 1/Mathematics/Unit 3/pyqs\|PYQs]] | [[Semester 1/Mathematics/Unit 3/mcqs\|MCQs]]
 
 # Unit 3 Questions: Partial Differential Equations
 
@@ -436,7 +436,7 @@ dg-publish: true
 ---
 # [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
-[[Semester 1/Mathematics/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 3/Questions\|Questions]] | [[Semester 1/Mathematics/Unit 3/PYQs\|PYQs]] | [[Semester 1/Mathematics/Unit 3/MCQs\|MCQs]]
+[[Semester 1/Mathematics/Unit 3/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 3/Questions\|Questions]] | [[Semester 1/Mathematics/Unit 3/pyqs\|PYQs]] | [[Semester 1/Mathematics/Unit 3/mcqs\|MCQs]]
 
 # Unit 3 Examples: Partial Differential Equations
 

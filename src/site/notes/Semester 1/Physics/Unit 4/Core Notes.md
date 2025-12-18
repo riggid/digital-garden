@@ -4,7 +4,7 @@
 
 # [[Semester 1/Physics/Physics\|Back]]
 ***
-[[Semester 1/Physics/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 4/Questions\|Questions]] | [[Semester 1/Physics/Unit 4/PYQs\|PYQs]] | [[Semester 1/Physics/Unit 4/MCQs\|MCQs]]
+[[Semester 1/Physics/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 4/Questions\|Questions]] | [[Semester 1/Physics/Unit 4/pyqs\|PYQs]] | [[Semester 1/Physics/Unit 4/mcqs\|MCQs]]
 ***
 
 # Unit 7: Lasers, Optoelectronics, and Advanced Materials

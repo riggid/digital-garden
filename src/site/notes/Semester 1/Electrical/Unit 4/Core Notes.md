@@ -4,7 +4,7 @@
 
 # [[Semester 1/Electrical/Electrical\|Back]]
 ***
-[[Semester 1/Electrical/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Electrical/Unit 4/Questions\|Questions]] | [[Semester 1/Electrical/Unit 4/PYQs\|PYQs]] | [[Semester 1/Electrical/Unit 4/MCQs\|MCQs]]
+[[Semester 1/Electrical/Unit 4/Core Notes\|Core Notes]] | [[Semester 1/Electrical/Unit 4/Questions\|Questions]] | [[Semester 1/Electrical/Unit 4/pyqs\|PYQs]] | [[Semester 1/Electrical/Unit 4/mcqs\|MCQs]]
 ***
 
 # Unit 4: Electromagnetism & Electrical Machines

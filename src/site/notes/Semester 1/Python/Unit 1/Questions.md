@@ -4,7 +4,7 @@
 
 # [[Semester 1/Python/Python\|Back]]
 ***
-[[Semester 1/Python/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 1/Questions\|Questions]] | [[Semester 1/Python/Unit 1/PYQs\|PYQs]] | [[Semester 1/Python/Unit 1/MCQs\|MCQs]]
+[[Semester 1/Python/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 1/Questions\|Questions]] | [[Semester 1/Python/Unit 1/pyqs\|PYQs]] | [[Semester 1/Python/Unit 1/mcqs\|MCQs]]
 
 # Unit 1: Question Bank (Theory & Concepts)
 
@@ -65,7 +65,7 @@ dg-publish: true
 ---
 # [[Semester 1/Python/Python\|Back]]
 ***
-[[Semester 1/Python/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 1/Questions\|Questions]] | [[Semester 1/Python/Unit 1/PYQs\|PYQs]] | [[Semester 1/Python/Unit 1/MCQs\|MCQs]]
+[[Semester 1/Python/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Python/Unit 1/Questions\|Questions]] | [[Semester 1/Python/Unit 1/pyqs\|PYQs]] | [[Semester 1/Python/Unit 1/mcqs\|MCQs]]
 
 # Unit 1: Essential Examples & Programs
 

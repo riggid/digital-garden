@@ -909,7 +909,7 @@ dg-publish: true
 ---
 # [[Semester 1/Mathematics/Mathematics\|Back]]
 ***
-[[Semester 1/Mathematics/Unit 2/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 2/Questions\|Questions]] | [[Semester 1/Mathematics/Unit 2/PYQs\|PYQs]] | [[Semester 1/Mathematics/Unit 2/MCQs\|MCQs]]
+[[Semester 1/Mathematics/Unit 2/Core Notes\|Core Notes]] | [[Semester 1/Mathematics/Unit 2/Questions\|Questions]] | [[Semester 1/Mathematics/Unit 2/pyqs\|PYQs]] | [[Semester 1/Mathematics/Unit 2/mcqs\|MCQs]]
 ***
 # Unit 2: Worked Examples
 

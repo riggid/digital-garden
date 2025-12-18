@@ -4,7 +4,7 @@
 
 # [[Semester 1/Electrical/Electrical\|Back]]
 ***
-[[Semester 1/Electrical/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Electrical/Unit 1/Questions\|Questions]] | [[Semester 1/Electrical/Unit 1/PYQs\|PYQs]] | [[Semester 1/Electrical/Unit 1/MCQs\|MCQs]]
+[[Semester 1/Electrical/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Electrical/Unit 1/Questions\|Questions]] | [[Semester 1/Electrical/Unit 1/pyqs\|PYQs]] | [[Semester 1/Electrical/Unit 1/mcqs\|MCQs]]
 ***
 
 ## MARCH 2022 ESA (UE21EE141A - I SEM)
@@ -693,7 +693,7 @@ dg-publish: true
 ---
 # [[Semester 1/Electrical/Electrical\|Back]]
 ***
-[[Semester 1/Electrical/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Electrical/Unit 1/Questions\|Questions]] | [[Semester 1/Electrical/Unit 1/PYQs\|PYQs]] | [[Semester 1/Electrical/Unit 1/MCQs\|MCQs]]
+[[Semester 1/Electrical/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Electrical/Unit 1/Questions\|Questions]] | [[Semester 1/Electrical/Unit 1/pyqs\|PYQs]] | [[Semester 1/Electrical/Unit 1/mcqs\|MCQs]]
 ***
 ## Example 1: Basic KVL
 
