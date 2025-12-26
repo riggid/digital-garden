@@ -2,10 +2,6 @@
 {"dg-publish":true,"permalink":"/semester-1/python/python/"}
 ---
 
-
-> [!TIP] Better MCQ Experience
-> For a much more interactive and better MCQ experience, visit [PESU Dash](https://pesu-dash.vercel.app/)!
-
 # [[Index\|Index]]
 ---
 <div id="dashboard-grid"><div class="semester-card"><h2 class="semester-title">1️⃣ Unit 1</h2><div class="subject-button-container"><a class="subject-button" href="/semester-1/python/unit-1/core-notes">📓 Core Notes</a><a class="subject-button" href="/semester-1/python/unit-1/mcqs">✅ mcqs</a><a class="subject-button" href="/semester-1/python/unit-1/pyqs">📋 pyqs</a><a class="subject-button" href="/semester-1/python/unit-1/questions">❓ Questions</a></div></div><div class="semester-card"><h2 class="semester-title">2️⃣ Unit 2</h2><div class="subject-button-container"><a class="subject-button" href="/semester-1/python/unit-2/core-notes">📓 Core Notes</a><a class="subject-button" href="/semester-1/python/unit-2/mcqs">✅ mcqs</a><a class="subject-button" href="/semester-1/python/unit-2/pyqs">📋 pyqs</a><a class="subject-button" href="/semester-1/python/unit-2/questions">❓ Questions</a></div></div><div class="semester-card"><h2 class="semester-title">3️⃣ Unit 3</h2><div class="subject-button-container"><a class="subject-button" href="/semester-1/python/unit-3/core-notes">📓 Core Notes</a><a class="subject-button" href="/semester-1/python/unit-3/mcqs">✅ mcqs</a><a class="subject-button" href="/semester-1/python/unit-3/pyqs">📋 pyqs</a><a class="subject-button" href="/semester-1/python/unit-3/questions">❓ Questions</a></div></div><div class="semester-card"><h2 class="semester-title">4️⃣ Unit 4</h2><div class="subject-button-container"><a class="subject-button" href="/semester-1/python/unit-4/core-notes">📓 Core Notes</a><a class="subject-button" href="/semester-1/python/unit-4/mcqs">✅ mcqs</a><a class="subject-button" href="/semester-1/python/unit-4/pyqs">📋 pyqs</a><a class="subject-button" href="/semester-1/python/unit-4/questions">❓ Questions</a></div></div></div>

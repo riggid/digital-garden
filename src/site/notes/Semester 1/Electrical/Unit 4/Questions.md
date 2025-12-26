@@ -9,184 +9,291 @@
 
 # Unit 4 Q&A: Electromagnetism & Machines
 
-## 1. Electromagnetism and Transformers
+Questions derived from the Assessment Question Bank.
 
-*   **1. Draw the B-H curve and define Retentivity and Coercivity.**
-    *   **Answer**: The B-H curve plots Flux Density (B) vs Magnetizing Force (H). **Retentivity** is the magnetic flux remaining in the material when H is reduced to zero. **Coercivity** is the reverse H required to wipe out the residual flux. See [[Semester 1/Electrical/Unit 4/Core Notes#13-b-h-curve-and-hysteresis\|Core Notes]].
+## 1. Electromagnetism & Magnetic Circuits
 
-*   **2. Is hysteresis a desirable property? What happens if the area under the hysteresis curve is large?**
-    *   **Answer**: Large hysteresis is desirable for permanent magnets (high retentivity/coercivity) but undesirable for machines (transformers/motors) because the area under the loop represents **Hysteresis Loss** (energy dissipated as heat). See [[Semester 1/Electrical/Unit 4/Core Notes#13-b-h-curve-and-hysteresis\|Core Notes]].
+### Lecture 59: Definitions
+**1. Define i) MMF ii) Magnetic Field Intensity iii) Magnetic Flux iv) Flux Density v) Reluctance.**
+*   **MMF (Magnetomotive Force):** The varying magnetic field strength produced by the current flowing through a coil. $MMF = N \times I$. Unit: Ampere-Turns (AT).
+*   **Magnetic Field Intensity (H):** The force experienced by a unit north pole. $H = MMF / Length = NI/l$. Unit: AT/m.
+*   **Magnetic Flux ($\phi$):** The total number of magnetic field lines passing through a surface. Unit: Weber (Wb).
+*   **Magnetic Flux Density (B):** Flux per unit area. $B = \phi / A$. Unit: Tesla (T) or Wb/m².
+*   **Magnetic Reluctance (S):** Opposition to the magnetic flux. $S = l / (\mu A) = MMF / \phi$. Unit: AT/Wb.
 
-*   **3. Give a comparison between Core type and Shell type transformers.**
-    *   **Answer**: In **Core type**, windings surround the core, better for high voltage (easier insulation). In **Shell type**, core surrounds the windings, better mechanical strength and cooling. See [[Semester 1/Electrical/Unit 4/Core Notes#21-principle-and-construction\|Core Notes]].
+#### Additional Assignment Problems
+**1. Define MMF, Magnetic Field Intensity, Flux, Flux Density, Reluctance.**
+*   (Definitions provided above cover all these terms).
 
-*   **4. Write a short note on Core and Copper losses in a transformer.**
-    *   **Answer**: **Core Losses** (Iron losses) consist of Hysteresis and Eddy current losses, are constant, and found via OC test. **Copper Losses** are $I^2R$ heating losses in windings, vary with load square, and found via SC test. See [[Semester 1/Electrical/Unit 4/Core Notes#23-losses-and-efficiency\|Core Notes]].
+### Lecture 60: Laws & Analogy
 
-## 2. DC Machines
+### Lecture 60: Laws & Analogy
+**1. Compare analogy between electrical and magnetic circuits.**
+*   **EMF** vs **MMF**: Driving force.
+*   **Current (I)** vs **Flux ($\phi$)**: Flow quantity.
+*   **Resistance (R)** vs **Reluctance (S)**: Opposition.
+*   **Conductivity ($\sigma$)** vs **Permeability ($\mu$)**: Material property.
+*   **Ohm’s Law ($V=IR$)** vs **Rowland’s Law ($MMF = \phi S$)**.
+*   *Difference:* Current involves physical flow of electrons; Flux is a state of the medium (no flow). Resistance dissipates energy; Reluctance stores energy.
 
-*   **5. State Fleming's Right Hand and Left Hand Rules.**
-    *   **Answer**: **Right Hand Rule** (Generator): Thumb=Motion, Forefinger=Field, Middle=Induction. **Left Hand Rule** (Motor): Thumb=Force, Forefinger=Field, Middle=Current. See [[Semester 1/Electrical/Unit 4/Core Notes#14-electromagnetic-induction-rules\|Core Notes]].
+**2. Write short notes on: i) Faraday’s Laws ii) Lenz’s Law.**
+*   **Faraday's First Law:** Whenever magnetic flux linked with a coil changes, an EMF is induced.
+*   **Faraday's Second Law:** The magnitude of induced EMF is proportional to the rate of change of flux linkage. $e = -N (d\phi/dt)$.
+*   **Lenz's Law:** The direction of induced EMF is such that it opposes the cause producing it (the change in flux). Hence the negative sign.
 
-*   **6. What is Back EMF in a DC Motor?**
-    *   **Answer**: The EMF induced in the armature conductors due to rotation, which opposes the supply voltage ($V$). It regulates the armature current ($I_a = (V-E_b)/R_a$). See [[Semester 1/Electrical/Unit 4/Core Notes#33-dc-motor\|Core Notes]].
+**3. Define i) Dynamically induced EMF ii) Statically induced EMF.**
+*   **Dynamically Induced:** EMF induced due to relative motion between conductor and magnetic field (e.g., Generator). $e = Blv \sin\theta$.
+*   **Statically Induced:** EMF induced due to change in flux without relative motion (e.g., Transformer). Can be Self or Mutually induced.
 
-## 3. Induction and Special Machines
+#### Assignments
+**1. A circular iron ring of mean diameter 25 cm and cross-sectional area 9 cm$^2$ is wound with a coil of 100 turns and carries a current of 1.5 A. The relative permeability of iron is 2000. Calculate the amount of flux produced in the ring.**
+*   **Solution:**
+    *   $l = \pi d = \pi \times 0.25 = 0.785$ m.
+    *   Area $A = 9 \times 10^{-4}$ m$^2$. $\mu_r = 2000$.
+    *   Reluctance $S = l / (\mu_0 \mu_r A) = 0.785 / (4\pi \times 10^{-7} \times 2000 \times 9 \times 10^{-4})$.
+    *   $S = 347222$ AT/Wb.
+    *   $MMF = NI = 100 \times 1.5 = 150$ AT.
+    *   Flux $\phi = MMF / S = 150 / 347222 = 0.000432$ Wb = **0.432 mWb**.
 
-*   **7. Discuss how Rotating Magnetic Field (RMF) is generated in a 3-phase Induction Motor.**
-    *   **Answer**: When balanced 3-phase currents (displaced by 120°) flow through 3-phase windings (displaced by 120° space), they produce a resultant magnetic flux of constant magnitude ($1.5\phi_m$) that rotates at synchronous speed. See [[Semester 1/Electrical/Unit 4/Core Notes#41-principle-and-construction\|Core Notes]].
-
-*   **8. Give the differences between Squirrel Cage and Slip Ring rotors.**
-    *   **Answer**: **Squirrel Cage**: Copper bars shorted by end rings, rugged, constant speed, low starting torque. **Slip Ring**: Wound rotor connected to slip rings, allows external resistance for high starting torque, requires maintenance. See [[Semester 1/Electrical/Unit 4/Core Notes#41-principle-and-construction\|Core Notes]].
-
-*   **9. List the advantages of BLDC Motors.**
-    *   **Answer**: High efficiency, low maintenance (no brushes), longer life, quiet operation, high power density. See [[Semester 1/Electrical/Unit 4/Core Notes#51-brushless-dc-motor-bldc\|Core Notes]].
-
-*   **10. List the advantages of Stepper Motors.**
-    *   **Answer**: Precise positioning control, compatibility with digital systems, high torque at low speeds, low cost (variable reluctance type). See [[Semester 1/Electrical/Unit 4/Core Notes#52-stepper-motor\|Core Notes]].
-
-> See also: [[Examples\|Examples]] for numerical problems.
-
-***
-
-
-# Unit 4 Examples: Machines
-
-> See also: [[Semester 1/Electrical/Unit 4/Core Notes#unit-4-electromagnetism--electrical-machines\|Core Notes]]
-
-## 1. Magnetic Circuits
-
-### Example 1: Flux Calculation in Iron Ring
-**Problem:**
-A circular iron ring of mean diameter $25 cm$ and cross-sectional area $9 cm^2$ is wound with a coil of $100$ turns and carries a current of $1.5 A$. The relative permeability of iron is $2000$. Calculate the amount of flux produced in the ring.
-
-**Solution:**
-1.  **Given Data**:
-    *   Diameter ($D$) = $25 cm = 0.25 m$
-    *   Area ($A$) = $9 cm^2 = 9 \times 10^{-4} m^2$
-    *   Turns ($N$) = $100$
-    *   Current ($I$) = $1.5 A$
-    *   Relative Permeability ($\mu_r$) = $2000$
-    *   Permeability of free space ($\mu_0$) = $4\pi \times 10^{-7}$
-
-2.  **Calculate Length ($l$)**:
-    $$ l = \pi D = \pi \times 0.25 = 0.785 m $$
-
-3.  **Calculate Reluctance ($S$)**:
-    $$ S = \frac{l}{\mu_0 \mu_r A} $$
-    $$ S = \frac{0.785}{4\pi \times 10^{-7} \times 2000 \times 9 \times 10^{-4}} $$
-    $$ S = \frac{0.785}{2.26 \times 10^{-6}} = 347345 \text{ AT/Wb} $$
-
-4.  **Calculate MMF**:
-    $$ MMF = N \times I = 100 \times 1.5 = 150 \text{ AT} $$
-
-5.  **Calculate Flux ($\phi$)**:
-    $$ \phi = \frac{MMF}{S} = \frac{150}{347345} = 4.31 \times 10^{-4} \text{ Wb} $$
-    $$ \phi = 0.431 \text{ mWb} $$
-
-***
+---
 
 ## 2. Transformers
 
-### Example 2: EMF and Current Ratios
-**Problem:**
-A $5 kVA, 50 Hz$ single phase transformer has primary and secondary turns of $120$ and $80$ respectively. At a certain flux density, the induced EMF per turn in the primary is $2.5 V$. Determine i) The primary and secondary voltages ii) The primary and secondary currents on Full Load.
+### Lecture 61-62: Construction & Theory
+**1. Write short notes on Construction and Principle of Transformer.**
+*   **Principle:** Mutual Induction. An AC current in the primary creates an alternating flux in the core, which links the secondary winding, inducing an EMF.
+*   **Construction:** Laminated Steel Core (to reduce eddy currents) and Copper Windings (Primary/Secondary). Types: Core-Type (Windings surround core) and Shell-Type (Core surrounds windings).
 
+#### Additional Assignment Problems
+**1. Derive the EMF equation of a single-phase transformer.**
+*   **Derivation:**
+    *   Flux $\phi = \phi_m \sin \omega t$.
+    *   Induced EMF $e = -N \frac{d\phi}{dt} = -N \frac{d}{dt}(\phi_m \sin \omega t) = -N \omega \phi_m \cos \omega t$.
+    *   $e = N \omega \phi_m \sin(\omega t - 90^\circ)$. Max value $E_{max} = N \omega \phi_m = N (2\pi f) \phi_m$.
+    *   RMS Value $E = E_{max} / \sqrt{2} = \frac{2\pi}{\sqrt{2}} f N \phi_m = 4.44 f N \phi_m$.
+    *   $E_1 = 4.44 f N_1 \phi_m$ and $E_2 = 4.44 f N_2 \phi_m$.
+
+**2. 125 kVA Transformer, Primary 2000V, 60Hz. N1=182, N2=40. Calculate i) E2 ii) Currents iii) Max Flux.**
 **Solution:**
-1.  **Given Data**:
-    *   Rating ($S$) = $5 kVA = 5000 VA$
-    *   $N_1 = 120$, $N_2 = 80$
-    *   EMF/turn ($E_t$) = $2.5 V$
+*   $V_1 = 2000$ V. $N_1=182, N_2=40$. $S = 125000$ VA.
+*   (i) **Transformation Ratio** $K = N_2/N_1 = 40/182 \approx 0.22$.
+    *   $E_2 = V_1 \times K = 2000 \times (40/182) \approx 439.6$ V.
+*   (ii) **Full Load Currents**:
+    *   $I_1 = S / V_1 = 125000 / 2000 = 62.5$ A.
+    *   $I_2 = S / V_2 = 125000 / 439.6 \approx 284.4$ A.
+*   (iii) **Max Flux ($\phi_m$)**:
+    *   $E_1 = 4.44 f N_1 \phi_m$.
+    *   $2000 = 4.44 \times 60 \times 182 \times \phi_m$.
+    *   $\phi_m = 2000 / (48484.8) \approx 0.0412$ Wb $= 41.2$ mWb.
 
-2.  **Calculate Voltages ($E_1, E_2$)**:
-    *   $E_1 = E_t \times N_1 = 2.5 \times 120 = 300 V$
-    *   $E_2 = E_t \times N_2 = 2.5 \times 80 = 200 V$
-
-3.  **Calculate Full Load Currents ($I_1, I_2$)**:
-    *   $I_1 = \frac{S}{E_1} = \frac{5000}{300} = 16.67 A$
-    *   $I_2 = \frac{S}{E_2} = \frac{5000}{200} = 25 A$
-
-### Example 3: Efficiency Calculation
-**Problem:**
-A $25 kVA, 2000/200 V$ transformer has constant loss (iron loss) of $350 W$ and full load copper loss of $400 W$. Calculate the efficiency of the transformer at Full Load and 0.8 pf lagging.
-
+**3. 20 kVA, N1=1000, N2=2500. Core Area $100 cm^2$. Primary 500V, 50Hz. Find Bm, E2, Currents.**
 **Solution:**
-1.  **Given Data**:
-    *   $S = 25 kVA = 25000 VA$
-    *   Iron Loss ($P_i$) = $350 W$
-    *   FL Copper Loss ($P_{cu}$) = $400 W$
-    *   Load fraction ($x$) = $1$ (Full Load)
-    *   Power Factor ($\cos\phi$) = $0.8$
+*   $N_1=1000, N_2=2500$. $V_1=500$. $A = 0.01 m^2$.
+*   (ii) **Secondary Voltage**: $E_2 = V_1 (N_2/N_1) = 500 (2500/1000) = 1250$ V.
+*   (i) **Max Flux Density ($B_m$)**:
+    *   $E_1 = 4.44 f N_1 \phi_m = 4.44 f N_1 (B_m A)$.
+    *   $500 = 4.44 \times 50 \times 1000 \times B_m \times 0.01$.
+    *   $500 = 2220 \times B_m$.
+    *   $B_m = 500 / 2220 \approx 0.225$ T.
+*   (iii) **Full Load Currents**:
+    *   $I_1 = 20000 / 500 = 40$ A.
+    *   $I_2 = 20000 / 1250 = 16$ A.
 
-2.  **Calculate Output Power**:
-    $$ P_{out} = x S \cos\phi = 1 \times 25000 \times 0.8 = 20000 W $$
+#### Assignments
+**1. A 5 kVA, 50 Hz single phase transformer has primary and secondary turns of 120 and 80 respectively. At a certain flux density, the induced EMF per turn in the primary is 2.5 V. Determine i) Primary/Secondary voltages ii) Currents on FL.**
+*   **Solution:**
+    *   $E/turn = 2.5$ V.
+    *   $E_1 = N_1 \times 2.5 = 120 \times 2.5 = 300$ V.
+    *   $E_2 = N_2 \times 2.5 = 80 \times 2.5 = 200$ V.
+    *   $I_1 = 5000 / 300 = 16.67$ A.
+    *   $I_2 = 5000 / 200 = 25$ A.
 
-3.  **Calculate Total Losses at FL**:
-    $$ P_{loss} = P_i + x^2 P_{cu} = 350 + (1^2 \times 400) = 750 W $$
+**2. 1000/400 turns, 1250V primary. Area 60 cm$^2$. Find E2 and Bm.**
+*   **Solution:**
+    *   $E_2 = 1250 \times (400/1000) = 500$ V.
+    *   $E_1 = 4.44 f N_1 B_m A \implies 1250 = 4.44 \times 50 \times 1000 \times B_m \times 0.006$.
+    *   $1250 = 1332 B_m \implies B_m = 0.938$ T.
 
-4.  **Calculate Efficiency ($\eta$)**:
-    $$ \eta = \frac{P_{out}}{P_{out} + P_{loss}} \times 100 $$
-    $$ \eta = \frac{20000}{20000 + 750} \times 100 = \frac{20000}{20750} \times 100 = 96.38\% $$
+### Lecture 63-64: Efficiency
+**1. Derive condition for maximum efficiency.**
+*   Efficiency $\eta = \frac{VI \cos\phi}{VI \cos\phi + P_i + I^2 R}$.
+*   Differentiating wrt $I$ and equating to zero: Condition is **Variable Losses ($I^2 R$) = Constant Losses ($P_i$)**. i.e., Copper Loss = Iron Loss.
+
+#### Additional Assignment Problems
+**1. How are OC and SC tests conducted?**
+*   **Open Circuit (OC) Test:** Finds Iron Loss ($P_i$).
+    *   HV winding is kept open. Rated Voltage is applied to LV winding.
+    *   Wattmeter reads Iron Loss (since Cu loss is negligible at no load).
+*   **Short Circuit (SC) Test:** Finds Full Load Copper Loss ($P_{cu}$).
+    *   LV winding is shorted. Low Voltage (variable) is applied to HV winding to circulate rated current.
+    *   Wattmeter reads Full Load Copper Loss.
+
+**2. 5 kVA, 1000/200V. Tests: OC (LV): 90W. SC (HV): 110W. Find Efficiency at FL 0.8 lag.**
+**Solution:**
+*   Iron Loss $P_i$ (from OC test) = 90 W.
+*   FL Copper Loss $P_{cu}$ (from SC test) = 110 W.
+*   Full Load Output $P_{out} = S \cos \phi = 5000 \times 0.8 = 4000$ W.
+*   Total Losses $P_{loss} = P_i + P_{cu(FL)} = 90 + 110 = 200$ W.
+*   $\eta = P_{out} / (P_{out} + P_{loss}) = 4000 / 4200 = 0.952$ or **95.2%**.
+
+#### Assignments
+**1. 25 kVA, 2000/200 V transformer. Iron loss 350W, FL Cu loss 400W. Efficiency at i) FL 0.8 lag ii) Half Load 0.8 lag.**
+*   **Solution:**
+    *   (i) FL: $x=1$. $P_{out} = 25000 \times 0.8 = 20$ kW.
+    *   Losses = $350 + 400 = 750$ W.
+    *   $\eta = 20000 / (20000 + 750) = 0.9638$ or **96.38%**.
+    *   (ii) Half Load: $x=0.5$. $P_{out} = 12500 \times 0.8 = 10$ kW.
+    *   Cu Loss = $0.5^2 \times 400 = 100$ W. Total Loss = $350 + 100 = 450$ W.
+    *   $\eta = 10000 / (10000 + 450) = 0.9569$ or **95.69%**.
+
+---
+
+## 3. DC Generators
+
+### Lecture 65: Construction & Windings
+#### Assignments
+**1. A 6-pole armature is wound with 498 conductors. Avg EMF/cond = 2V. Current/cond = 120A. Find Total Current, EMF and Power for a) Wave b) Lap.**
+*   **Solution:**
+    *   (a) **Wave:** $A=2$.
+        *   Total Current $I_a = I_{cond} \times A = 120 \times 2 = 240$ A.
+        *   Total EMF $E_g = E_{cond} \times (Z/A) = 2 \times (498/2) = 498$ V.
+        *   Power $P = 498 \times 240 = 119.52$ kW.
+    *   (b) **Lap:** $A=P=6$.
+        *   Total Current $I_a = 120 \times 6 = 720$ A.
+        *   Total EMF $E_g = 2 \times (498/6) = 166$ V.
+        *   Power $P = 166 \times 720 = 119.52$ kW.
+
+#### Additional Assignment Problems
+**1. Write a short note on construction details of a DC Machine.**
+*   **Stator (Field System):** Yoke (Frame), Pole Cores/Shoes (Support Coils, Spread Flux), Field Windings (Produce Flux).
+*   **Rotor (Armature):** Armature Core (Laminated slots), Armature Winding (Lap/Wave), Commutator (AC to DC conversion), Brushes (Collect current).
+
+### Lecture 66: Principle of Operation
+**1. Principle of DC Generator/Motor.**
+*   **Generator:** Dynamically Induced EMF. Conductor cuts magnetic lines of force $\implies$ EMF induced (Fleming's Right Hand Rule).
+*   **Motor:** Lorentz Force. Current carrying conductor in magnetic field $\implies$ Force experienced (Fleming's Left Hand Rule).
+
+### Lecture 67: EMF Equation
+**1. Derive EMF expression for DC Generator.**
+*   $E_g = \frac{\phi Z N P}{60 A}$ Volts.
+    *   $\phi$: Flux/pole. $Z$: Total conductors. $N$: Speed (rpm). $P$: Poles. $A$: Parallel paths.
+*   Derivation: Flux cut per rev = $\phi P$. Time per rev = $60/N$. EMF/cond = $d\phi/dt = \phi P / (60/N) = \phi P N / 60$. Total EMF = (EMF/cond) $\times$ (Conds in series per path) = $(\phi P N / 60) \times (Z/A)$.
+
+**2. Draw Equivalent Circuit of DC Generator and governing equations.**
+*   **Circuit:** Armature represented as $E_g$ in series with $R_a$. Connected to Load ($V_t$). Field winding separate (for separately excited) or shunt/series.
+*   **Equation:** $E_g = V_t + I_a R_a + V_{brush}$.
+
+#### Assignments
+**1. 8 pole lap connected armature, 40 slots, 12 conds/slot. Voltage 200V. Speed 1250 rpm. Find Flux per pole.**
+*   **Solution:**
+    *   $Z = 40 \times 12 = 480$. $P=8, A=8$ (Lap).
+    *   $E_g = \frac{\phi Z N P}{60 A} \implies 200 = \frac{\phi \times 480 \times 1250 \times 8}{60 \times 8}$.
+    *   $200 = \phi \times 10000 \implies \phi = 0.02$ Wb $= 20$ mWb.
+
+### Lecture 69: Generator Problems
+**1. 6 pole Lap, 51 slots, 18 conds/slot. Flux 35 mWb. Speed 750 rpm. Find EMF.**
+**Solution:**
+*   $P=6$. Lap $\implies A=P=6$.
+*   $Z = 51 \times 18 = 918$. $\phi = 0.035$ Wb. $N=750$.
+*   $E_g = \frac{0.035 \times 918 \times 750 \times 6}{60 \times 6} = \frac{24097.5}{60} \approx 401.6$ V.
+
+**2. 4 pole Lap, 40 slots. 1500 rpm. Flux 30 mWb. EMF 180V. Find conductors per slot.**
+**Solution:**
+*   $P=4, A=4$. $N=1500, \phi=0.03$. $E_g=180$.
+*   $180 = \frac{0.03 \times Z \times 1500 \times 4}{60 \times 4} = \frac{45 Z}{60} = 0.75 Z$.
+*   $Z = 180 / 0.75 = 240$.
+*   Conductors per slot = $240 / 40 = 6$.
+
+**3. 4 pole, 12 kW, 240V Gen (Wave). Reconnected to Lap. Calculate new rating.**
+**Solution:**
+*   **Wave (A=2):** $V=240$ V. $I_L = P/V = 12000/240 = 50$ A.
+    *   Current per path $I_{path} = I_L / A = 50 / 2 = 25$ A.
+    *   Inducted Voltage $E \propto 1/A$.
+*   **Lap (A=4):** New paths = 4.
+    *   New Voltage $V' = V \times (A_{old}/A_{new}) = 240 \times (2/4) = 120$ V.
+    *   New Current $I' = I_{path} \times A_{new} = 25 \times 4 = 100$ A.
+    *   New Power $P' = 120 \times 100 = 12$ kW. (Power remains constant).
+
+#### Assignments
+**1. 8 pole DC Generator, 650 conductors. Flux 20 mWb. Wave wound. Speed 1200 rpm. Find EMF. Also find speed for same EMF if Lap wound.**
+*   **Solution:**
+    *   (i) **Wave (A=2):**
+        *   $E_g = \frac{0.02 \times 650 \times 1200 \times 8}{60 \times 2} = 1040$ V.
+    *   (ii) **Lap (A=8):** $E_g = 1040$ V.
+        *   $1040 = \frac{0.02 \times 650 \times N \times 8}{60 \times 8} = \frac{13 N}{60} = 0.2166 N$.
+        *   $N = 4800$ rpm.
+
+---
+
+## 4. DC Motors
+
+### Lecture 68: Principle & Torque
+**1. Derive Torque Equation.**
+*   $T = 0.159 \phi Z I_a (P/A)$ Nm.
+*   Derivation: Electrical Power $E_b I_a$ = Mechanical Power $T \omega$.
+*   $(\phi Z N P / 60 A) \times I_a = T \times (2\pi N / 60)$.
+*   $\phi Z P I_a / A = T \times 2\pi$.
+*   $T = \frac{1}{2\pi} \phi Z I_a \frac{P}{A}$.
+
+**2. Draw Equivalent Circuit of DC Motor and governing equations.**
+*   **Circuit:** Supply $V_t$ driving current $I_a$ into Armature ($E_b + R_a$).
+*   **Equation:** $V_t = E_b + I_a R_a$.
+
+### Lecture 69: Motor Problems
+**1. 200V, 4 pole Lap, 800 conds. Ra=0.5. Current 20A. Flux 30 mWb. Speed and Gross Torque.**
+**Solution:**
+*   $V=200, I_a=20, R_a=0.5$.
+*   Back EMF $E_b = V - I_a R_a = 200 - (20 \times 0.5) = 190$ V.
+*   Speed: $E_b = \frac{\phi Z N P}{60 A}$. Lap $\implies P=A$.
+    *   $190 = \frac{0.03 \times 800 \times N}{60}$.
+    *   $190 = 0.4 N \implies N = 190 / 0.4 = 475$ rpm.
+*   Torque: $P_{mech} = E_b I_a = 190 \times 20 = 3800$ W.
+    *   $\omega = 2\pi(475)/60 \approx 49.74$ rad/s.
+    *   $T = 3800 / 49.74 \approx 76.4$ Nm.
+
+#### Assignments
+**1. 4 pole DC motor, 500V. Current 80A. Ra=0.4. Wave wound 522 conductors. Flux 25 mWb. Find Eb, Speed, Torque.**
+*   **Solution:**
+    *   $E_b = V - I_a R_a = 500 - (80 \times 0.4) = 500 - 32 = 468$ V.
+    *   Wave $A=2$. $E_b = \frac{\phi Z N P}{60 A} \implies 468 = \frac{0.025 \times 522 \times N \times 4}{60 \times 2}$.
+    *   $468 = 0.435 N \implies N = 1075.8$ rpm.
+    *   $T = 0.159 \phi Z I_a (P/A) = 0.159 \times 0.025 \times 522 \times 80 \times (4/2) = 331.99 \approx 332$ Nm.
+
+---
+
+## 5. Induction & Special Machines
+
+### Lecture 70-71: 3-Phase IM
+**1. Principle of operation of 3-Phase IM.**
+*   **Principle:** When 3-phase supply is given to stator, a Rotating Magnetic Field (RMF) is produced ($N_s$). This field cuts the rotor conductors, inducing EMF and current (Faraday's Law). The current-carrying rotor conductors in the magnetic field experience a torque (Lorentz Force) and start rotating in the direction of the field (Lenz's Law).
+
+#### Additional Assignment Problems
+**1. Construction of 3-Phase Induction Motor.**
+*   **Stator:** Steel frame, Laminated core with slots, 3-phase distributed winding.
+*   **Rotor:**
+    *   **Squirrel Cage:** Copper/Aluminum bars shorted by end rings. Robust, constant speed.
+    *   **Slip Ring (Wound):** Winding similar to stator connected to slip rings. External resistance can be added for starting torque.
+
+**2. Advantages of 3-Phase IM.**
+*   Self-starting, Robust construction (Cage), High efficiency, Low maintenance, Simple.
+
+**2. 8 pole Alternator (750 rpm) supplies 4 pole IM. Rotor current freq 1.5 Hz. Find Motor Speed & Slip.**
+**Solution:**
+*   Alternator Frequency $f = P N / 120 = (8 \times 750) / 120 = 50$ Hz.
+*   Motor Supply Freq $f_{mot} = 50$ Hz.
+*   Motor Sync Speed $N_s = 120 f / P = 120 \times 50 / 4 = 1500$ rpm.
+*   Slip $s = f_{rotor} / f = 1.5 / 50 = 0.03$.
+*   Motor Speed $N = N_s (1 - s) = 1500 (1 - 0.03) = 1500 \times 0.97 = 1455$ rpm.
+
+### Lecture 72-74: Special Motors
+**1. Construction/Operation of BLDC Motor.**
+*   **Construction:** Permanent Magnet Rotor, Stator with windings (Trapezoidal Back EMF). Rotor position sensors (Hall effect) trigger electronic commutation.
+*   **Operation:** Electronic controller switches stator phases based on rotor position to maintain torque angle close to 90°.
+
+**2. Construction/Operation of Stepper Motor.**
+*   **Construction:** Toothed stator with concentrated windings, toothed rotor (Variable Reluctance or Hybrid).
+*   **Operation:** Moves in discrete steps. Stator phases are energized in sequence, aligning rotor teeth with energized stator teeth for minimum reluctance path.
+
 
 ***
-
-## 3. DC Machines
-
-### Example 4: DC Generator EMF
-**Problem:**
-A 6-pole armature is wound with $498$ conductors. The flux and the speed is such that the average EMF generated in each conductor is $2V$. The current in each conductor is $120A$. Find the total current and generated EMF if connected a) Wave b) Lap.
-
-**Solution:**
-1.  **Given**: $P=6$, $Z=498$. EMF/conductor = $2V$. Current/conductor ($I_c$) = $120A$.
-2.  **Total Generated Power** (Same for both):
-    $$ P_{gen} = \text{Total EMF} \times \text{Total Current} = Z \times (\text{EMF/cond}) \times I_c $$
-    **Alternative Method**: Total Power = Total Volts $\times$ Total Amps.
-    Total Power = $498 \text{ conds} \times 2 V/cond \times 120 A = 119.52 kW$ (Power is independent of connection type).
-
-3.  **Case a) Wave Winding ($A=2$)**:
-    *   **EMF ($E_g$)**: Since conductors are split into $A=2$ parallel paths, conductors per path = $Z/2 = 249$.
-        Total EMF = (EMF/cond) $\times$ (Conds/path) = $2 \times 249 = 498 V$.
-    *   **Total Current ($I_a$)**: Parallel paths $\times$ Current/path = $2 \times 120 = 240 A$.
-
-4.  **Case b) Lap Winding ($A=P=6$)**:
-    *   **EMF ($E_g$)**: Conductors per path = $Z/6 = 498/6 = 83$.
-        Total EMF = $2 \times 83 = 166 V$.
-    *   **Total Current ($I_a$)**: $6 \times 120 = 720 A$.
-
-### Example 5: DC Motor Calculations
-**Problem:**
-A 4 pole DC motor is connected to $500V$ DC supply and takes an armature current of $80A$. Resistance of armature is $0.4\Omega$. Armature is wave wound with $522$ conductors and useful flux per pole is $0.025Wb$. Calculate i) Back EMF ii) Speed iii) Torque.
-
-**Solution:**
-1.  **Given**: $V=500V$, $I_a=80A$, $R_a=0.4\Omega$, $P=4$, Wave($A=2$), $Z=522$, $\phi=0.025Wb$.
-
-2.  **i) Back EMF ($E_b$)**:
-    $$ E_b = V - I_a R_a = 500 - (80 \times 0.4) = 500 - 32 = 468 V $$
-
-3.  **ii) Speed ($N$)**:
-    *   EMF Eq: $E_b = \frac{\phi Z N P}{60 A}$
-    *   $468 = \frac{0.025 \times 522 \times N \times 4}{60 \times 2}$
-    *   $468 = \frac{52.2 N}{120} = 0.435 N$
-    *   $N = \frac{468}{0.435} = 1075.86 \text{ rpm}$
-
-4.  **iii) Torque ($T$)**:
-    *   Power = Torque $\times \omega$
-    *   Electrical Power converted to Mechanical ($P_m$) = $E_b \times I_a = 468 \times 80 = 37440 W$.
-    *   $\omega = \frac{2\pi N}{60} = \frac{2\pi \times 1075.86}{60} = 112.66 \text{ rad/s}$.
-    *   $T = \frac{P_m}{\omega} = \frac{37440}{112.66} = 332.32 \text{ Nm}$.
-    *   (Alternatively use $T = 0.159 \phi Z I_a \frac{P}{A}$)
-
 ***
-
-## 4. Induction Motors
-
-### Example 6: Synchronous Speed and Slip
-**Problem:**
-A 4 pole three phase induction motor is supplied from a $400V, 50Hz$ supply. Determine i) Synchronous speed ii) Speed of rotor if slip is $0.05$.
-
-**Solution:**
-1.  **Given**: $P=4$, $f=50Hz$, $s=0.05$.
-2.  **Synchronous Speed ($N_s$)**:
-    $$ N_s = \frac{120 f}{P} = \frac{120 \times 50}{4} = 1500 \text{ rpm} $$
-3.  **Rotor Speed ($N$)**:
-    $$ N = N_s (1 - s) = 1500 (1 - 0.05) = 1500 (0.95) = 1425 \text{ rpm} $$

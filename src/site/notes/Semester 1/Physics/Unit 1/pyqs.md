@@ -2,9 +2,6 @@
 {"dg-publish":true,"permalink":"/semester-1/physics/unit-1/pyqs/"}
 ---
 
-
-# Previous Year Questions (PYQs)
-
 # [[Semester 1/Physics/Physics\|Back]]
 ***
 [[Semester 1/Physics/Unit 1/Core Notes\|Core Notes]] | [[Semester 1/Physics/Unit 1/Questions\|Questions]] | [[Semester 1/Physics/Unit 1/pyqs\|PYQs]] | [[Semester 1/Physics/Unit 1/mcqs\|MCQs]]
