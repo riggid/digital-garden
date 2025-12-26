@@ -299,3 +299,14 @@ details>blockquote em {
     border-color: var(--ctp-surface1);
     margin: 2rem 0;
 }
+
+/* ================================================== */
+/* Image Visibility Fix                               */
+/* ================================================== */
+/* Fix for transparent images in dark mode */
+.markdown-preview-view img,
+.markdown-source-view img {
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
